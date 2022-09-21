@@ -18,6 +18,12 @@
   src: url(./Fonts/futura.TTF);
 }
 
+.navContainer{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+}
+
 .imglogo{
   height: 4rem;
   margin-top: 15px;
@@ -28,8 +34,6 @@
 }
 
 .nav{
-  background-color: black;
-  height: 4rem;
   display: flex;
   font-family: 'Reservation Bold';
   justify-content: space-evenly;
