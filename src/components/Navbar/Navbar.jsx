@@ -1,20 +1,37 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <>
-        <img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" />
-        <nav>
-            <ul className='nav'>
-                <li>Inicio</li>
-                <li>Educacion</li>
-                <li>Trabajos</li>
-                <li>Nosotros</li>
-                <li>Productos</li>
-                <li>Servicios</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+        <div className="navContainer">
+          <img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" />
+          <nav>
+              <ul className='nav'>
+                  <li>
+                    <Link to='/'>Inicio</Link>
+                  </li>
+                  <li>
+                    <Link to='/educacion'>Educacion</Link>
+                  </li>
+                  <li>
+                    <Link to='/trabajos'>Trabajos</Link>
+                  </li>
+                  <li>
+                    <Link to='/nosotros'>Nosotros</Link>
+                  </li>
+                  <li>
+                    <Link to='/productos'>Productos</Link>
+                  </li>
+                  <li>
+                    <Link to='/servicios'>Servicios</Link>
+                  </li>
+                  <li>
+                    <Link to='/contacto'>Contacto</Link>
+                  </li>
+              </ul>
+          </nav>
+        </div>
     </>
   )
 }
