@@ -38,15 +38,17 @@
   margin-top: 15px;
 }
 
-.imglogo:hover{
+.imglogo:active{
   opacity: .7;
 }
 
 .nav{
-  display: flex;
   font-family: 'Reservation Bold';
-  justify-content: space-evenly;
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  height: 200px;
+  justify-content: space-between;
 }
 
 .nav img{
@@ -155,11 +157,128 @@
 
 
 
-@media all and (max-width: 576px) {
+@media all and (min-width: 800px) {
   
-  .navContainer{
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
+  /* NAVBAR */
+
+.navContainer{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 100;
+}
+
+.imglogo{
+  height: 4rem;
+  margin-top: 15px;
+}
+
+.imglogo:hover{
+  opacity: .7;
+}
+
+.nav{
+  display: flex;
+  font-family: 'Reservation Bold';
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.nav img{
+  height: 25px;
+  margin-top: 15px;
+}
+
+.navItem{
+  color: #ffff;
+  text-decoration: none;
+}
+
+/* FIN NAVBAR */
+
+/* BODY */
+
+.videoBody{
+  width: 100%;
+  object-fit: cover;
+}
+
+.tituloBody{
+  font-family: 'Reservation';
+  font-size: 3rem;
+  color: #ffff;
+}
+
+.cardsBody{
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.card1:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card2:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card3:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card4:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+
+
+.cardsBody img{
+  border-radius: 5px;
+}
+
+
+/* FIN BODY */
+
+/* FOOTER */
+
+.footerContainer{
+  font-family: 'Reservation';
+  font-size: .8rem;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  margin-top: 2rem;
+}
+
+.imgFooter:hover{
+  opacity: .7;
+}
+
+.footerTitulos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerContacto{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.footerEnd{
+  margin: 1rem;
+  color: #ffff;
+  font-family: 'Reservation';
+  font-size: .7rem;
+}
+
+/* FIN FOOTER */
+
+
 } 

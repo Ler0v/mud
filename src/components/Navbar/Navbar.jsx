@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
         <div className="navContainer">
-          <img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" />
+          <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" /></Link>
           <nav>
               <ul className='nav'>
                   <li>
