@@ -9,25 +9,25 @@ const Navbar = () => {
           <nav>
               <ul className='nav'>
                   <li>
-                    <Link to='/'>Inicio</Link>
+                    <Link to='/' className='navItem'>Inicio</Link>
                   </li>
                   <li>
-                    <Link to='/educacion'>Educacion</Link>
+                    <Link to='/educacion' className='navItem'>Educacion</Link>
                   </li>
                   <li>
-                    <Link to='/trabajos'>Trabajos</Link>
+                    <Link to='/trabajos' className='navItem'>Trabajos</Link>
                   </li>
                   <li>
-                    <Link to='/nosotros'>Nosotros</Link>
+                    <Link to='/nosotros' className='navItem'>Nosotros</Link>
                   </li>
                   <li>
-                    <Link to='/productos'>Productos</Link>
+                    <Link to='/productos' className='navItem'>Productos</Link>
                   </li>
                   <li>
-                    <Link to='/servicios'>Servicios</Link>
+                    <Link to='/servicios' className='navItem'>Servicios</Link>
                   </li>
                   <li>
-                    <Link to='/contacto'>Contacto</Link>
+                    <Link to='/contacto' className='navItem'>Contacto</Link>
                   </li>
               </ul>
           </nav>

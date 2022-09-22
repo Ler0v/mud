@@ -1,7 +1,11 @@
+/* SOLO APP */
 .App{
   background: #000;
   text-align: center;
+  overflow-x: hidden;
 }
+
+/* FONTS */
 
 @font-face {
   font-family: 'Reservation Bold';
@@ -18,10 +22,15 @@
   src: url(./Fonts/futura.TTF);
 }
 
+/* FIN FONTS */
+
+/* NAVBAR */
+
 .navContainer{
   position: fixed;
   background-color: black;
   width: 100%;
+  z-index: 100;
 }
 
 .imglogo{
@@ -44,6 +53,63 @@
   height: 25px;
   margin-top: 15px;
 }
+
+.navItem{
+  color: #ffff;
+  text-decoration: none;
+}
+
+/* FIN NAVBAR */
+
+/* BODY */
+
+.videoBody{
+  width: 100%;
+  object-fit: cover;
+}
+
+.tituloBody{
+  font-family: 'Reservation';
+  font-size: 3rem;
+  color: #ffff;
+}
+
+.cardsBody{
+  display: flex;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.card1:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card2:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card3:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+.card4:hover{
+  opacity: 0.5;
+  height: 510px;
+  
+}
+
+
+.cardsBody img{
+  border-radius: 5px;
+}
+
+
+/* FIN BODY */
+
+/* FOOTER */
 
 .footerContainer{
   font-family: 'Reservation';
@@ -77,10 +143,8 @@
   font-size: .7rem;
 }
 
-.imgBody{
-  width: 100%;
-  object-fit: fill;
-}
+/* FIN FOOTER */
+
 
 
 
