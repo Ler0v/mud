@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <>
         <div className="navContainer">
-          <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" /></Link>
           <nav>
+              <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" /></Link>
               <ul className='nav'>
                   <li>
                     <Link to='/' className='navItem'>Inicio</Link>

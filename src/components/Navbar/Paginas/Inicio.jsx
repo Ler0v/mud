@@ -4,7 +4,13 @@ import videoInicio from '../../../assets/videoInicio.mp4'
 const Inicio = () => {
   return (
     <>
-      <video src={videoInicio} autoPlay loop muted />
+      <img src="https://i.postimg.cc/B6nVgBym/1.jpg" className='imgIndex' alt="imgBody" />
+      <video src={videoInicio} autoPlay loop muted className='videoBody' />
+      <div className='mudAnimado'>
+        <h1>M</h1>
+        <h1>U</h1>
+        <h1>D</h1>
+      </div>
       <h1 className='tituloBody'>Nuestros trabajos</h1>
       <div className='cardsBody'>
         <img src="https://i.postimg.cc/Kv0vyGFs/IMG-1265.jpg" className='card1' alt="imgB1" />

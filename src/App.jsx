@@ -19,8 +19,8 @@ function App() {
         <Route path='/contacto' element={<Contacto />}/>
       </Routes>
 
-
       <Footer />
+
       </BrowserRouter>
     </div>
   );
