@@ -235,26 +235,37 @@ nav {
 .footerContainer{
   font-family: 'Reservation';
   font-size: .8rem;
-  height: 300px;
-  width: 100%;
+  height: 450px;
+  width: 90%;
   background-color: rgb(0, 0, 0);
   color: #ffff;
   margin-top: 2rem;
-}
-
-.imgFooter:hover{
-  opacity: .7;
+  margin: auto;
 }
 
 .footerTitulos{
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
-.footerContacto{
-  margin-top: 5rem;
+.footerTitulo1{
+  width: 50vw;
+}
+
+.footerTitulos2{
   display: flex;
-  justify-content: space-evenly; 
+  flex-direction: row;
+}
+
+.footerInfo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+} 
+
+.footerHorario{
+  margin: auto;
 }
 
 .footerEnd{
