@@ -235,37 +235,45 @@ nav {
 .footerContainer{
   font-family: 'Reservation';
   font-size: .8rem;
-  height: 450px;
+  height: 700px;
   width: 90%;
   background-color: rgb(0, 0, 0);
   color: #ffff;
-  margin-top: 2rem;
-  margin: auto;
-}
-
-.footerTitulos{
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.footerTitulo1{
-  width: 50vw;
-}
-
-.footerTitulos2{
-  display: flex;
-  flex-direction: row;
+  margin: 2rem 19.5px;
 }
 
 .footerInfo{
   display: flex;
   flex-direction: column;
   text-align: center;
+  height: 200px;
+  justify-content:space-evenly;
 } 
 
+.footerItem{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerItem img{
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.footerItem p{
+  margin-right: auto;
+  letter-spacing: 2px;
+}
+
 .footerHorario{
-  margin: auto;
+  margin: 3rem 19.5px;
+  font-size: 1rem;
+}
+
+.footerHorario p{
+  font-size: 1rem;
 }
 
 .footerEnd{
