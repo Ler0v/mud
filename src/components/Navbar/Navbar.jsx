@@ -1,4 +1,5 @@
 import React from 'react';
+import './navbar.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Menu from '../../assets/menu.svg'
@@ -23,7 +24,7 @@ const Navbar = () => {
                     <Link to='/' className='navItem' onClick={handleClick}>Inicio</Link>
                   </li>
                   <li>
-                    <Link to='/educacion' className='navItem' onClick={handleClick}>Educacion</Link>
+                    <Link to='/servicios' className='navItem' onClick={handleClick}>Servicios</Link>
                   </li>
                   <li>
                     <Link to='/trabajos' className='navItem' onClick={handleClick}>Trabajos</Link>
@@ -35,7 +36,7 @@ const Navbar = () => {
                     <Link to='/productos' className='navItem' onClick={handleClick}>Productos</Link>
                   </li>
                   <li>
-                    <Link to='/servicios' className='navItem' onClick={handleClick} >Servicios</Link>
+                    <Link to='/educacion' className='navItem' onClick={handleClick} >Carreras</Link>
                   </li>
                   <li>
                     <Link to='/contacto' className='navItem' onClick={handleClick}>Contacto</Link>

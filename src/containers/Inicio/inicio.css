@@ -1,0 +1,103 @@
+/* BODY MOBILE */
+
+.imgIndex{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .videoBody{
+    margin-top: 10vh;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .mudAnimado{
+    font-family:'Reservation';
+    font-size: 3rem;
+    color: #ffff;
+  }
+  
+  .letraIndex{
+    font-family: 'Reservation';
+    color: #ffff;
+    font-size: 1.7rem;
+  }
+  
+  .cardsBody{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 2px solid #ffff;
+  }
+  
+  .cardsBody img{
+    width: 100%;
+  }
+  
+  .aboutIndex{
+  
+  }
+  
+  
+  /* FIN BODY MOBILE */
+  
+  
+  /* BODY DESKTOP */
+  
+  @media screen and (min-width: 800px) {
+  
+    .imgIndex{
+      width: 100%;
+      position: static;
+    }
+    
+    .videoBody{
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .tituloBody{
+      font-family: 'Reservation';
+      font-size: 2rem;
+      color: #ffff;
+      padding: 8%;
+    }
+    
+    .cardsBody{
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .card1:hover{
+      opacity: 0.5;
+      height: 510px;
+      
+    }
+    .card2:hover{
+      opacity: 0.5;
+      height: 510px;
+      
+    }
+    .card3:hover{
+      opacity: 0.5;
+      height: 510px;
+      
+    }
+    .card4:hover{
+      opacity: 0.5;
+      height: 510px;
+      
+    }
+    
+    
+    .cardsBody img{
+      border-radius: 5px;
+    }
+  
+  }
+  /* FIN BODY DESKTOP */
