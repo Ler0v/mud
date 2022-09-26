@@ -73,14 +73,13 @@
 
   
   /* NAVBAR DESKTOP */
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 900px) {
     
   
     .navContainer{
       position: fixed;
       background-color: black;
       z-index: 100;
-      height: 200px
     }
   
     .imglogo{
@@ -91,8 +90,13 @@
     .imglogo:hover{
       opacity: .7;
     }
+
+    .menuIcon{
+      display: none;
+    }
   
     .nav{
+      height: 80px;
       font-family: 'Reservation Bold';
       display: flex;
       flex-direction: row;
@@ -100,7 +104,6 @@
       align-items: center;
       list-style-type: none;
       visibility: visible;
-      height: 10vh;
     }
   
     .nav img{
