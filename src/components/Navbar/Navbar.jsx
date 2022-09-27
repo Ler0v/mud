@@ -19,7 +19,7 @@ const Navbar = () => {
           <nav>
               <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogo' alt="i1" /></Link>
               <img src={Menu} alt="menuIcon"  className='menuIcon active' onClick={handleClick}/>
-              <ul className={`nav ${clicked ? 'active' : ''}`}>
+              <ul className={`nav ${clicked ? 'active' : ''} ${clicked ? 'slide-in-top' : ''}`}>
                   <li>
                     <Link to='/' className='navItem' onClick={handleClick}>Inicio</Link>
                   </li>

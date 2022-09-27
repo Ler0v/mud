@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Inicio = () => {
   return (
     <>
-      <video src={videoInicio} autoPlay loop muted className='videoBody' />
+      <video src={videoInicio} autoPlay loop muted overflow className='videoBody' />
       <div className='mudAnimado'>
         <h1>M</h1>
         <h1>U</h1>
