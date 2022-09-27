@@ -7,10 +7,11 @@
   }
   
   .videoBody{
-    margin-top: 10vh;
-    height: 500px;
-    object-fit: cover;
+    margin-top: 200px;
+    height: 80vh;
+    object-fit: contain;
     object-position: center;
+    overflow: hidden;
   }
   
   .mudAnimado{
@@ -39,7 +40,6 @@
   }
   
   .aboutIndex{
-  
   }
   
   

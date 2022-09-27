@@ -8,6 +8,7 @@
     background-color: rgb(0, 0, 0);
     color: #ffff;
     margin: 2rem 19.5px;
+    overflow: hidden;
   }
   
   .footerInfo{
