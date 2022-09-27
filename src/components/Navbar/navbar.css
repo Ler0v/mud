@@ -29,6 +29,7 @@
     font-family: 'Reservation Bold';
     background-color: #000;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100vh;
@@ -73,14 +74,14 @@
 
   
   /* NAVBAR DESKTOP */
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1050px) {
     
   
     .navContainer{
       position: fixed;
       background-color: black;
       z-index: 100;
-      height: 200px
+      height: 200px;
     }
   
     .imglogo{
@@ -91,6 +92,11 @@
     .imglogo:hover{
       opacity: .7;
     }
+
+    .menuIcon{
+      display: none;
+    }
+    
   
     .nav{
       font-family: 'Reservation Bold';
