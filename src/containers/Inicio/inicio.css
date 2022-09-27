@@ -47,7 +47,7 @@
 
 /* BODY DESKTOP */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1050px) {
 
   .imgIndex{
     width: 100%;
@@ -55,7 +55,7 @@
   }
   
   .videoBody{
-    margin-top: 200px;
+    margin-top: 180px;
     height: 80vh;
     object-fit: contain;
     object-position: center;
@@ -80,8 +80,14 @@
   }
 
   .mudAnimado{
-    height: 80vh;
+    height: 240vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .letraAnimada {
+    font-size: 254px;
   }
 
 }

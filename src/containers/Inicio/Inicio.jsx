@@ -10,9 +10,9 @@ const Inicio = () => {
         <video src={videoInicio} autoPlay loop muted />
       </div>
       <div className='mudAnimado'>
-        <h1>M</h1>
-        <h1>U</h1>
-        <h1>D</h1>
+        <p className='letraAnimada'>M</p>
+        <p className='letraAnimada'>U</p>
+        <p className='letraAnimada'>D</p>
       </div>
       <div className='cardsBody'>
         <h1 className='letraIndex'>Nuestros servicios</h1>
