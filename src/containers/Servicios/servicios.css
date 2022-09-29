@@ -1,9 +1,103 @@
 .serviciosContainer{
-    margin-top: 170px;
+    margin-top: 180px;
+    height: 80vh;
 }
 
 .serviciosTitulo{
     font-family: 'Reservation';
     color: #ffff;
-    font-size: 80px;
+    font-size: 70px;
+    position: relative;
+    margin-top: 200px;
 }
+
+.tituloItem{
+    font-family: 'Reservation';
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.servicioGuia{
+    margin-top: 7rem;
+}
+
+.serviciosContainerItem{
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: 4rem auto;
+}
+
+.serviciosContainerItem1{
+    position: absolute;
+    top: 0; 
+    height: 200px;
+    width: 500px;
+    background-image: url('http://makeupdesign.com.ar/storage/courses/GPCvB1Lg1o39Fn0o4eQFe4gwhVeUDduzhdog1at7.jpg');
+    background-position: center;
+}
+
+.serviciosContainerItem2{
+    position: absolute;
+    right: 0;
+    height: 200px;
+    width: 500px;
+    background-image: url('http://makeupdesign.com.ar/storage/courses/q4iNRBuepCsM2rzMSBRIVzveTIPc2rmjw3wiwZCN.jpg');
+    background-position-y: 20%;
+}
+
+.serviciosContainerItem3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 500px;
+    background-image: url('http://makeupdesign.com.ar/storage/courses/0tXaZcpuBhyEorgTzmJ0oJhYFq3UBhzEv6dhSjks.jpg');
+    background-position-y: 35%;
+}
+
+.serviciosContainerItem4{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    width: 500px;
+    background-image: url('http://makeupdesign.com.ar/storage/courses/3HnfsmCTI4ctSWJdOg5Kjdw6kNV0npq1t72Ei1NQ.jpg');
+    background-position: center;
+}
+
+.servicioCarousel{
+    width: 50%;
+}
+
+.servicioCarousel img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+.servicio{
+    margin: auto;
+    width: 90%;
+    height: 85vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.servicioInfo{
+    margin-top: 4rem;
+    width: 70%;
+}
+
+.servicioBotones{
+    margin-top: 1rem;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
