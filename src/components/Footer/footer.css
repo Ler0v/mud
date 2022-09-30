@@ -1,96 +1,47 @@
-/* FOOTER MOBILE */
-
+  /* FOOTER DESKTOP */
+  
 .footerContainer{
-    font-family: 'Reservation';
-    font-size: .8rem;
-    height: 700px;
-    width: 90%;
-    background-color: rgb(0, 0, 0);
-    color: #ffff;
-    margin: 2rem 19.5px;
-    overflow: hidden;
-  }
+  font-family: 'Reservation';
+  color: #ffff;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 600px;
+  border-top: 2px solid red;
+}
+
+.footerItem{
+  display: flex;
+}
+
+.imgFooter:hover{
+  opacity: .7;
+}
+
+.footerInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footerEnd{
+  margin: 1rem;
+  color: #ffff;
+  font-family: 'Reservation';
+  font-size: .7rem;
+}
   
-  .footerInfo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 200px;
-    justify-content:space-evenly;
-  } 
-  
-  .footerItem{
-    display: flex;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footerItem img{
-    margin-right: auto;
-    margin-left: 20px;
-  }
-  
-  .footerItem p{
-    margin-right: auto;
-    letter-spacing: 2px;
-  }
-  
-  .footerHorario{
-    margin: 3rem 19.5px;
-    font-size: 1rem;
-  }
-  
-  .footerHorario p{
-    font-size: 1rem;
-  }
-  
-  .footerEnd{
-    margin: 1rem;
-    color: #ffff;
-    font-family: 'Reservation';
-    font-size: .7rem;
-  }
-  
-  
-  
-  /* FIN FOOTER MOBILE*/
-  
-  @media screen and (min-width:800px){
-    /* FOOTER DESKTOP */
-  
-  .footerContainer{
-    font-family: 'Reservation';
-    font-size: .8rem;
-    height: 300px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: #ffff;
-    margin-top: 2rem;
-  }
-  
-  .imgFooter:hover{
-    opacity: .7;
-  }
-  
-  .footerTitulos{
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .footerContacto{
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-evenly; 
-  }
-  
-  .footerEnd{
-    margin: 1rem;
-    color: #ffff;
-    font-family: 'Reservation';
-    font-size: .7rem;
-  }
-  
-  }
   
   /* FIN FOOTER DESKTOP */
+
+  /* FOOTER MOBILE */
+@media screen and (max-width: 576px){
+
+  .footerContainer{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+/* FIN FOOTER MOBILE*/
