@@ -7,7 +7,7 @@ const Servicios = () => {
   return (
     <>
     <div className='serviciosContainer'>
-      <h1 className='serviciosTitulo'>Servicios</h1>
+      <h1 className='Titulo'>Servicios</h1>
       <div className='serviciosContainerItem'> 
         <div className="serviciosContainerItem1">
           <div className='servicioGuia'>
