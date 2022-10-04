@@ -55,8 +55,8 @@
   }
   
   .videoBody{
-    margin-top: 180px;
-    height: 80vh;
+    margin: -100px;
+    height: 115vh;
     object-fit: contain;
     object-position: center;
     overflow: hidden;

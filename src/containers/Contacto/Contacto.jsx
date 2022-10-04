@@ -9,12 +9,14 @@ const Contacto = () => {
           <p className='infoContacto'>¿Tenes alguna duda? Dejanos un mensaje y con gusto la responderemos lo antes posible.</p>
           <form className='formContainer'>
             <div className='formJunto'>
-              <label> Nombre </label>
-              <label> Apellido </label>
-            </div>
-            <div className='formJunto'>
-              <input type="text" />
-              <input type="text" />
+              <div className='formAbajo'>
+                <label> Nombre </label>
+                <input type="text" />
+              </div>
+              <div className='formAbajo'>
+                <label> Apellido </label>
+                <input type="text" />
+              </div>
             </div>
             <label> Email </label>
             <input type="email" />

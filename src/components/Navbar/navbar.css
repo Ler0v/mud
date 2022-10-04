@@ -7,6 +7,11 @@
     position: fixed;
     top: 0px;
     z-index: 100;
+    opacity: .7;
+  }
+
+  nav:hover{
+    opacity: 1;
   }
 
   .imglogoMobile{
@@ -119,7 +124,7 @@
   
     #imgNav{
       display: block;
-      height: 100px;
+      height: 60px;
       margin: auto;
     }
     
@@ -144,6 +149,7 @@
       align-items: center;
       list-style-type: none;
       visibility: visible;
+      height: 100px;
     }
   
     .navItem{

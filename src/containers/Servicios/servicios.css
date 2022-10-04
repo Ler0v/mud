@@ -1,6 +1,6 @@
 .serviciosContainer{
     margin-top: 180px;
-    height: 80vh;
+    height: 85vh;
 }
 
 .Titulo{
@@ -8,7 +8,6 @@
     color: #ffff;
     font-size: 70px;
     position: relative;
-    margin-top: 200px;
 }
 
 .tituloItem{
@@ -74,14 +73,14 @@
 
 .servicioCarousel img{
     width: 100%;
-    height: 85vh;
+    height: 95vh;
     object-fit: cover;
 }
 
 .servicio{
     margin: auto;
     width: 90%;
-    height: 85vh;
+    height: 95vh;
     display: flex;
     background-color: rgb(255, 255, 255);
 }
