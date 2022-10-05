@@ -34,10 +34,10 @@ const Footer = () => {
               <p>Palermo CABA Studio privado
               (Con cita previa) </p>
             </div>
-          </div>
           <div className='footerItem'>
             <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="mapacontacto2" />
             <p>Nuestros horarios de atencion Lunes a Sábados de 10 a 19hs</p>
+          </div>
           </div>
         </div>
       </div>

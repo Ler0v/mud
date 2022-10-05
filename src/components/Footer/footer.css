@@ -3,7 +3,7 @@
 .footerContainer{
   font-family: 'Reservation';
   color: #ffff;
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -11,19 +11,27 @@
   border-top: 2px solid red;
 }
 
+.footerInfo{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
 .footerItem{
   display: flex;
+}
+
+.footerItem p{
+  margin-bottom: 0;
+  margin-left: 1rem;
 }
 
 .imgFooter:hover{
   opacity: .7;
 }
 
-.footerInfo{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
 
 .footerEnd{
   margin: 1rem;
