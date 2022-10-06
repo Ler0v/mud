@@ -47,9 +47,37 @@
 @media screen and (max-width: 576px){
 
   .footerContainer{
+    width: 80%;
+    height: 800px;
     display: flex;
     flex-direction: column;
   }
+
+  .footerContainer{
+    font-family: 'Reservation';
+    color: #ffff;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    border-top: 2px solid rgb(44, 29, 172);
+  }
+  .footerInfo{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .footerItem p{
+    margin: auto;
+  }
+
+  .footerItem img{
+    height: 30px;
+    margin-right: 12px;
+  }
+  
+
+ 
  
 }
 /* FIN FOOTER MOBILE*/
