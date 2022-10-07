@@ -46,7 +46,7 @@ const Inicio = () => {
             <h3>Contactanos!</h3>
           </div>
           <div>
-            <Link to='/trabajos' className='contactoInicioButton'><button>Ver Trabajos</button></Link>
+            <Link to='/trabajos' className='contactoInicioButton'><button>Escribinos</button></Link>
           </div>
         </div>
       </div>
