@@ -1,94 +1,110 @@
-/* BODY MOBILE */
-
-.imgIndex{
-  height: 300px;
-  object-fit: cover;
-}
+/* BODY DESKTOP */
 
 .videoBody{
-  margin-top: 10vh;
-  height: 500px;
-  object-fit: cover;
+  margin: -100px;
+  height: 115vh;
+  object-fit: contain;
   object-position: center;
 }
 
-.mudAnimado{
-  font-family:'Reservation';
-  font-size: 3rem;
-  color: #ffff;
-}
-
-.letraIndex{
+.cardsBodyContainer{
   font-family: 'Reservation';
   color: #ffff;
-  font-size: 1.7rem;
+  height: 90vh;
 }
 
 .cardsBody{
-  width: 90%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.cardBodyContainer{
   margin: auto;
-  margin-top: 20px;
-  border-top: 2px solid #ffff;
+}
+
+.cardBodyContainer h1{
+  margin-bottom: 3rem;
 }
 
 .cardsBody img{
-  width: 100%;
+  height: 500px;
+}
+
+.cardsBody img:hover{
+  opacity: .6;
+}
+
+.mudAnimado{
+  height: 240vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.letraAnimada {
+  font-family: 'Reservation';
+  color: #ffff;
+  font-size: 254px;
 }
 
 .aboutIndex{
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
 
+.aboutIndex img{
+  height: 700px;
+  object-fit: cover;
+  width: 50%;
+}
+
+.aboutIndexInfo{
+  width: 50%;
+  height: 600px;
+  font-family: 'Reservation';
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.aboutIndexInfo button{
+  width: 50%;
+  height: 50px;
+  align-self: center;
+}
+
+.contactoInicioContainer{
+  height: 90vh;
+  width: 90%;
+  margin: auto;
+  font-family: 'Reservation';
+  color: #ffff;
+  background-image: url('https://i.postimg.cc/TwmB4x4H/foto-academia-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contactoInicioInfo{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
-/* FIN BODY MOBILE */
-
-
-/* BODY DESKTOP */
-
-@media screen and (min-width: 1050px) {
-
-  .imgIndex{
-    width: 100%;
-    position: static;
-  }
-  
-  .videoBody{
-    margin: -100px;
-    height: 115vh;
-    object-fit: contain;
-    object-position: center;
-    overflow: hidden;
-
-  }
-  
-  .tituloBody{
-    font-family: 'Reservation';
-    font-size: 2rem;
-    color: #ffff;
-    padding: 8%;
-  }
-  
-  .cardsBody img{
-   height: 300px;
-   object-fit: cover;
-  }
-  
-  .aboutIndex{
-    
-  }
-
-  .mudAnimado{
-    height: 240vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .letraAnimada {
-    font-size: 254px;
-  }
-
-}
 /* FIN BODY DESKTOP */
+
+
+/* BODY MOBILE */
+
+  
+/* FIN BODY MOBILE */
