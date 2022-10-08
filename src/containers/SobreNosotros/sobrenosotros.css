@@ -1,0 +1,22 @@
+.sobreNosotrosContainer{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgFondo1 img{
+    height: 400px;
+    position: absolute;
+    right: 70%;
+    bottom: 10%;
+}
+
+.tituloSobreNosotros{
+    font-family: 'Reservation';
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 30vh;
+    width: 90%;
+}
+
