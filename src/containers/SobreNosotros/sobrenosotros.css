@@ -1,22 +1,47 @@
 .sobreNosotrosContainer{
     margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 5%;
 }
 
-.imgFondo1 img{
-    height: 400px;
+.sobreNosotros1{
+    height: 90vh;
+}
+
+.imgFondo1 {
+    height: 350px;
     position: absolute;
     right: 70%;
     bottom: 10%;
 }
 
+
+.imgFondo2 {
+    height: 800px;
+    position: absolute;
+    left: 75%;
+    bottom: 0%;
+}
+
 .tituloSobreNosotros{
     font-family: 'Reservation';
     color: #ffff;
+    margin-top: 40vh;
+}
+
+.tituloSobreNosotros h1{
+    margin: auto;
+    font-weight: 300;
+    font-size: 1.5rem;
+    width: 1300px;
+}
+
+.textosMotivacionalesSN{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.textoMotivacionesItem{
     font-size: 24px;
-    font-weight: 900;
-    margin-top: 30vh;
-    width: 90%;
 }
 
