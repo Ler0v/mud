@@ -1,0 +1,28 @@
+.cardsStaffContainer{
+    height: 90vh;
+    background-color: rgb(55, 136, 207);
+}
+
+.cardsStaffContainer h1{
+    font-family: 'Reservation';
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.cardContainer{
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ffff;
+}
+
+.cardContainer img{
+    height: 250px;
+}
+
+.cardContainer p:first-child{
+    font-size: 2rem;
+}
+

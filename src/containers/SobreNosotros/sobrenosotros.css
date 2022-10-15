@@ -53,6 +53,8 @@
     font-family: 'Reservation';
     font-size: 1rem;
     color: #ffff;
+    width: 40%;
+    margin: auto;
 }
 
 .historiaSN1{
@@ -87,8 +89,8 @@
 
 .historiaSN1Item3{
     position: absolute; 
-    left: 25%;
-    bottom: 45%;  
+    left: 35%;
+    bottom: 5%;  
 }
 
 .historiaSN1Item4{
@@ -109,15 +111,36 @@
 }
 
 .mudAnimadoNosotros{
-    
+    height: 15vh;
+}
+
+.mudAnimadoNosotros p{
     font-family: 'Reservation';
     font-size: 2rem;
     color: #ffff;
+    margin-bottom: 0;
+
 }
 
-.HistoriaSN2{
+.historiaSN2{
+    width: 90%; 
     height: 90vh;
     display: flex;
     flex-direction: row;
+    position: relative;
+    left: 5%;
 }
 
+.historiaSN2 img{
+    height: 800px;
+    clip-path: inset(100px 0 100px 0);
+}
+
+.historiaSN2 P{
+    padding: 1rem;
+    font-family: 'Reservation';
+    font-size: 2rem;
+    color: #ffff;
+    position: relative;
+    top: 20%;
+}
