@@ -3,6 +3,7 @@ import './navbar.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Menu from '../../assets/menu.svg'
+import Dropdown from './Dropdown';
 
 
 const Navbar = () => {
@@ -37,6 +38,9 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to='/productos' className='navItem' onClick={handleClick}>Productos</Link>
+                </li>
+                <li className='dropDownContainer'>
+                  <Dropdown />
                 </li>
                 <li>
                   <Link to='/educacion' className='navItem' onClick={handleClick} >Carreras</Link>
