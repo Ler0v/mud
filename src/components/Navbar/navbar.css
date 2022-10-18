@@ -1,3 +1,106 @@
+/* NAVBAR DESKTOP */
+
+  .navContainer{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+    width: 100%;
+  }
+
+  #imgNav{
+    display: block;
+    height: 60px;
+    margin: auto;
+  }
+  
+  .imglogoMobile{
+    display: none;
+  }
+
+  .imglogoDesktop:hover{
+    opacity: .7;
+  }
+
+  .menuIcon{
+    display: none;
+  }
+
+  .nav{
+    height: 100px;
+    font-family: 'Reservation Bold';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    align-content: center;
+  }
+
+  .navItem{
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  .navItem:hover{
+    color: rgb(60, 60, 60);
+  }
+
+  .dropDownContainer{
+    position: relative;
+    top: 15px;
+  }
+  
+  .dropDown{
+    height: 50px;
+    color:#ffff;
+    font-size: 1rem; 
+    border-radius: 10px;
+  }
+  
+  .dropDownBtn{
+    cursor: pointer;
+  }
+  
+  .dropDownBtn:hover{
+    cursor: pointer;
+    opacity: .7;
+  }
+  
+  .dropDownContent{
+    background-color: #010101;
+    height: 390px;
+    width: 400px;
+    position: absolute;
+    top: 60px;
+    left: -130px;
+  }
+
+  .dropDownContent.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition: 1s ease;
+  }
+
+  .dropDownContent.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 1s ease;
+  }
+  
+  .dropDownItem{
+    cursor: pointer;
+  }
+
+  .dropDownItem:hover{
+    opacity: .7;
+  }
+
+
+/* FIN NAVBAR DESKTOP */
+
+
 /* NAVBAR MOBILE */
 
   /* nav{
@@ -97,107 +200,5 @@
 
    /* NAVBAR TABLET */
 
-  @media  screen and  (min-width: 700px) {
-
-    .menuIcon{
-      width: 4rem;
-      position: absolute;
-      margin-top: 20px;
-      margin-left: 12rem;
-    }
-    
-  } 
-
-
-  /* FIN NAVBAR TABLET */
 
   
-  /* NAVBAR DESKTOP */
- 
-  @media screen and (min-width: 1050px) {
-
-    .navContainer{
-      position: fixed;
-      background-color: rgb(0, 0, 0);
-      z-index: 100;
-      width: 100%;
-    }
-  
-    #imgNav{
-      display: block;
-      height: 60px;
-      margin: auto;
-    }
-    
-    .imglogoMobile{
-      display: none;
-    }
-  
-    .imglogoDesktop:hover{
-      opacity: .7;
-    }
-
-    .menuIcon{
-      display: none;
-    }
-  
-    .nav{
-      height: 100px;
-      font-family: 'Reservation Bold';
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      list-style-type: none;
-      align-content: center;
-    }
-  
-    .navItem{
-      color: #ffff;
-      text-decoration: none;
-    }
-
-    .navItem:hover{
-      color: rgb(60, 60, 60);
-    }
-
-    .dropDownContainer{
-      position: relative;
-      top: 15px;
-    }
-    
-    .dropDown{
-      height: 50px;
-      color:#ffff;
-      background-color: #552727;
-      border-radius: 10px;
-    }
-
-    .dropDownBtn{
-      cursor: pointer;
-    }
-
-    .dropDownBtn:hover{
-      cursor: pointer;
-      opacity: .7;
-    }
-
-    .dropDownContent{
-      background-color: aqua; 
-      height: 500px;
-      width: 300px;
-      position: absolute;
-      top: 70px;
-      left: -80px;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .dropDownItem{
-      
-    }
-
-
-  } 
-  
-  /* FIN NAVBAR DESKTOP */
