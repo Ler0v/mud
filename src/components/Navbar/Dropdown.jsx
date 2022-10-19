@@ -2,29 +2,29 @@ import React from 'react'
 import { useState } from 'react'
 
 
-const Dropdown = () => {
+const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto7}) => {
 
     const [open, setOpen] = useState(false);
 
   return (
     <div className='dropDown'>
         <div className="dropDownBtn" onClick={() => setOpen(!open)}>
-            MUD Academy
+            {titulo}
         </div>
         <div className={`dropDownContent ${open? 'active' : 'inactive'}`}>
-            <div className='dropDownItem'>Carrera de maquillaje profesional</div>
+            <div className='dropDownItem'>{texto1}</div>
             <hr />
-            <div className='dropDownItem'>Curso de maquillaje social</div>
+            <div className='dropDownItem'>{texto2}</div>
             <hr />
-            <div className='dropDownItem'>Taller de laminado de cejas</div>
+            <div className='dropDownItem'>{texto3}</div>
             <hr />
-            <div className='dropDownItem'>Taller de divfting + nutricion + tinte</div>
+            <div className='dropDownItem'>{texto4}</div>
             <hr />
-            <div className='dropDownItem'>Taller de disenio de cejas + henna</div>
+            <div className='dropDownItem'>{texto5}</div>
             <hr />
-            <div className='dropDownItem'>Curso de peinados</div>
+            <div className='dropDownItem'>{texto6}</div>
             <hr />
-            <div className='dropDownItem'>Taller de trenzas</div>
+            <div className='dropDownItem'>{texto7}</div>
         </div>
     </div>
   )
