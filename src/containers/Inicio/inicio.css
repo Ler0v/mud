@@ -108,12 +108,25 @@
   left: 40%;
 }
 
-.contactoInicioInfo button{
+.botonesContacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   position: absolute;
-  top: 75%;
-  left: 40%;  
-  width: 20%;
+  left: 40%;
+  top: 70%;
+  width: 300px;
 }
+
+.botonesContactoImg{
+  height: 40px;
+  cursor: pointer;
+}
+
+.botonesContactoImg:hover{
+  opacity: .7;
+}
+
 
 
 

@@ -23,8 +23,6 @@ const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto
     
     })
 
-
-
   return (
     <div className='dropDown'>
         <div className="dropDownBtn" onClick={() => setOpen(!open)}>

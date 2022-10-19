@@ -41,10 +41,11 @@ const Inicio = () => {
       </div>
       <div className='contactoInicioContainer'>
         <div className='contactoInicioInfo'>
-          <div>
             <p>Contactanos!</p>
-            <Link to='/trabajos' className='contactoInicioButton'><button>Escribinos</button></Link>
-          </div>
+            <div className='botonesContacto'>
+              <Link to='/'><img src="https://i.postimg.cc/Vv4K8x3q/icons8-whatsapp-30.png"  className='botonesContactoImg' alt="contactoInicio" /></Link>
+              <Link to='/'><img src="https://i.postimg.cc/Pxv8jJqb/icons8-mail-30.png"  className='botonesContactoImg' alt="contactoInicio" /></Link>
+            </div>
         </div>
       </div>
     </>
