@@ -86,22 +86,33 @@
   height: 90vh;
   width: 90%;
   margin: auto;
-  font-family: 'Reservation';
-  color: #ffff;
   background-image: url('https://i.postimg.cc/TwmB4x4H/foto-academia-1.png');
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .contactoInicioInfo{
-  height: 70vh;
+  position: relative;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.contactoInicioInfo p{
+  font-family: 'Reservation';
+  font-size: 3rem;
+  color: #ffff;
+  position: absolute;
+  bottom: 70%;
+  left: 40%;
+}
+
 .contactoInicioInfo button{
-  margin-top: 10rem;
+  position: absolute;
+  top: 75%;
+  left: 40%;  
+  width: 20%;
 }
 
 

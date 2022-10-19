@@ -42,10 +42,7 @@ const Inicio = () => {
       <div className='contactoInicioContainer'>
         <div className='contactoInicioInfo'>
           <div>
-            <h1>Te intereso nuestro trabajo?</h1>
-            <h3>Contactanos!</h3>
-          </div>
-          <div>
+            <p>Contactanos!</p>
             <Link to='/trabajos' className='contactoInicioButton'><button>Escribinos</button></Link>
           </div>
         </div>
