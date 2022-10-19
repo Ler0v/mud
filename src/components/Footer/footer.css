@@ -3,19 +3,33 @@
 .footerContainer{
   font-family: 'Reservation';
   color: #ffff;
-  height: 200px;
+  height: 300px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 600px;
   border-top: 2px solid rgb(255, 255, 255);
 }
 
+.footerContainer img{
+  height: 30px;
+}
+
 .footerInfo{
-  height: 200px;
+  height: 250px;
+  width: 600px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.footerInfo{
+  height: 250px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 
@@ -25,7 +39,7 @@
 
 .footerItem p{
   margin-bottom: 0;
-  margin-left: 1rem;
+  margin-left: 20px;
 }
 
 .imgFooter:hover{

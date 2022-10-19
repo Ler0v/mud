@@ -15,7 +15,7 @@ const Inicio = () => {
         <p className='letraAnimada'>D</p>
       </div>
       <div className='cardsBodyContainer'>
-        <h1>Porque mud?</h1>
+        <h1>Porque MUD?</h1>
         <div className="cardsBody">
           <div className='cardBodyContainer'>
             <h1 className='letraIndex'>Nuestros servicios</h1>
