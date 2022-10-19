@@ -3,7 +3,6 @@ import './sobrenosotros.css'
 import CardStaff  from './CardStaff'
 
 
-
 const SobreNosotros = () => {
   return (
     <div className='sobreNosotrosContainer'>
@@ -41,21 +40,46 @@ const SobreNosotros = () => {
       </div>
       <div className="cardsStaffContainer">
         <h1>Nuestro Staff</h1>
-        <CardStaff 
-          imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
-          nombre={'Lola Espiro'}
-          descripcion={"Microbaling especialist and Make up artist"}
-        />
-        <CardStaff 
-          imagenStaff={'https://makeupdesign.com.ar/img/nosotros/celeste.jpg'}
-          nombre={'Celeste González'}
-          descripcion={"Directora Microbaling especialist and Make up artist"}
-        />
-        <CardStaff 
-          imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
-          nombre={'Lola Espiro'}
-          descripcion={"Microbaling especialist and Make up artist"}
-        />
+        <div className='cardsStaff'>
+          <CardStaff 
+            className='cardStaffItem'
+            imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
+            nombre={'Lola Espiro'}
+            descripcion={"Microbaling especialist and Make up artist"}
+          />
+          <CardStaff
+            className='cardStaffItem' 
+            imagenStaff={'https://makeupdesign.com.ar/img/nosotros/celeste.jpg'}
+            nombre={'Celeste González'}
+            descripcion={"Directora Microbaling especialist and Make up artist"}
+          />
+          <CardStaff
+            className='cardStaffItem' 
+            imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
+            nombre={'Lola Espiro'}
+            descripcion={"Microbaling especialist and Make up artist"}
+          />
+        </div>
+        <div className='cardsStaff'>
+          <CardStaff 
+            className='cardStaffItem'
+            imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
+            nombre={'Lola Espiro'}
+            descripcion={"Microbaling especialist and Make up artist"}
+          />
+          <CardStaff
+            className='cardStaffItem' 
+            imagenStaff={'https://makeupdesign.com.ar/img/nosotros/celeste.jpg'}
+            nombre={'Celeste González'}
+            descripcion={"Directora Microbaling especialist and Make up artist"}
+          />
+          <CardStaff
+            className='cardStaffItem' 
+            imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
+            nombre={'Lola Espiro'}
+            descripcion={"Microbaling especialist and Make up artist"}
+          />
+        </div>
       </div>
     </div>
 

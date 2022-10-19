@@ -1,6 +1,9 @@
 .cardsStaffContainer{
     height: 90vh;
-    background-color: rgb(55, 136, 207);
+    font-family: 'Reservation';
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffff;
 }
 
 .cardsStaffContainer h1{
@@ -16,11 +19,13 @@
     display: flex;
     flex-direction: row;
     border: 2px solid #ffff;
+    background-color: rgb(55, 136, 207);
 }
 
 .cardContainer img{
     height: 250px;
 }
+
 
 .cardContainer p:first-child{
     font-size: 2rem;

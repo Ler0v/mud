@@ -1,7 +1,7 @@
 import React from 'react'
 import './cardstaff.css'
 
-const CardStaff = ({nombre, descripcion, imagenStaff  }) => {
+const CardStaff = ({imagenStaff, nombre, descripcion,   }) => {
   return (
     <>
         <div className='cardContainer'>
