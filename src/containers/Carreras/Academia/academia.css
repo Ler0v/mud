@@ -1,0 +1,39 @@
+.academiaContainer{
+    margin-top: 100px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.headerAcademia{
+    position: relative;
+    height: 80vh;
+    background-image: url('https://i.postimg.cc/TwmB4x4H/foto-academia-1.png');
+    background-size: cover;
+    font-family: 'Reservation';
+    color: #ffff;
+}
+
+.headerItem1{
+    font-size: 3rem;
+}
+
+.headerItem2{
+    font-size: 1.2rem;
+}
+
+.headerItem3{
+    font-size: 1.4rem;
+    margin-top: 2.2rem;
+}
+
+.headerItemPosition1{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+
+.headerItemPosition2{
+    position: absolute;
+    top: 70%;
+    left: 85%;
+}

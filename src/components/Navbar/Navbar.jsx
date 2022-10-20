@@ -39,7 +39,8 @@ const Navbar = () => {
               <Link to='/productos' className='navItem' onClick={handleClick}>Productos</Link>
             </li>
             <li className='dropDownContainer'>
-              <Dropdown titulo={'MUD Academy'} texto1={'Carrera de maquillaje profesional'} texto2={'Curso de maquillaje social'} texto3={'Taller de laminado de cejas'} texto4={'Taller de divfting + nutricion + tinte'} texto5={'Taller de disenio de cejas + henna'} texto6={'Curso de peinados'} texto7={'Taller de trenzas'}/>
+              <Link to='/academia' className='navItem'
+              onClick={handleClick}><Dropdown titulo={'MUD Academy'} texto1={'Carrera de maquillaje profesional'} texto2={'Curso de maquillaje social'} texto3={'Taller de laminado de cejas'} texto4={'Taller de divfting + nutricion + tinte'} texto5={'Taller de disenio de cejas + henna'} texto6={'Curso de peinados'} texto7={'Taller de trenzas'}/></Link>
             </li>
             <li>
               <Link to='/contacto' className='navItem' onClick={handleClick}>Contacto</Link>
