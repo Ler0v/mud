@@ -68,15 +68,6 @@
     text-decoration: none;
   } 
 
-  .dropDownBtn:hover{
-    cursor: pointer;
-    opacity: .7;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-    transition: 1s ease;
-  }
-  
   .dropDownContent{
     background-color: #010101;
     height: 390px;
