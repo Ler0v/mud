@@ -65,8 +65,16 @@
   
   .dropDownBtn{
     cursor: pointer;
-    text-decoration: none;
   } 
+
+  .dropDownBtn a{
+    color: #ffff;
+    text-decoration: none;
+  }
+
+  .dropDownBtn a:hover{
+    color: #ffff;
+  }
 
   .dropDownContent{
     background-color: #010101;
