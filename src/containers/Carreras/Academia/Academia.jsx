@@ -16,6 +16,18 @@ const Academia = () => {
               <img src="https://i.postimg.cc/vmgHLtJZ/SISTEMA-DE-EDUCACION-MUD-ACADEMY-FULL-BLANCO-1.png" alt="headerimg2" />
             </div>
           </div>
+          <div className='academiaItems'>
+            <div className='MUDMaquillajeProfesional'>
+              <h1>Carrera de Maquillaje Profesional</h1>
+              <div className='infoAcademia'>
+                <img src="https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png" alt="fotoAcademia" />
+                <div className='seccionAcademia'>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic corrupti tempore consectetur minima, itaque reprehenderit commodi sit veritatis ipsam aspernatur obcaecati omnis assumenda eaque corporis sint temporibus error nam?</p>
+                  <button className='btnAcademia'>Ver mas</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </>
   )

@@ -3,6 +3,7 @@ import './navbar.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Dropdown from './Dropdown';
+import MenuIcon from '../menuIcon/menuIcon'
 
 
 const Navbar = () => {
@@ -19,8 +20,8 @@ const Navbar = () => {
         <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogoMobile' alt="i1" /></Link>
       </div>
       <div className='navItemsContainer'>
-        <ul className={`nav`}>
-            <li >
+        <ul className={`nav ${clicked ? 'active' : ''}`}>
+            <li>
               <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogoDesktop' id='imgNav' alt="i1" /></Link>
             </li>
             <li>
@@ -46,6 +47,9 @@ const Navbar = () => {
               <Link to='/contacto' className='navItem' onClick={handleClick}>Contacto</Link>
             </li>
         </ul>
+      </div>
+      <div className='burguer'>
+        <MenuIcon clicked={clicked} handleClick={handleClick}/>
       </div>
     </div>
   )

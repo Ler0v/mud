@@ -37,3 +37,66 @@
     top: 70%;
     left: 85%;
 }
+
+.MUDMaquillajeProfesional{
+    height: 90vh;
+    margin-top: 10vh;
+}
+
+.MUDMaquillajeProfesional h1{
+    font-family: 'Reservation';
+    color: #ffff;
+    font-size: 3rem;
+}
+
+.infoAcademia{
+    display: flex;
+    flex-direction: row;
+}
+
+.seccionAcademia p{
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.seccionAcademia button{
+    margin: auto;
+    margin-top: 4rem;
+    height: 50px;
+    width: 200px;
+}
+
+.infoAcademia img{
+    height: 600px;
+    width: 40%;
+    object-fit: cover;
+    margin-top: 4rem;
+}
+
+.infoAcademia p{
+    width: 60%;
+    font-family: 'Reservation';
+    color: #ffff;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
