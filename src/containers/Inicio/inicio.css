@@ -131,16 +131,22 @@
 /* FIN BODY DESKTOP */
 
 
-/* BODY MOBILE */
+/* BODY TABLET */
 
-@media all and (max-width: 790px){
+
+@media all and (max-width: 769px){
   
   .videoBody video{
     margin-top: 100px;
+    height: 1200px;
+  }
+
+  .videoBody.videoBodyItem{
+    height: 100%;
   }
   
   .cardsBodyContainer{
-    margin: auto;
+    margin-top: 250px;
     height: 1200px;
   }
 
@@ -156,26 +162,46 @@
 }
 
 .cardsBody img{
-  height: 150px;
+  height: 200px;
   width: 600px;
   object-fit: cover;
 }
 
+.contactoInicioInfo p{
+  font-family: 'Reservation';
+  font-size: 3rem;
+  color: #ffff;
+  position: absolute;
+  bottom: 65%;
+  left: 25%;
+}
 
+.botonesContacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 27%;
+  top: 65%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.botonesContactoImg{
+  height: 40px;
+  cursor: pointer;
+}
 
 }
+
+
+/* FIN TABLET MOBILE */
+
+
+/* BODY MOBILE */
+
+
+
+
+
 
   
 /* FIN BODY MOBILE */

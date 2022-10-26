@@ -98,14 +98,14 @@
 
 /* NAVBAR MOBILE */
 
-@media all and (min-width: 768px){
+@media all and (min-width: 769px){
 
   .burguer{
     display: none;
   }
 }
 
-@media all and (max-width: 790px){
+@media all and (max-width: 769px){
   
   ul.nav{
    display: none;
