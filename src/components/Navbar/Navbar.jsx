@@ -16,14 +16,9 @@ const Navbar = () => {
 
   return (
     <div className="navContainer">
-      <div>
-        <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogoMobile' alt="i1" /></Link>
-      </div>
+      <Link to='/' className='mudLogoNav' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" id='imgNav' alt="i1" /></Link>
       <div className='navItemsContainer'>
         <ul className={`nav ${clicked ? 'active' : ''}`}>
-            <li>
-              <Link to='/' className='navItem' ><img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imglogoDesktop' id='imgNav' alt="i1" /></Link>
-            </li>
             <li>
               <Link to='/' className='navItem' onClick={handleClick}>Inicio</Link>
             </li>
