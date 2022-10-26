@@ -7,15 +7,15 @@ const Inicio = () => {
   return (
     <>
       <div className='videoBody'>
-        <video src={videoInicio} autoPlay loop muted />
+        <video className='videoBodyItem' src={videoInicio} autoPlay loop muted />
       </div>
-      <div className='mudAnimado'>
+      {/* <div className='mudAnimado'>
         <p className='letraAnimada'>M</p>
         <p className='letraAnimada'>U</p>
         <p className='letraAnimada'>D</p>
-      </div>
+      </div> */}
       <div className='cardsBodyContainer'>
-        <h1>Porque MUD?</h1>
+        <h1 className='tituloCardsBody'>Porque MUD?</h1>
         <div className="cardsBody">
           <div className='cardBodyContainer'>
             <h1 className='letraIndex'>Nuestros servicios</h1>

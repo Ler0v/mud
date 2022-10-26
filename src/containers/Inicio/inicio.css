@@ -128,12 +128,54 @@
 }
 
 
-
-
 /* FIN BODY DESKTOP */
 
 
 /* BODY MOBILE */
+
+@media all and (max-width: 790px){
+  
+  .videoBody video{
+    margin-top: 100px;
+  }
+  
+  .cardsBodyContainer{
+    margin: auto;
+    height: 1200px;
+  }
+
+ .cardsBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.cardBodyContainer h1{
+  margin-bottom: 1rem;
+}
+
+.cardsBody img{
+  height: 150px;
+  width: 600px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
   
 /* FIN BODY MOBILE */
