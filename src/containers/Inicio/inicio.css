@@ -131,6 +131,48 @@
 
 /* FIN BODY DESKTOP */
 
+/*BODY DESKTOP CHICO */
+
+@media all and (max-width: 1600px){
+  
+  .videoBody video{
+    margin-top: 100px;
+    height: 1000px;
+  }
+
+  .videoBody.videoBodyItem{
+    height: 100%;
+  }
+  
+  .cardsBodyContainer{
+    margin-top: 400px;
+    height: 700px;
+  }
+
+  .cardsBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+    margin-top: 70px;
+  }
+
+  .cardBodyContainer h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .cardsBody img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+
+}
+
+/* FIN BODY DESKTOP CHICO */
+
 
 /* BODY TABLET */
 
