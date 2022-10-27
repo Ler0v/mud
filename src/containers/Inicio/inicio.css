@@ -198,7 +198,93 @@
 
 /* BODY MOBILE */
 
+@media all and (max-width: 426px){
+  
+  .videoBody video{
+    margin-top: 200px;
+    height: 800px;
+  }
+  
+  .cardsBodyContainer{
+    margin-top: 150px;
+    height: 1200px;
+  }
 
+ .cardsBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  height: 80%;
+}
+
+.cardBodyContainer h1{
+  margin-bottom: 1rem;
+}
+
+.cardsBody img{
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.aboutIndex{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutIndex img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.aboutIndexInfo{
+  width: 100%;
+  height: 600px;
+  font-family: 'Reservation';
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.aboutIndexInfo button{
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.contactoInicioContainer{
+  height: 800px;
+}
+
+.contactoInicioInfo p{
+  font-family: 'Reservation';
+  font-size: 2rem;
+  color: #ffff;
+  position: absolute;
+  bottom: 70%;
+  left: 20%;
+}
+
+.botonesContacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+
+.botonesContactoImg{
+  height: 40px;
+  cursor: pointer;
+}
+
+}
 
 
 
