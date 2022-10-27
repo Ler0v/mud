@@ -8,7 +8,7 @@ const Contacto = () => {
           <h1 className='Titulo'>Contacto</h1>
           <p className='infoContacto'>¿Tenes alguna duda? Dejanos un mensaje y con gusto la responderemos lo antes posible.</p>
          <div className='contactoFormContainer'>
-            <div >
+            <div className='fotoContacto'>
               <img src="https://i.postimg.cc/26yw1C36/IMG-1185.jpg" alt="fotoContacto" />
             </div>
             <div>

@@ -64,3 +64,76 @@
 label{
     text-align: left;
 }
+
+/*CONTACTO TABLET */
+
+
+@media all and (max-width: 769px){
+
+.fotoContacto{
+    display: none;
+}
+
+}
+  
+   
+
+/*FIN CONTACTO MOBILE */
+
+@media all and (max-width: 469px){
+  
+    .contactoContainer{
+        width: 90%;
+        margin: 150px auto;
+        align-self: center;
+    }
+    
+    .contactoFormContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 4rem;
+    }
+    
+    .contactoContainer h1{
+        font-size: 2rem;
+    }
+
+    .infoContacto{
+        font-family: 'Reservation';
+        font-size: 1rem;
+        color: #ffff;
+        margin-top: 40px;
+    }
+
+    .formContainer{
+        font-family: 'Reservation';
+        font-size: .8rem;
+        color: #ffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 600px;
+        width: 350px;
+    }
+
+    .formJunto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .formContainer button{
+        width: 40%;
+        height: 30px;
+        margin-top: 1rem;
+        align-self: center;
+        border-radius: 5px;
+    }
+
+    
+}
+
+/*FIN CONTACTO MOBILE */

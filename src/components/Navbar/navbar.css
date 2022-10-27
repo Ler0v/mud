@@ -12,7 +12,8 @@
   #imgNav{
     display: block;
     height: 60px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-right: 50px;
   }
   
   .nav{
@@ -112,7 +113,7 @@
   }
 
  .mudLogoNav{
-  margin-top: .8rem;
+  margin-bottom: 10px;
  }
 
 
