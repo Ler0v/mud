@@ -1,3 +1,5 @@
+/* SERVICIO DESKTOP */
+
 .serviciosContainer{
     margin-top: 180px;
     height: 85vh;
@@ -101,5 +103,27 @@
     justify-content: space-evenly;
 }
 
+/* FIN SERVICIO DESKTOP*/
+
+
+/* SERVICIO CHICO */
+
+@media all and (max-width: 1600px){
+  
+    .serviciosContainer{
+        margin-top: 100px;
+        height: 85vh;
+    }
+
+    .Titulo{
+        font-size: 3.5rem;
+        position: relative;
+    }
+
+
+}
+  
+  /* FIN BODY DESKTOP CHICO */
+  
 
 
