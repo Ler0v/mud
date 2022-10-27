@@ -8,6 +8,7 @@
 }
 
 .cardsBodyContainer{
+  margin-top: 100px;
   font-family: 'Reservation';
   color: #ffff;
   height: 90vh;
@@ -24,8 +25,8 @@
   margin: auto;
 }
 
-.cardBodyContainer h1{
-  margin-bottom: 3rem;
+.tituloCardsBody{
+  margin-top: 50px;
 }
 
 .cardsBody img{

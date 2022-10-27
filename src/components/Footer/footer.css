@@ -57,7 +57,7 @@
   /* FIN FOOTER DESKTOP */
 
   /* FOOTER MOBILE */
-@media screen and (max-width: 469px){
+@media screen and (max-width: 769px){
 
   .footerContainer{
     width: 80%;
@@ -71,7 +71,6 @@
     font-family: 'Reservation';
     color: #ffff;
     height: 600px;
-    margin: auto;
     border-top: 2px solid rgb(44, 29, 172);
   }
   .footerInfo{
@@ -81,14 +80,9 @@
     width: 100%;
   }
 
-  .footerItem p{
-    margin: auto;
+  .footerTitulo2{
+    margin-left: 140px;
   }
-
-  h2{
-    text-align: left;
-  }
-
 
   .footerItem img{
     height: 30px;
