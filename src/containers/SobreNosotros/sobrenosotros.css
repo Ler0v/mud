@@ -1,3 +1,5 @@
+/* NOSOTROS DESKTOP */
+
 .sobreNosotrosContainer{
     width: 100%;
     margin-top: 100px;
@@ -112,6 +114,7 @@
 
 .mudAnimadoNosotros{
     height: 15vh;
+    width: 100%;
 }
 
 .mudAnimadoNosotros p{
@@ -161,3 +164,131 @@
     flex-wrap: wrap;  
     margin-top: 6rem;
 }
+
+/* FIN NOSOTROS DESKTOP */
+
+/* NOSOTROS CHICO */
+
+@media all and (max-width: 1600px){
+
+    .App{
+        overflow-y: hidden;
+    }
+    
+
+    .imgFondo1 {
+        height: 250px;
+        position: absolute;
+        right: 70%;
+        bottom: 10%;
+    }
+
+
+    .imgFondo2 {
+        height: 600px;
+        position: absolute;
+        left: 75%;
+        bottom: 0%;
+    }
+    
+    .tituloSobreNosotros{
+        position: absolute;
+        left: 10%;
+        top: 35%;
+    
+    }
+
+    .textosMotivacionalesSNContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        height: 20vh;
+        width: 80%;
+    }
+    
+    .textosMotivacionalesSNContainer h1{
+        font-family: 'Reservation';
+        font-size: .8rem;
+    }
+
+    .historiaSN1{
+        height: 95vh;
+        width: 90%;
+        position: relative;
+    }
+    
+    .historiaSN1 p{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    
+    .historiaSN1Item1{
+        position: absolute;
+        left: 35%;
+        bottom: 80%;
+        font-size: 4em;
+        padding: 1.4rem;
+    }
+    
+    .historiaSN1Item2{
+        position: absolute;
+        left: 5%;
+        bottom: 10%;
+    }
+    
+    .historiaSN1Item3{
+        position: absolute; 
+        left: 35%;
+        bottom: 5%;  
+    }
+    
+    .historiaSN1Item4{
+        position: absolute;
+        left: 80%;
+        bottom: 0%;
+    }
+    
+    .imgCeles1{
+        height: 600px;
+        position: absolute;
+    }
+    
+    .imgCeles2{
+        position: absolute;
+        height: 700px;
+        clip-path: inset(150px 0 200px 0);
+    }
+
+    .historiaSN2{
+        width: 90%; 
+        height: 95vh;
+        position: relative;
+        left: 5%;
+    }
+    
+    .historiaSN2 img{
+        height: 800px;
+        clip-path: inset(100px 0 100px 0);
+    }
+    
+    .historiaSN2 P{
+        padding: 1.5rem;
+        font-size: 2rem;
+        position: relative;
+        top: 10%;
+    }
+}
+  
+/* FIN NOSOTROS DESKTOP CHICO */
+
+
+/* NOSOTROS TABLET */
+
+@media all and (max-width: 1600px){
+
+
+
+}
+
+/* FIN NOSOTROS TABLET */
