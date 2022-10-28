@@ -120,10 +120,127 @@
         position: relative;
     }
 
+}
+  
+  /* FIN SERVICIO CHICO */
+  
+
+  /* SERVICIO TABLET */
+
+    @media all and (max-width: 769px){
+  
+    .serviciosContainer{
+        margin-top: 140px;
+        height: 100vh;
+    }
+
+    .serviciosContainerItem{
+        position: relative;
+        height: 900px;
+        width: 100%;   
+    }
+    
+    .serviciosContainerItem1{
+        position: absolute;
+        top: 0; 
+        right: 25%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem2{
+        position: absolute;
+        right: 25%;
+        top: 25%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem3{
+        position: absolute;
+        left: 23%;
+        top: 50%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem4{
+        position: absolute;
+        left: 23%;
+        top: 75%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
 
 }
   
-  /* FIN BODY DESKTOP CHICO */
+  /* FIN TABLET */
+
+  /* SERVICIO MOBILE */
+
+  @media all and (max-width: 769px){
   
+    .serviciosContainer{
+        margin-top: 140px;
+        height: 100vh;
+    }
+
+    .serviciosContainerItem{
+        position: relative;
+        height: 900px;
+        width: 100%;   
+    }
+    
+    .serviciosContainerItem1{
+        position: absolute;
+        top: 0; 
+        right: 25%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem2{
+        position: absolute;
+        right: 25%;
+        top: 25%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem3{
+        position: absolute;
+        left: 23%;
+        top: 50%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+    
+    .serviciosContainerItem4{
+        position: absolute;
+        left: 23%;
+        top: 75%;
+        height: 200px;
+        width: 400px;
+        background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+        background-position: center;
+    }
+
+}
+  
+  /* FIN MOBILE */
 
 
