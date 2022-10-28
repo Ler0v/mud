@@ -56,7 +56,7 @@
   
   /* FIN FOOTER DESKTOP */
 
-  /* FOOTER MOBILE */
+  /* FOOTER TABLET */
 @media screen and (max-width: 769px){
 
   .footerContainer{
@@ -87,6 +87,30 @@
   .footerItem img{
     height: 30px;
     margin-right: 12px;
+  }
+ 
+}
+/* FIN FOOTER TABLET*/
+
+ /* FOOTER MOBILE */
+ @media screen and (max-width: 469px){
+
+
+  .footerItem2{
+    margin-left: -20px;
+  }
+
+  .footerItem2:first-child{
+    margin-left: -20px;
+  }
+
+  .footerItem p{
+    margin-left: 15px;
+  }
+
+
+  .footerTitulo2{
+    margin-left: 50px;
   }
  
 }
