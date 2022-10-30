@@ -189,8 +189,8 @@
   }
   
   .cardsBodyContainer{
-    margin-top: 250px;
-    height: 1200px;
+    margin-top: 500px;
+    height: 1000px;
   }
 
  .cardsBody{
@@ -199,6 +199,9 @@
   justify-content: space-evenly;
 }
 
+.tituloCardsBody{
+  margin-bottom: 150px;
+}
 
 .cardBodyContainer h1{
   margin-bottom: 1rem;
