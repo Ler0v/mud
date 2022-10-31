@@ -31,3 +31,58 @@
     font-size: 2rem;
 }
 
+
+
+/* CARDS NOSOTROS DESKTOP CHICO */
+@media all and (max-width: 1600px){
+
+    .cardsStaffContainer{
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .cardsStaffContainer h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .cardContainer{
+        height: 250px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #ffff;
+        background-color: rgb(55, 136, 207);
+    }
+
+
+}
+
+/* FIN CARDS NOSOTROS DESKTOP CHICO */
+
+/* CARDS NOSOTROS TABLET */
+@media all and (max-width: 1600px){
+
+    .cardsStaffContainer{
+        height: 1000px;
+        margin-top: 100px;
+    }
+
+    .cardsStaffContainer h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .cardContainer{
+        height: 250px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #ffff;
+        background-color: rgb(55, 136, 207);
+    }
+
+
+}
+
+/* FIN CARDS NOSOTROS TABLET */
