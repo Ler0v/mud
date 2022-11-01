@@ -34,11 +34,11 @@
 
 
 /* CARDS NOSOTROS DESKTOP CHICO */
-@media all and (max-width: 1600px){
+@media all and (max-width: 769px){
 
-    .cardsStaffContainer{
-        height: 1000px;
+    .cardsStaffContainer{ 
         margin-top: 100px;
+        height: 1200px;
     }
 
     .cardsStaffContainer h1{
@@ -61,15 +61,21 @@
 /* FIN CARDS NOSOTROS DESKTOP CHICO */
 
 /* CARDS NOSOTROS TABLET */
-@media all and (max-width: 1600px){
+@media all and (max-width: 769px){
 
     .cardsStaffContainer{
-        height: 1000px;
+        height: 1800px;
         margin-top: 100px;
     }
 
+    .cardsStaff{
+        height: 800px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
     .cardsStaffContainer h1{
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
     }
 
@@ -82,7 +88,55 @@
         background-color: rgb(55, 136, 207);
     }
 
+    .cardContainer img{
+        height: 250px;
+    }
+    
+    
+    .cardContainer p:first-child{
+        font-size: 1.5rem;
+    }
+    
+}
 
+/* FIN CARDS NOSOTROS TABLET */
+
+/* CARDS NOSOTROS TABLET */
+@media all and (max-width: 769px){
+
+    .cardsStaffContainer{
+        height: 1800px;
+        margin-top: 100px;
+    }
+
+    .cardsStaff{
+        height: 800px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .cardsStaffContainer h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .cardContainer{
+        height: 250px;
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #ffff;
+        background-color: rgb(55, 136, 207);
+    }
+
+    .cardContainer img{
+        height: 250px;
+    }
+    
+    .cardContainer p:first-child{
+        font-size: 1.5rem;
+    }
+    
 }
 
 /* FIN CARDS NOSOTROS TABLET */
