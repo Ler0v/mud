@@ -37,68 +37,68 @@ const Servicios = () => {
       </div>
     <section id='proMakeup'>
       <div className='servicio'>
-          <div className='servicioCarousel'>
-            <Carousel />
-          </div>
-          <div className='servicioInfo' >
-            <h1>Pro Make Up & Hairstyle</h1>
-            <div className='servicioBotones'>
-              <button>Pro Makeup</button>
-              <button>Bodas</button>
-              <button>15 Años</button>
-              <button>Pro Hairstyle</button>
-            </div>
+        <div className='servicioCarousel'>
+          <Carousel />
+        </div>
+        <div className='servicioInfo' >
+          <h1>Pro Make Up & Hairstyle</h1>
+          <div className='servicioBotones'>
+            <button>Pro Makeup</button>
+            <button>Bodas</button>
+            <button>15 Años</button>
+            <button>Pro Hairstyle</button>
           </div>
         </div>
+      </div>
     </section>
     <section id='cejas'>
       <div className='servicio'>
-          <div className='servicioCarousel'>
-            <Carousel />
-          </div>
-          <div className='servicioInfo'>
-            <h1>Cejas</h1>
-            <div className='servicioBotones'>
-              <button>Full Brows Design</button>
-              <button>Brow Service</button>
-              <button>Brow Lamination</button>
-              <button>Brow Tint</button>
-              <button>Hair Botox Revitalize</button>
-              <button>Microblading</button>
-            </div>
+        <div className='servicioCarousel'>
+          <Carousel />
+        </div>
+        <div className='servicioInfo'>
+          <h1>Cejas</h1>
+          <div className='servicioBotones'>
+            <button>Full Brows Design</button>
+            <button>Brow Service</button>
+            <button>Brow Lamination</button>
+            <button>Brow Tint</button>
+            <button>Hair Botox Revitalize</button>
+            <button>Microblading</button>
           </div>
         </div>
+      </div>
     </section>
-      <section id='pestanias'>
-        <div className='servicio'>
-          <div className='servicioCarousel'>
-            <Carousel />
-          </div>
-          <div className='servicioInfo'>
-            <h1>Pestanias</h1>
-            <div className='servicioBotones'>
-              <button>Lash Lifting</button>
-              <button>Hair Botox Revitalize</button>
-            </div>
+    <section id='pestanias'>
+      <div className='servicio'>
+        <div className='servicioCarousel'>
+          <Carousel />
+        </div>
+        <div className='servicioInfo'>
+          <h1>Pestanias</h1>
+          <div className='servicioBotones'>
+            <button>Lash Lifting</button>
+            <button>Hair Botox Revitalize</button>
           </div>
         </div>
-      </section>
-      <section id='nails'>
-        <div className='servicio'>
-          <div className='servicioCarousel'>
-            <Carousel />
-          </div>
-          <div className='servicioInfo'>
-            <h1>MUD Pro Nails</h1>
-            <div className='servicioBotones'>
-              <button>Manicuría combinada</button>
-              <button>Manicuría combinada con esmaltado tradicional/semipermanente</button>
-              <button>Capping gel</button>
-              <button>Press on nails</button>
-            </div>
+      </div>
+    </section>
+    <section id='nails'>
+      <div className='servicio'>
+        <div className='servicioCarousel'>
+          <Carousel />
+        </div>
+        <div className='servicioInfo'>
+          <h1>MUD Pro Nails</h1>
+          <div className='servicioBotones'>
+            <button>Manicuría combinada</button>
+            <button>Manicuría combinada con esmaltado tradicional/semipermanente</button>
+            <button>Capping gel</button>
+            <button>Press on nails</button>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
     </>
   )
 }
