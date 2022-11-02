@@ -31,7 +31,7 @@ const SobreNosotros = () => {
         <img src="https://i.postimg.cc/66C6Tt0q/6.jpg" className='historiaSN1Item4 imgCeles2' alt="imgSobreNosotros4" />
       </div>
       <div className="mudAnimadoNosotros">
-        <p>MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD</p>
+        <p>MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD MUD</p>
       </div>
       <div className='historiaSN2'>
         <img src="https://i.postimg.cc/RCfvWXXR/61-de40b12e563144010116591215845626-480-0.jpg" alt="imgSobreNosotros3" />

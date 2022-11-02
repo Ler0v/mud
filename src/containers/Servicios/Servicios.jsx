@@ -85,7 +85,7 @@ const Servicios = () => {
     </section>
     <section id='nails'>
       <div className='servicio'>
-        <div className='servicioCarousel'>
+         <div className='servicioCarousel'>
           <Carousel />
         </div>
         <div className='servicioInfo'>
