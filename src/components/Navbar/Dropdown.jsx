@@ -26,23 +26,23 @@ const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto
 
   return (
     <div className='dropDown'>
-        <div className="dropDownBtn" onClick={() => setOpen(!open)} onMouseEnter={()=> setOpen(true)}onMouseLeave={()=> setOpen(false)}>
+        <div className="dropDownBtn" onClick={() => setOpen(!open)} onMouseEnter={()=> setOpen(true)}>
           <Link to='academia'>{titulo}</Link>
         </div>
         <div ref={menuRef} className={`dropDownContent ${open? 'active' : 'inactive'}`} >
-            <div className='dropDownItem'>{texto1}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto1}</div>
             <hr />
-            <div className='dropDownItem'>{texto2}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto2}</div>
             <hr />
-            <div className='dropDownItem'>{texto3}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto3}</div>
             <hr />
-            <div className='dropDownItem'>{texto4}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto4}</div>
             <hr />
-            <div className='dropDownItem'>{texto5}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto5}</div>
             <hr />
-            <div className='dropDownItem'>{texto6}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto6}</div>
             <hr />
-            <div className='dropDownItem'>{texto7}</div>
+            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto7}</div>
         </div>
     </div>
   )
