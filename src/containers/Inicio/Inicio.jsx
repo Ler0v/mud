@@ -3,6 +3,7 @@ import './inicio.css'
 import videoInicio from '../../assets/videoInicio.mp4'
 import { Link } from 'react-router-dom';
 
+
 const Inicio = () => {
   return (
     <>

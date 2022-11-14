@@ -2,7 +2,6 @@ import React from 'react'
 import './servicios.css'
 import Carousel from './Carousel'
 
-
 const Servicios = () => {
   return (
     <>

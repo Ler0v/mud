@@ -1,6 +1,7 @@
 import React from 'react'
 import './sobrenosotros.css'
 import CardStaff  from './CardStaff'
+import {motion} from 'framer-motion'
 
 
 const SobreNosotros = () => {
@@ -8,7 +9,11 @@ const SobreNosotros = () => {
     <div className='sobreNosotrosContainer'>
       <div className="sobreNosotros1">
         <div className='imgFondo'>
-          <img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imgFondo1'alt="imgSobreNosotros" />
+          <motion.img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imgFondo1'alt="imgSobreNosotros" 
+          initial={{x: -200}}
+          animate={{x: 0}}
+          transition={{duration:2}}
+          />
           <img src="https://i.postimg.cc/8Pjwc3xx/IMG-6398-1.png" className='imgFondo2' alt="imgNosotros2" />
         </div>
         <div className='tituloSobreNosotros'>

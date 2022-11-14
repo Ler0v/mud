@@ -11,6 +11,14 @@
     position: relative;
 }
 
+
+
+initial={{x: -100}}
+animate={{x: 100}}
+
+
+
+
 .imgFondo1 {
     height: 350px;
     position: absolute;
