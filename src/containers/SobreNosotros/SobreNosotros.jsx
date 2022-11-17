@@ -10,18 +10,21 @@ const SobreNosotros = () => {
       <div className="sobreNosotros1">
         <div className='imgFondo'>
           <motion.img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" className='imgFondo1'alt="imgSobreNosotros" 
-          initial={{x: -200}}
-          animate={{x: 0}}
+          initial={{x: -200, opacity:0}}
+          animate={{x: 0, opacity:1}}
           transition={{duration:2}}
           />
           <motion.img src="https://i.postimg.cc/8Pjwc3xx/IMG-6398-1.png" className='imgFondo2' alt="imgNosotros2" 
-          initial={{x: 400}}
-          animate={{x:0}}
+          initial={{x: 400,opacity:0}}
+          animate={{x:0,opacity:1}}
           transition={{duration: 2}}
           />
         </div>
         <div className='tituloSobreNosotros'>
           <motion.h1
+          initial={{opacity:0}}
+          animate={{opacity:1}}
+          transition={{duration:2}}
           >"Como maquilladora pude alcanzar los sucesos más importantes, tapas de revistas, los desfiles de moda más importantes, celebrities."</motion.h1>
         </div>
       </div>
