@@ -75,8 +75,8 @@
 
 .historiaSN1Item1{
     position: absolute;
-    left: 30%;
-    bottom: 85%;
+    left: 35%;
+    bottom: 90%;
     font-family: 'Reservation';
     font-size: 4.4em;
     color: #ffff;
@@ -91,7 +91,7 @@
 
 .historiaSN1Item3{
     position: absolute; 
-    left: 35%;
+    left: 40%;
     bottom: 5%;  
 }
 

@@ -73,7 +73,7 @@ const Inicio = () => {
         />
         <div className='aboutIndexInfo'>
           <h1>Nuestros trabajos</h1>
-          <p>Entra y mira todos nuestros trabajos realizados desde celebridades hasta desfiles</p>
+          <p>Mira nuestro portafolio donde se encuentran figuras como: Sofía Zámolo, Julieta Prandi, Paula Chaves, Zaira Nara, Barbie Vélez y mas!</p>
           <Link to='/trabajos'><button>Ver Trabajos</button></Link>
         </div>
       </div>

@@ -58,7 +58,7 @@ const SobreNosotros = () => {
           variants={textAnimation}>Celeste Gonzales</motion.h1>
         <motion.img src="https://i.postimg.cc/RCfvWXXR/61-de40b12e563144010116591215845626-480-0.jpg" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
         initial={{x: -200}}
-        whileInView={{x:0, amount:0.3}}
+        whileInView={{x:100, amount:0.3}}
         viewport={{once:true}}
         transition={{duration: 3}}
         />
