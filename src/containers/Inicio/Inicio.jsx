@@ -73,7 +73,7 @@ const Inicio = () => {
         />
         <div className='aboutIndexInfo'>
           <h1>Nuestros trabajos</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet minima cupiditate quos hic repellat corrupti nam neque molestias deleniti esse saepe animi, doloremque quam in maxime? Omnis accusamus veniam velit.</p>
+          <p>Entra y mira todos nuestros trabajos realizados desde celebridades hasta desfiles</p>
           <Link to='/trabajos'><button>Ver Trabajos</button></Link>
         </div>
       </div>

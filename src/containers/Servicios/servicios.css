@@ -17,12 +17,32 @@
     color: #ffff;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
-.servicioGuia{
-    margin-top: 7rem;
+.servicioGuia p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
+
+.servicioGuia a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.servicioGuia a:hover{
+    color: rgb(187, 183, 183);
+}
+
+.servicioGuia button{
+    font-family: 'Reservation';
+    background-color: #000;
+    border-radius: 15px;
+    width: 25%;
+    border-color: transparent;
+    margin-top: 5rem;
+}
+
 
 .serviciosContainerItem{
     position: relative;
