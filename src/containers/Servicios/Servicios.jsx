@@ -1,6 +1,7 @@
 import React from 'react'
 import './servicios.css'
 import Carousel from './Carousel'
+import {motion} from 'framer-motion'
 
 const Servicios = () => {
   return (
@@ -8,30 +9,45 @@ const Servicios = () => {
       <div className='serviciosContainer'>
         <h1 className='Titulo'>Servicios</h1>
         <div className='serviciosContainerItem'> 
-          <div className="serviciosContainerItem1">
+          <motion.div className="serviciosContainerItem1"
+          initial={{x: -200, opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{duration:2}}>
             <div className='servicioGuia'>
               <p className='tituloItem'>PRO MAKEUP & HAIRSTYLE</p>
               <button><a href="#proMakeup">Ver mas</a></button>
             </div>
-          </div>
-          <div className="serviciosContainerItem2">
+          </motion.div>
+          <motion.div className="serviciosContainerItem2"
+          initial={{x: 200, opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{duration:2}}
+          >
             <div className='servicioGuia'>
               <p className='tituloItem'>Cejas</p>
               <button><a href="#cejas">Ver mas</a></button>
             </div>
-          </div>
-          <div className="serviciosContainerItem3">
+          </motion.div>
+          <motion.div className="serviciosContainerItem3"
+          initial={{x: -200, opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{duration:2}}
+          >
             <div className='servicioGuia'>
                 <p className='tituloItem'>Pestanias</p>
                 <button><a href="#pestanias">Ver mas</a></button>
               </div>
-          </div>
-          <div className="serviciosContainerItem4">
+          </motion.div>
+          <motion.div className="serviciosContainerItem4"
+          initial={{x: 200, opacity:0}}
+          animate={{x: 0, opacity:1}}
+          transition={{duration:2}}
+          >
             <div className='servicioGuia'>
                 <p className='tituloItem'>MUD PRO NAILS</p>
                 <button><a href="#nails">Ver mas</a></button>
               </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     <section id='proMakeup'>
