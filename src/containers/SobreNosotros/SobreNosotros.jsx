@@ -104,7 +104,13 @@ const SobreNosotros = () => {
       </div>
       <div className="cardsStaffContainer">
         <h1>Nuestro Staff</h1>
-        <div className='cardsStaff'>
+        <motion.div className='cardsStaff'
+        initial={"offScreen"}
+        whileInView={"onScreen"}
+        viewport={{once:true, amount:0.7}}
+        transition={{duration:2}}
+        variants={textAnimation}
+        >
           <CardStaff 
             className='cardStaffItem'
             imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
@@ -123,8 +129,14 @@ const SobreNosotros = () => {
             nombre={'Lola Espiro'}
             descripcion={"Microbaling especialist and Make up artist"}
           />
-        </div>
-        <div className='cardsStaff'>
+        </motion.div>
+        <motion.div className='cardsStaff'
+        initial={"offScreen"}
+        whileInView={"onScreen"}
+        viewport={{once:true, amount:0.7}}
+        transition={{duration:2}}
+        variants={textAnimation}
+        >
           <CardStaff 
             className='cardStaffItem'
             imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
@@ -143,7 +155,7 @@ const SobreNosotros = () => {
             nombre={'Lola Espiro'}
             descripcion={"Microbaling especialist and Make up artist"}
           />
-        </div>
+        </motion.div>
       </div>
     </div>
 
