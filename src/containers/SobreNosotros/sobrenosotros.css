@@ -552,19 +552,10 @@
     }
 
     .cardsStaffContainer{
-        width: 100%;
-        margin-top: 100px;
         position: relative;
         display: flex;
         flex-direction: column;
-    }
-    
-    .cardsStaff{
-        display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;  
-        margin-top: 6rem;
     }
 
 }

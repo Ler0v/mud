@@ -107,7 +107,7 @@ const SobreNosotros = () => {
         <motion.div className='cardsStaff'
         initial={"offScreen"}
         whileInView={"onScreen"}
-        viewport={{once:true, amount:0.7}}
+        viewport={{once:true, amount:0.5}}
         transition={{duration:2}}
         variants={textAnimation}
         >
@@ -133,7 +133,7 @@ const SobreNosotros = () => {
         <motion.div className='cardsStaff'
         initial={"offScreen"}
         whileInView={"onScreen"}
-        viewport={{once:true, amount:0.7}}
+        viewport={{once:true, amount:0.5}}
         transition={{duration:2}}
         variants={textAnimation}
         >
