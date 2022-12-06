@@ -42,8 +42,8 @@ const Footer = () => {
         </div>
       </div>
         <div className='footerRedes'>
-          <img src="https://i.postimg.cc/0yht1WdL/icons8-instagram-30.png" className='imgFooter' alt="ig" />
-          <img src="https://i.postimg.cc/YShhYR5q/icons8-facebook-30.png" className='imgFooter' alt="face" />
+          <a href="https://www.instagram.com/mudmakeupdesign/"><img src="https://i.postimg.cc/0yht1WdL/icons8-instagram-30.png" className='imgFooter' alt="ig" /></a>
+          <a href="https://www.facebook.com/mudmakeupdesign"><img src="https://i.postimg.cc/YShhYR5q/icons8-facebook-30.png" className='imgFooter' alt="face" /></a>
         </div>
         <h3 className='footerEnd'>© 2022 - MUD - Todos los derechos reservados</h3>
     </>
