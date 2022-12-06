@@ -81,8 +81,8 @@ const Inicio = () => {
         <div className='contactoInicioInfo'>
             <p>Contactanos!</p>
             <div className='botonesContacto'>
-              <Link to='/'><img src="https://i.postimg.cc/Vv4K8x3q/icons8-whatsapp-30.png"  className='botonesContactoImg' alt="contactoInicio" /></Link>
-              <Link to='/'><img src="https://i.postimg.cc/Pxv8jJqb/icons8-mail-30.png"  className='botonesContactoImg' alt="contactoInicio" /></Link>
+              <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><img src="https://i.postimg.cc/Vv4K8x3q/icons8-whatsapp-30.png"  className='botonesContactoImg' alt="contactoInicio"  /></a>
+              <a href="mailto:info@makeupdesign.com.ar"><img src="https://i.postimg.cc/Pxv8jJqb/icons8-mail-30.png"  className='botonesContactoImg' alt="contactoInicio"  /></a>
             </div>
         </div>
       </div>
