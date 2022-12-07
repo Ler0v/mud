@@ -129,29 +129,18 @@
     }
 
     .cardsStaffContainer{
-        height: 330vh;
-        font-family: 'Reservation';
+        height: 420vh;
         font-size: 1rem;
-        font-weight: 500;
-        color: #ffff;
         justify-content: flex-start;
-    }
-
-    .cardsStaffContainer:nth-child(3){
-        position: absolute;
-        top: 90%;
     }
     
     .cardsStaffContainer h1{
-        font-family: 'Reservation';
         font-size: 2rem;
-        font-weight: 500;
-        color: #ffff;
     }
     
     .cardContainer{
         margin-top: 100px;
-        height: 400px;
+        height: 500px;
         width: 350px;
     }
     
@@ -159,18 +148,16 @@
         width: 100%;
         height: 100%;
     }
-
-    .cardContainer:nth-child(3){
-        position: absolute;
-        top: 20%;
-    }
     
     .cardTextContainer{
         position: absolute;
         background-color: #000;
-        left:-1%;
-        width: 351px;
+        width: 350px;
+        left: 9%;
+        transform: translateY(450px);
+        align-items: center;
     }
+
     .cardContainer p:first-child{
         font-size: 2rem;
     }
@@ -180,17 +167,17 @@
     }
 
     .cardContainer:hover{
-        transform: none;
+        transform: translateY(0px); 
+        transition: 1s;   
     }
     
     .cardContainer:hover .cardTextContainer{
-        transform: none;
+        transform: translateY(450px);
+        transition: 0s;
     }
     
     .cardContainer:hover .cardTextContainer :nth-child(2){
-        transform: none;
         opacity: 1;
     }
 }
-
 /* FIN CARDS NOSOTROS MOBILE */

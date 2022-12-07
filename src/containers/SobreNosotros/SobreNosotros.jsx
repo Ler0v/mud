@@ -129,7 +129,7 @@ const SobreNosotros = () => {
             nombre={'Lola Espiro'}
             descripcion={"Microbaling especialist and Make up artist"}
           />
-        </motion.div>
+      </motion.div>
         <motion.div className='cardsStaff'
         initial={"offScreen"}
         whileInView={"onScreen"}
