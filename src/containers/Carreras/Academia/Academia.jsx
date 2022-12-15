@@ -1,5 +1,6 @@
 import React from 'react'
 import './academia.css'
+import InfoAcademia from './infoAcademia/InfoAcademia'
 
 
 const Academia = () => {
@@ -18,16 +19,27 @@ const Academia = () => {
           </div>
           <div className='academiaItems'>
             <div className='MUDMaquillajeProfesional'>
-              <h1>Carrera de Maquillaje Profesional</h1>
+              <h1>Nuestras Carreras</h1>
               <div className='infoAcademia'>
                 <img src="https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png" alt="fotoAcademia" />
                 <div className='seccionAcademia'>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic corrupti tempore consectetur minima, itaque reprehenderit commodi sit veritatis ipsam aspernatur obcaecati omnis assumenda eaque corporis sint temporibus error nam?</p>
-                  <button className='btnAcademia'>Ver mas</button>
+                  <button>Carrera de maquillaje profesional</button>
+                  <button>Curso de maquillaje social</button>
+                  <button>Taller de laminado de cejas</button>
+                  <button>Taller de divfting + nutricion + tinte</button>
+                  <button>Taller de disenio de cejas + henna</button>
+                  <button>Curso de peinados</button>
+                  <button>Taller de trenzas</button>
                 </div>
               </div>
             </div>
           </div>
+            <div className='academiaInfo'>
+              <InfoAcademia titulo={'Carrera de maquillaje profesional'} info1={'Ideal para apasionados por el maquillaje y trabajo creativo'} info2={'Rapida y rentable salida laboral'} info3={'Pasantias profesionales en producciones y desfiles'} info4={'Credencial profesional'} info5={'Certificado profesional'} info6={'Portafolio profesional'} info7={'Duracion 6 meses y clases de 3 horas'} />
+            </div>
+            <div className='academiaInfo'>
+              <InfoAcademia titulo={'Chau'} info={'impsum'} />
+            </div>
         </div>
     </>
   )

@@ -1,0 +1,12 @@
+.seccionUno{
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Reservation';
+}
+
+.seccionUno h1{
+    box-sizing: border-box;
+    padding: 20px;
+}

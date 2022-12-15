@@ -54,17 +54,29 @@
     flex-direction: row;
 }
 
+.seccionAcademia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    height: 600px;
+}
+
 .seccionAcademia p{
     margin: auto;
     margin-top: 4rem;
 }
 
 .seccionAcademia button{
-    margin: auto;
     margin-top: 4rem;
     height: 50px;
-    width: 200px;
+    width: 320px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-family: 'Reservation';
 }
+
 
 .infoAcademia img{
     height: 600px;
@@ -78,6 +90,18 @@
     font-family: 'Reservation';
     color: #ffff;
     font-size: 2rem;
+}
+
+.academiaInfo{
+    background-color: #ffff;
+    height: 90vh;
+    margin-top: 10%;
+}
+
+.infoPages{
+    height: 90vh;
+    background-color: #ffff;
+    color: #000;
 }
 
 
