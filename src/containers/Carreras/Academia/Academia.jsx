@@ -35,7 +35,10 @@ const Academia = () => {
             </div>
           </div>
             <div className='academiaInfo'>
-              <InfoAcademia titulo={'Carrera de maquillaje profesional'} info1={'Ideal para apasionados por el maquillaje y trabajo creativo'} info2={'Rapida y rentable salida laboral'} info3={'Pasantias profesionales en producciones y desfiles'} info4={'Credencial profesional'} info5={'Certificado profesional'} info6={'Portafolio profesional'} info7={'Duracion 6 meses y clases de 3 horas'} />
+              <InfoAcademia imagen={'https://i.postimg.cc/B6nVgBym/1.jpg'} titulo={'Carrera de maquillaje profesional'} info1={'Ideal para apasionados por el maquillaje y trabajo creativo'} info2={'Rapida y rentable salida laboral'} info3={'Pasantias profesionales en producciones y desfiles'} info4={'Credencial profesional'} info5={'Certificado profesional'} info6={'Portafolio profesional'} info7={'Duracion 6 meses y clases de 3 horas'}
+              info21={'La carrera de maquillaje profesional tiene una duracion de 6 meses , se cursa 1 vez por por semana en 3 clases por hora'} info22={'Tiene una dinámica teórico/práctica/audiovisual ágil para poder avanzar en la formación. Está organizada por niveles para la correcta formación de los profesionales'} banner1={'Beauty'} banner2={'Fashion'} banner3={'Artistic'}
+              bannerInfo={'-Preparacion de la piel y primeros pasos.'} bannerInfo2={'-Todo sobre ojos: anatomia, formologia, sobreados, contraste, esfumados, delineados, cejas, pestanias.'} bannerInfo3={'-Boca, correciones ovalo facial, rubor, highlight.'} bannerInfo4={'-Sociales: novias, 15 anios, madrinas, eventos.'} bannerInfo5={'-Smoke eyes'} bannerInfo21={'-Maquillaje con texturas, patinas, efectos, pigmentos.'} bannerInfo22={'-Cut crease.'} bannerInfo23={'-Epoca'} bannerInfo24={'-Disenio de cejas'} bannerInfo25={'-Pasarella'} bannerInfo26={'-Face Chart'} bannerInfo27={'-Fotografia'} bannerInfo28={'-Editorial'} bannerInfo31={'-Cine HD'} bannerInfo32={'-TV HD'} bannerInfo33={'-Efectos para cine'} bannerInfo34={'-Caracterizaciones'} bannerInfo35={'-Artistico'} bannerInfo36={'-Teatro'}
+              />
             </div>
             <div className='academiaInfo'>
               <InfoAcademia titulo={'Chau'} info={'impsum'} />

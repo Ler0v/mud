@@ -37,9 +37,9 @@
 .servicioGuia button{
     font-family: 'Reservation';
     background-color: #000;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 25%;
-    border-color: transparent;
+    border: 1px solid #fff;
     margin-top: 5rem;
 }
 
@@ -113,6 +113,7 @@
 .servicioInfo{
     margin-top: 4rem;
     width: 70%;
+    font-family: 'Reservation';
 }
 
 .servicioBotones{

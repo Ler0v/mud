@@ -2,6 +2,7 @@
     margin-top: 100px;
     margin-left: 5%;
     width: 90%;
+    overflow-y: hidden;
 }
 
 .headerAcademia{
@@ -56,8 +57,9 @@
 
 .seccionAcademia{
     display: flex;
-    flex-direction: column;
-    margin-left: 25%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
     height: 600px;
 }
 
@@ -67,16 +69,15 @@
 }
 
 .seccionAcademia button{
-    margin-top: 4rem;
-    height: 50px;
-    width: 320px;
+    margin-top: 6rem;
+    width: 400px;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 4px;
     font-family: 'Reservation';
+    margin-left: 40px;
 }
-
 
 .infoAcademia img{
     height: 600px;
@@ -93,16 +94,9 @@
 }
 
 .academiaInfo{
-    background-color: #ffff;
-    height: 90vh;
-    margin-top: 10%;
+    background-color: #ffff;  
 }
 
-.infoPages{
-    height: 90vh;
-    background-color: #ffff;
-    color: #000;
-}
 
 
 
