@@ -103,8 +103,8 @@
     margin: 100px auto;
     width: 90%;
     height: 95vh;
-    display: flex;
     background-color: rgb(255, 255, 255);
+    display: flex;
     position: relative;
     top: 50px;
 }
@@ -122,6 +122,14 @@
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.servicioBotones button{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .infoServicios{

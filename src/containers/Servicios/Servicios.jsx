@@ -63,7 +63,7 @@ const Servicios = () => {
         <div className='servicioInfo' >
           <h1>Pro Make Up & Hairstyle</h1>
           <div className='servicioBotones'>
-            <button onClick={()=> setInfo("El servicio estrella de MUD. Nos dedicamos hace mas de 13 años a resaltar la belleza natural de las personas a través del arte del maquillaje. Nuestro objetivo es hacerte sentir bella, cómoda y natural. Utilizamos productos de primeras marcas, importados y nacionales, y las técnicas más novedosas y trend de la industria. Si tenes un evento en el cual queres lucirte, elegí maquillarte con profesionales capacitadas, elegi MUD.")}>Pro Makeup</button>
+            <button className='botonServicio' onClick={()=> setInfo("El servicio estrella de MUD. Nos dedicamos hace mas de 13 años a resaltar la belleza natural de las personas a través del arte del maquillaje. Nuestro objetivo es hacerte sentir bella, cómoda y natural. Utilizamos productos de primeras marcas, importados y nacionales, y las técnicas más novedosas y trend de la industria. Si tenes un evento en el cual queres lucirte, elegí maquillarte con profesionales capacitadas, elegi MUD.")}>Pro Makeup</button>
             <button onClick={()=> setInfo("Elegí tu Make-up ArtistEn MUD te ofrecemos dos opciones:Maquillaje con Staff: contamos con un staff de artistas del maquillaje altamente capacitadas/os, quienes se perfeccionan constantemente y cuentan con las más novedosas técnicas y productos del mercado.")}>Bodas</button>
             <button>15 Años</button>
             <button>Pro Hairstyle</button>
