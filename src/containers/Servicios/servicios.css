@@ -136,6 +136,8 @@
     font-family: 'Reservation';
     font-size: 1rem;
     padding: 2rem;
+    height: 700px;
+    overflow-y: auto;
 }
 
 /* FIN SERVICIO DESKTOP*/
