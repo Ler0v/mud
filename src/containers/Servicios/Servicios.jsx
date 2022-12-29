@@ -61,7 +61,7 @@ const Servicios = () => {
           <Carousel />
         </div>
         <div className='servicioInfo' >
-          <h1>Pro Make Up & Hairstyle</h1>
+          <h1>Pro Make Up</h1>
           <div className='servicioBotones'>
             <button className='botonServicio' onClick={()=> setInfo("Pro Makeup")}>Pro Makeup</button>
             <button onClick={()=> setInfo("Bodas")}>Bodas</button>

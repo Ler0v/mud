@@ -30,7 +30,7 @@ const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto
           <Link to='academia'>{titulo}</Link>
         </div>
         <div ref={menuRef} className={`dropDownContent ${open? 'active' : 'inactive'}`} >
-            <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto1}</div>
+            <div className='dropDownItem'  onClick={()=> setOpen(false)}>{texto1}</div>
             <hr />
             <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto2}</div>
             <hr />
