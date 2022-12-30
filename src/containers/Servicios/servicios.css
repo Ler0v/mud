@@ -174,10 +174,10 @@
 
     @media all and (max-width: 769px){
   
-    .serviciosContainer{
-        margin-top: 140px;
-        height: 100vh;
-    }
+        .serviciosContainer{
+            margin-top: 140px;
+            height: 100vh;
+        }
 
     .serviciosContainerItem{
         position: relative;
@@ -233,7 +233,6 @@
 
   @media all and (max-width: 469px){
   
-   
 
     .serviciosContainerItem{
         position: relative;
@@ -297,6 +296,7 @@
 
     .servicioCarousel{
         width: 100%;
+        height: 200px;
     }
 
     .carousel{
@@ -304,8 +304,18 @@
     }
 
     .servicioInfo{
+        margin-top: 0rem;
+        height: 500px;
         width: 100%;
-        font-family: 'Reservation';
+        overflow-y: auto;
+    }
+
+    .servicioBotones{
+        margin-top: 0rem;
+        display: flex;
+        flex: 2;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
     }
 
     .infoServicios{
