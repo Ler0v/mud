@@ -51,7 +51,7 @@ function Example(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText}  />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
@@ -61,12 +61,12 @@ function Example(args) {
   });
 
   return (
-    <Carousel
+    <Carousel className='carousel'
       activeIndex={activeIndex}
       next={next}
       previous={previous}
       {...args}
-    >
+      >
       <CarouselIndicators
         items={items}
         activeIndex={activeIndex}

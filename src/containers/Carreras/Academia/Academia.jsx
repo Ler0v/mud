@@ -3,7 +3,10 @@ import './academia.css'
 import InfoAcademia from './infoAcademia/InfoAcademia'
 
 
+
+
 const Academia = () => {
+
   return (
     <>
         <div className='academiaContainer'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react';
 
 
 const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto7}) => {
