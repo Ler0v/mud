@@ -28,9 +28,9 @@ const Academia = () => {
                 <div className='seccionAcademia'>
                   <button><a href='#carreraMaquillaje'>Carrera de maquillaje profesional</a></button>
                   <button><a href='#cursoMaquillaje'>Curso de maquillaje social</a></button>
-                  <button><a href='#tallerCejas'>Taller de laminado de cejas</a></button>
-                  <button><a href='#tallerLifting'>Taller de lifting + nutricion + tinte</a></button>
-                  <button><a href='#tallerCejasHenna'>Taller de disenio de cejas + henna</a></button>
+                  <button><a href='#tallerCejas'>Diseño y perfilado de cejas + Henna</a></button>
+                  <button><a href='#tallerCejasHenna'>Brow Lamination</a></button>
+                  <button><a href='#tallerLifting'>Lash Lifting</a></button>
                   <button><a href='#cursoPeinados'>Curso de peinados</a></button>
                   <button><a href='#tallertrenzas'>Taller de trenzas</a></button>
                 </div>

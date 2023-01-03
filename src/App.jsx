@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import {Navbar, Footer} from './components'
-import {Inicio, Servicios, Contacto, SobreNosotros} from './containers/index'
+import {Inicio, Servicios, Contacto, SobreNosotros, Trabajos} from './containers/index'
 import Academia from './containers/Carreras/Academia/Academia';
 
 
@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Inicio />}/>
         <Route  path='/servicios' element={<Servicios />}/>
+        <Route path='/trabajos' element={<Trabajos />}/>
         <Route path='/sobrenosotros' element={<SobreNosotros />}/>
         <Route path='/academia' element={<Academia />}/>
         <Route path='/contacto' element={<Contacto />}/>
