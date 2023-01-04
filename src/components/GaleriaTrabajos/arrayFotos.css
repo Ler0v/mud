@@ -1,3 +1,11 @@
+.titulo{
+    margin-top: 100px;
+    font-family: 'Reservation';
+    color: #ffff;
+    font-size: 3.5rem;
+}
+
+
 .slider{
     height: 80vh;
     margin: auto;
@@ -10,7 +18,9 @@
 
 .slider-track{
     display: flex;
-    width: calc(250px * 18);
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(600px * 18);
     animation: scroll 40s linear infinite
 }
 
@@ -31,11 +41,11 @@
 
 .slide{
     height: 200px;
-    width: 250px;
+    width: 600px;
     display: flex;
     align-items: center;
     padding: 15px;
-    perspective: 100px;
+    perspective: 250px;
 }
 
 .imgGaleria{
