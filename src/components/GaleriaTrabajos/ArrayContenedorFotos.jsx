@@ -18,15 +18,15 @@ const Imagen = [
     },
     {
         id: 5,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/TwmB4x4H/foto-academia-1.png'
     },
     {
         id: 6,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png'
     },
     {
         id: 7,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/TwmB4x4H/foto-academia-1.png'
     },
     {
         id: 8,
@@ -34,7 +34,7 @@ const Imagen = [
     },
     {
         id: 9,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png'
     },
     {
         id: 10,
@@ -42,11 +42,11 @@ const Imagen = [
     },
     {
         id: 11,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png'
     },
     {
         id: 12,
-        img: 'https://i.postimg.cc/B6nVgBym/1.jpg'
+        img: 'https://i.postimg.cc/TwmB4x4H/foto-academia-1.png'
     },
     {
         id: 13,

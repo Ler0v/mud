@@ -14,8 +14,10 @@ from '@fortawesome/free-solid-svg-icons';
 const ArrayFotos = () => {
 
     const [openModal, setOpenModal] = useState(false);
+    const [slideNumber, setSlideNumber] = useState(0);
 
-    const handleModal = () => {   
+    const handleModal = (index) => {   
+        setSlideNumber(index)
         setOpenModal(true)
     }
 
@@ -25,10 +27,14 @@ const ArrayFotos = () => {
     } 
 
     const prevSlide = () => {   
-        setOpenModal(true)
+        slideNumber === 0 
+        ? setSlideNumber(Imagen.length -1)
+        : setSlideNumber(slideNumber - 1)
     }
     const nextSlide = () => {   
-        setOpenModal(true)
+        slideNumber + 1 === Imagen.length 
+        ? setSlideNumber(0)
+        : setSlideNumber(slideNumber + 1)
     }        
 
   return (
@@ -36,11 +42,11 @@ const ArrayFotos = () => {
 
         {openModal &&
             <div className='sliderWrap'>
-                <FontAwesomeIcon icon={faCircleXmark} className='btnClose'/>
-                <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev'/>
-                <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext'/>
+                <FontAwesomeIcon icon={faCircleXmark} className='btnClose' onClick={handleCloseModal}/>
+                <FontAwesomeIcon icon={faCircleChevronLeft} className='btnPrev' onClick={prevSlide}/>
+                <FontAwesomeIcon icon={faCircleChevronRight} className='btnNext' onClick={nextSlide}/>
                 <div className='fullScreenImage'>
-                    <img src={Imagen} alt="imgFullscreen"  />
+                    <img src={Imagen[slideNumber].img} alt="imgFullscreen"  />
                 </div>
             </div>
         }
@@ -52,10 +58,10 @@ const ArrayFotos = () => {
                 
 
                 {
-                    Imagen && Imagen.map((Imagen) => {
+                    Imagen && Imagen.map((Imagen, index) => {
                        return(
                             <div className="fotosMovimiento" 
-                                onClick={ ()=> handleModal()} 
+                                onClick={ ()=> handleModal(index)} 
                             >
                                 <img src={Imagen.img} alt="trabajos" className='imgGaleria' />
                             </div>
@@ -64,8 +70,21 @@ const ArrayFotos = () => {
                 }
 
 
+            </div>
 
-                {/* <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
+        </div>
+    
+    </>
+  )
+}
+
+export default ArrayFotos
+
+{/* /* fotosMovimiento 2 */}
+                
+
+
+                 {/* <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g1" />
                 </div>
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
@@ -93,6 +112,7 @@ const ArrayFotos = () => {
                     <img src={Imagen.img1} className='imgGaleria' alt="g9" />
                 </div>
 
+                
 
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g10" />
@@ -121,16 +141,3 @@ const ArrayFotos = () => {
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g18" />
                 </div> */}
-
-            </div>
-
-        </div>
-    
-    </>
-  )
-}
-
-export default ArrayFotos
-
-
-                {/* /* fotosMovimiento 2 */}
