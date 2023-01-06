@@ -1,6 +1,6 @@
 import React from 'react'
 import './arrayFotos.css'
-import Imagen from './ArrayContenedorFotos';
+import Imagen from './ArrayContenedorFotos'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
@@ -50,7 +50,22 @@ const ArrayFotos = () => {
 
             <div className="slider-track">
                 
-                <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
+
+                {
+                    Imagen && Imagen.map((Imagen) => {
+                       return(
+                            <div className="fotosMovimiento" 
+                                onClick={ ()=> handleModal()} 
+                            >
+                                <img src={Imagen.img} alt="trabajos" className='imgGaleria' />
+                            </div>
+                        )
+                    })
+                }
+
+
+
+                {/* <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g1" />
                 </div>
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
@@ -78,7 +93,6 @@ const ArrayFotos = () => {
                     <img src={Imagen.img1} className='imgGaleria' alt="g9" />
                 </div>
 
-                {/* /* fotosMovimiento 2 */}
 
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g10" />
@@ -106,7 +120,7 @@ const ArrayFotos = () => {
                 </div>
                 <div className='fotosMovimiento' onClick={ ()=> handleModal()}>
                     <img src={Imagen.img1} className='imgGaleria' alt="g18" />
-                </div>
+                </div> */}
 
             </div>
 
@@ -117,3 +131,6 @@ const ArrayFotos = () => {
 }
 
 export default ArrayFotos
+
+
+                {/* /* fotosMovimiento 2 */}
