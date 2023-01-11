@@ -1,3 +1,5 @@
+/* SERVICIO DESKTOP */
+
 .academiaContainer{
     margin-top: 100px;
     margin-left: 5%;
@@ -92,6 +94,77 @@
     height: 650px;
     overflow-y: auto;
 }
+
+/* FIN SERVICIO DESKTOP*/
+
+/* SERVICIO CHICO */
+
+@media all and (max-width: 1600px){
+  
+    .serviciosContainer{
+        margin-top: 100px;
+        height: 85vh;
+    }
+
+    .Titulo{
+        font-size: 3.5rem;
+        position: relative;
+    }
+
+}
+  
+  /* FIN SERVICIO CHICO */
+
+  /* SERVICIO MOBILE */
+
+  @media all and (max-width: 469px){
+  
+
+    .academia{
+        margin: 100px auto;
+        width: 100%     ;
+        height: 95vh;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        top: 50px;
+    }
+
+    .academiaCarousel img{
+        height: 200px;
+        width: 100%;   
+    }
+
+    .academiaCarousel{
+        width: 100%;
+        height: 200px;
+    }
+
+    .academiaInfo{
+        margin-top: 0rem;
+        height: 500px;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .academiaBotones{
+        margin-top: 0rem;
+        display: flex;
+        flex: 2;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+    }
+
+    .infoAcademia{
+        padding: 20px;
+        font-size: 1rem;    
+        height: 400px;
+        overflow-y: auto;
+    }
+}
+  
+  /* FIN MOBILE */
 
 
 
