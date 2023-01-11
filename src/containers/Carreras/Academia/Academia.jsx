@@ -7,6 +7,8 @@ import { useState } from 'react'
 
 const Academia = () => {
 
+  const [info, setInfo] = useState("")
+
   return (
     <>
         <div className='academiaContainer'>
@@ -27,7 +29,7 @@ const Academia = () => {
             <div className='academiaInfo'>
               <h1>Academia</h1>
               <div className='academiaBotones'>
-                  <button>Carrera de maquillaje profesional</button>
+                  <button onClick={()=> setInfo("Carrera Maquillaje")}>Carrera de maquillaje profesional</button>
                   <button>Curso de maquillaje socia</button>
                   <button>Diseño y perfilado de cejas + Henna</button>
                   <button>Brow Lamination</button>
@@ -36,7 +38,13 @@ const Academia = () => {
                   <button>Taller de trenzas</button>
                 </div>
                 <div className="academiaInfo">
-                
+                  {info === "Carrera Maquillaje"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
                 </div>
             </div>
           </div>

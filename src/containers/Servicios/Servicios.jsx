@@ -65,14 +65,16 @@ const Servicios = () => {
           <div className='servicioBotones'>
             <button className='botonServicio' onClick={()=> setInfo("Pro Makeup")}>Pro Makeup</button>
             <button onClick={()=> setInfo("Bodas")}>Bodas</button>
-            <button onClick={()=> setInfo('15 Años')}>15 Años</button>
+            <button onClick={()=> setInfo("15 Años")}>15 Años</button>
             <button>Pro Hairstyle</button>
           </div>
           <div className='infoServicios'>
-            {info === 'Pro Makeup' && <div>
+            {info === 'Pro Makeup' && 
+            <div>
               <h1>El servicio estrella de MUD</h1>
               <p>Nos dedicamos hace mas de 13 años a resaltar la belleza natural de las personas a través del arte del maquillaje.
-              Nuestro objetivo es hacerte sentir bella, cómoda y natural. Utilizamos productos de primeras marcas, importados y nacionales, y las técnicas más novedosas y trend de la industria. Si tenes un evento en el cual queres lucirte, elegí maquillarte con profesionales capacitadas, elegi MUD.</p>
+              Nuestro objetivo es hacerte sentir bella, cómoda y natural.</p>
+              <p>Utilizamos productos de primeras marcas, importados y nacionales, y las técnicas más novedosas y trend de la industria. Si tenes un evento en el cual queres lucirte, elegí maquillarte con profesionales capacitadas, elegi MUD.</p>
               <h3>
                 En MUD te ofrecemos dos opciones:
               </h3>
@@ -87,8 +89,8 @@ const Servicios = () => {
                 <li>Optimizamos tu tiempo: al acudir a un gran evento, siempre hay muchos preparativos. Aunque sepas manejarte, puede que los nervios te jueguen una mala pasada y tengas que desmaquillarte y comenzar de cero. En MUD realizaremos todo el trabajo por vos, asegurando un resultado impecable.</li>
                 <li>Lucirás radiante en las fotos: hoy en día con la tecnología existente las cámaras que se utilizan en eventos no bajan de resoluciones como 4K, Ultra HD, y hasta 8K, donde hasta el más mínimo detalle se nota. Con un maquillaje profesional te aseguras de lucir impecable tanto en persona como a través de las cámaras.</li>
               </ul>
-              </div>}  
-            {info === '15 Años' && <div>
+            </div>}  
+            {info === "15 Años" && <div>
               <h1>hola</h1>
               <ul>
                 <li>hola</li>
