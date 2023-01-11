@@ -15,8 +15,8 @@ const Servicios = () => {
         <h1 className='Titulo'>Servicios</h1>
         <div className='serviciosContainerItem'> 
           <motion.div className="serviciosContainerItem1"
-          initial={{x: -200, opacity:0}}
-          animate={{x: 0, opacity:1}}
+          initial={{y: +200, opacity:0}}
+          animate={{y: 0, opacity:1}}
           transition={{duration:2}}>
             <div className='servicioGuia'>
               <p className='tituloItem'>PRO MAKEUP & HAIRSTYLE</p>
@@ -24,8 +24,8 @@ const Servicios = () => {
             </div>
           </motion.div>
           <motion.div className="serviciosContainerItem2"
-          initial={{x: 200, opacity:0}}
-          animate={{x: 0, opacity:1}}
+          initial={{y: +200, opacity:0}}
+          animate={{y: 0, opacity:1}}
           transition={{duration:2}}
           >
             <div className='servicioGuia'>
@@ -34,9 +34,9 @@ const Servicios = () => {
             </div>
           </motion.div>
           <motion.div className="serviciosContainerItem3"
-          initial={{x: -200, opacity:0}}
-          animate={{x: 0, opacity:1}}
-          transition={{duration:2}}
+          initial={{y: +200, opacity:0}}
+          animate={{y: 0, opacity:1}}
+          transition={{duration:3}}
           >
             <div className='servicioGuia'>
                 <p className='tituloItem'>Pestanias</p>
@@ -44,9 +44,9 @@ const Servicios = () => {
               </div>
           </motion.div>
           <motion.div className="serviciosContainerItem4"
-          initial={{x: 200, opacity:0}}
-          animate={{x: 0, opacity:1}}
-          transition={{duration:2}}
+          initial={{y: 200, opacity:0}}
+          animate={{y: 0, opacity:1}}
+          transition={{duration:3}}
           >
             <div className='servicioGuia'>
                 <p className='tituloItem'>MUD PRO NAILS</p>

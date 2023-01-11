@@ -30,12 +30,12 @@ const Academia = () => {
               <h1>Academia</h1>
               <div className='academiaBotones'>
                   <button onClick={()=> setInfo("Carrera Maquillaje")}>Carrera de maquillaje profesional</button>
-                  <button>Curso de maquillaje socia</button>
-                  <button>Diseño y perfilado de cejas + Henna</button>
-                  <button>Brow Lamination</button>
-                  <button>Lash Lifting</button>
-                  <button>Curso de peinados</button>
-                  <button>Taller de trenzas</button>
+                  <button onClick={()=> setInfo("Curso maquillaje")}>Curso de maquillaje socia</button>
+                  <button onClick={()=> setInfo("Diseño y perfilado")}>Diseño y perfilado de cejas + Henna</button>
+                  <button onClick={()=> setInfo("Brow")}>Brow Lamination</button>
+                  <button onClick={()=> setInfo("Lash")}>Lash Lifting</button>
+                  <button onClick={()=> setInfo("peinados")}>Curso de peinados</button>
+                  <button onClick={()=> setInfo("Taller trenzas")}>Taller de trenzas</button>
                 </div>
                 <div className="academiaInfo">
                   {info === "Carrera Maquillaje"
@@ -43,6 +43,56 @@ const Academia = () => {
                    <>
                     <h1>hola</h1>
                     <h6>chau</h6>
+                   </>
+                  }
+
+                  {info === "Curso maquillaje"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "Curso maquillaje"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "Diseño y perfilado"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "Brow"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "Lash"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "peinados"
+                   && 
+                   <>
+                    <h1>hola</h1>
+                    <h6>chau</h6>
+                   </>
+                  }
+                  {info === "Taller trenzas"
+                   && 
+                   <>
+                    <h1>CHAU</h1>
+                    <h6>HOLA</h6>
                    </>
                   }
                 </div>
