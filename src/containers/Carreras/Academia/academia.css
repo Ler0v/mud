@@ -62,9 +62,10 @@
     top: 50px;
 }
 
-.academiaInfo{
+.academiaCarousel img{
+    height: 100%;
     width: 100%;
-    font-family: 'Reservation';
+    object-fit: cover;
 }
 
 .academiaBotones{
@@ -80,7 +81,7 @@
     background-color: #000;
     border: 1px solid #fff;
     border-radius: 5px;
-    margin: 5px;
+    margin: 15px 10px 0px 0px;
 }
 
 .academiaBotones button:hover{
@@ -90,9 +91,15 @@
 .academiaInfo{
     font-family: 'Reservation';
     font-size: 1rem;
+    width: 80%;
     padding: 2rem;
-    height: 650px;
-    overflow-y: auto;
+    height: 95vh;
+    overflow-y: scroll;
+}
+
+.academiaInfoDetalle{
+    font-family: 'Reservation';
+    margin-top: 4rem;
 }
 
 /* FIN ACADEMIA DESKTOP*/
