@@ -19,8 +19,7 @@ const Servicios = () => {
           animate={{y: 0, opacity:1}}
           transition={{duration:2}}>
             <div className='servicioGuia'>
-              <p className='tituloItem'>PRO MAKEUP & HAIRSTYLE</p>
-              <button><a href="#proMakeup">Ver mas</a></button>
+              <button style={{backgroundImage: "url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg')", backgroundPositionY:"-170px"}}><a href="#proMakeup"><p>Pro Make Up & Hairstyle</p></a></button>
             </div>
           </motion.div>
           <motion.div className="serviciosContainerItem2"
@@ -29,8 +28,7 @@ const Servicios = () => {
           transition={{duration:2}}
           >
             <div className='servicioGuia'>
-              <p className='tituloItem'>Cejas</p>
-              <button><a href="#cejas">Ver mas</a></button>
+              <button style={{backgroundImage: "url('https://i.postimg.cc/Wzhk8FSJ/IMG-6742.jpg')", backgroundPositionY:"-270px"}}><a href="#cejas"><p>Cejas</p></a></button>
             </div>
           </motion.div>
           <motion.div className="serviciosContainerItem3"
@@ -39,8 +37,7 @@ const Servicios = () => {
           transition={{duration:3}}
           >
             <div className='servicioGuia'>
-                <p className='tituloItem'>Pestanias</p>
-                <button><a href="#pestanias">Ver mas</a></button>
+                <button style={{backgroundImage: "url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg')"}}><a href="#pestanias"><p>Pestanias</p></a></button>
               </div>
           </motion.div>
           <motion.div className="serviciosContainerItem4"
@@ -49,8 +46,7 @@ const Servicios = () => {
           transition={{duration:3}}
           >
             <div className='servicioGuia'>
-                <p className='tituloItem'>MUD PRO NAILS</p>
-                <button><a href="#nails">Ver mas</a></button>
+                <button style={{backgroundImage: "url('https://i.postimg.cc/gJbVmF8B/nail-hygiene-and-care-flat-lay.jpg')", backgroundPositionX:"-250px", backgroundPositionY:"-100px"}}><a href="#nails"><p>MUD Pro Nails</p></a></button>
               </div>
           </motion.div>
         </div>

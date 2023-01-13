@@ -19,10 +19,10 @@
     justify-content: center;
 }
 
-.servicioGuia p{
-    margin-top: 1rem;
-    font-size: 1.5rem;
+.servicioGuia button p{
+    font-size: 1.7rem;
     font-weight: 500;
+    height: 100%;
 }
 
 .servicioGuia a{
@@ -38,9 +38,8 @@
     font-family: 'Reservation';
     background-color: #000;
     border-radius: 5px;
-    width: 25%;
-    border: 1px solid #fff;
-    margin-top: 5rem;
+    width: 100%;
+    height: 250px;
 }
 
 
@@ -48,34 +47,29 @@
     position: relative;
     height: 500px;
     width: 1200px;
-    margin: 4rem auto;
+    margin: 5rem auto;
 }
 
 .serviciosContainerItem1{
     position: absolute;
     top: 0; 
-    height: 200px;
-    width: 500px;
-    background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
-    background-position: center;
+    height: 220px;
+    width: 520px;
 }
 
 .serviciosContainerItem2{
     position: absolute;
     right: 0;
-    height: 200px;
-    width: 500px;
-    background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
-    background-position: center;
+    height: 220px;
+    width: 520px;
 }
 
 .serviciosContainerItem3{
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 200px;
-    width: 500px;
-    background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
+    height: 220px;
+    width: 520px;
     background-position: center;
 }
 
@@ -83,10 +77,8 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 200px;
-    width: 500px;
-    background-image: url('https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg');
-    background-position: center;
+    height: 220px;
+    width: 520px;
 }
 
 .servicioCarousel{
