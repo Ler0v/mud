@@ -110,7 +110,7 @@
   color: #ffff;
   position: absolute;
   bottom: 70%;
-  left: 40%;
+  left: 42%;
 }
 
 .botonesContacto{
@@ -118,13 +118,13 @@
   flex-direction: row;
   justify-content: space-evenly;
   position: absolute;
-  left: 40%;
+  left: 42%;
   top: 70%;
   width: 300px;
 }
 
 .botonesContactoImg{
-  height: 40px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -134,17 +134,17 @@
 
 .botonInicio{
     font-size: 1.3rem;
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #fff;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
     height: 70px;
-    width: 250px;
+    width: 300px;
     border-radius: 5px;
     margin: 15px 10px 0px 0px;
 }
 
 .botonInicio:hover{
-  background-color: rgba(255, 0, 0, .5);
+  opacity: .5;
 }
 
 
