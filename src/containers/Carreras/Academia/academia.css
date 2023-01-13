@@ -99,7 +99,22 @@
 
 .academiaInfoDetalle{
     font-family: 'Reservation';
-    margin-top: 4rem;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.academiaInfoDetalle .botonInscripcion{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 15px 10px 0px 0px;
+}
+
+.academiaInfoDetalle .botonInscripcion:hover{
+    opacity: .5;
 }
 
 /* FIN ACADEMIA DESKTOP*/

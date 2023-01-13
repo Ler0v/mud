@@ -67,7 +67,7 @@ const Academia = () => {
                       <li>Disponibilidad del material audiovisual clase a clase.</li>
                       <li>Ambiente amigable: WiFi Zone y ambiente climatizado.</li>
                     </ul>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -100,7 +100,7 @@ const Academia = () => {
                       <li>Certificado</li>
                       <li>Descuentos exclusivos en productos profesionales.</li>
                     </ul>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -123,7 +123,7 @@ const Academia = () => {
                     <p>- Depilación con pincita</p>
                     <p>- Uso correcto de perfilador</p>
                     <p>- Preparación y aplicación de henna</p>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -143,7 +143,7 @@ const Academia = () => {
                     <p>- Productos, composición y proceso químico.</p>
                     <p>- Nutrición: tratamiento de recuperación con Botox y Keratina, diferencias entre cada uno. Técnica novedosa que acelera el crecimiento, hace que las cejas se vean más brillantes y saludables.</p>
                     <p>- Cuidados posteriores.</p>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -170,7 +170,7 @@ const Academia = () => {
                     <p>- Tinte: preparación y aplicación</p>
                     <p>- Nutrición: tratamiento de recuperación con Botox y Keratina, diferencias entre cada uno. Técnica novedosa que acelera el crecimiento, hace que las cejas se vean más brillantes y saludables.</p>
                     <p>- Cuidados posteriores.</p>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -182,7 +182,7 @@ const Academia = () => {
                     <h1>Modalidad:</h1>
                     <p>- 100% presencial.</p>
                     <p>- Duración: 2 meses.</p>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -206,7 +206,7 @@ const Academia = () => {
                     <p>- Peine de cola.</p>
                     <p>- Picos metálicos.</p>
                     <p>- Broches de separación.</p>
-                    <button>Inscribite ahora!</button>
+                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </>
                   }
 
@@ -230,7 +230,7 @@ const Academia = () => {
                       <p>- Técnicas básicas de limado</p>
                       <p>- Esmaltado semipermanente</p>
                       <p>- Retirado</p>
-                      <button>Inscribite ahora!</button>
+                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </>
                   }
 
@@ -264,7 +264,7 @@ const Academia = () => {
                         <li>Fresa flama o fuego</li>
                         <li>Fresa pulidora</li>
                       </ul>
-                      <button>Inscribite ahora!</button>
+                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </>
                   }
                 </div>
