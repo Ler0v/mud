@@ -43,7 +43,7 @@
 }
 
 .cardContainer:hover .cardTextContainer{
-    transform: translateY(-100px);
+    transform: translateY(-80px);
     transition: 1s;
 }
 

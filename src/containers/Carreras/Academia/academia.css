@@ -56,7 +56,6 @@
     margin: 100px auto;
     width: 100%;
     height: 95vh;
-    background-color: rgb(255, 255, 255);
     display: flex;
     position: relative;
     top: 50px;
@@ -77,9 +76,9 @@
 }
 
 .academiaBotones button{
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #fff;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
     border-radius: 5px;
     margin: 15px 10px 0px 0px;
 }
@@ -104,11 +103,12 @@
 }
 
 .academiaInfoDetalle .botonInscripcion{
+    font-size: 1.3rem;
     color: #fff;
     background-color: #000;
     border: 1px solid #fff;
     height: 70px;
-    width: 200px;
+    width: 250px;
     border-radius: 5px;
     margin: 15px 10px 0px 0px;
 }

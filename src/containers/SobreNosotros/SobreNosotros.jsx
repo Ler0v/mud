@@ -55,7 +55,7 @@ const SobreNosotros = () => {
           whileInView={"onScreen"}
           viewport={{once:true,amount:0.5}}
           transition={{duration:2}}
-          variants={textAnimation}>Celeste Gonzales</motion.h1>
+          variants={textAnimation}>Celeste Gonzalez</motion.h1>
         <motion.img src="https://i.postimg.cc/RCfvWXXR/61-de40b12e563144010116591215845626-480-0.jpg" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
         initial={{x: -200}}
         whileInView={{x:100, amount:0.3}}
@@ -114,14 +114,14 @@ const SobreNosotros = () => {
           <CardStaff 
             className='cardStaffItem'
             imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
-            nombre={'Lola Espiro'}
-            descripcion={"Microbaling especialist and Make up artist"}
+            nombre={'Celeste González'}
+            descripcion={"CEO & Profesional Make Up artist"}
           />
           <CardStaff
             className='cardStaffItem' 
             imagenStaff={'https://makeupdesign.com.ar/img/nosotros/celeste.jpg'}
-            nombre={'Celeste González'}
-            descripcion={"Directora Microbaling especialist and Make up artist"}
+            nombre={'Camila Pereira'}
+            descripcion={"Brow & Lash Expert & Pro Make Up artist"}
           />
           <CardStaff
             className='cardStaffItem' 
@@ -140,19 +140,19 @@ const SobreNosotros = () => {
           <CardStaff 
             className='cardStaffItem'
             imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
-            nombre={'Lola Espiro'}
+            nombre={'Emanuel Luna'}
             descripcion={"Microbaling especialist and Make up artist"}
           />
           <CardStaff
             className='cardStaffItem' 
             imagenStaff={'https://makeupdesign.com.ar/img/nosotros/celeste.jpg'}
-            nombre={'Celeste González'}
+            nombre={'Aldana Suarez'}
             descripcion={"Directora Microbaling especialist and Make up artist"}
           />
           <CardStaff
             className='cardStaffItem' 
             imagenStaff={'https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg'}
-            nombre={'Lola Espiro'}
+            nombre={'Anabela Chuquel'}
             descripcion={"Microbaling especialist and Make up artist"}
           />
         </motion.div>

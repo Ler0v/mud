@@ -30,7 +30,7 @@ const Inicio = () => {
           viewport={{once: true,amount:0.7}}
           transition={{duration:2}}
           variants={animacionOnScreen}
-        className='tituloCardsBody'>Porque MUD?</motion.h1>
+        className='tituloCardsBody'>¿Por que MUD?</motion.h1>
         <motion.div className="cardsBody"
           initial={"offScreen"}
           whileInView={"onScreen"}
@@ -48,7 +48,7 @@ const Inicio = () => {
           </div>
           <div className='cardBodyContainer'>
             <h1 className='letraIndex'>Nuestras carreras</h1>
-            <Link to='/carreras'><motion.img 
+            <Link to='/academia'><motion.img 
               initial={{scale:1}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}  
@@ -74,7 +74,7 @@ const Inicio = () => {
         <div className='aboutIndexInfo'>
           <h1>Nuestros trabajos</h1>
           <p>Mira nuestro portafolio donde se encuentran figuras como: Sofía Zámolo, Julieta Prandi, Paula Chaves, Zaira Nara, Barbie Vélez y mas!</p>
-          <Link to='/trabajos'><button>Ver Trabajos</button></Link>
+          <Link to='/trabajos'><button className='botonInicio'>Ver Trabajos</button></Link>
         </div>
       </div>
       <div className='contactoInicioContainer'>

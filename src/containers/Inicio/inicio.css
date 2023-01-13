@@ -132,6 +132,21 @@
   opacity: .7;
 }
 
+.botonInicio{
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 15px 10px 0px 0px;
+}
+
+.botonInicio:hover{
+  background-color: rgba(255, 0, 0, .5);
+}
+
 
 /* FIN BODY DESKTOP */
 
