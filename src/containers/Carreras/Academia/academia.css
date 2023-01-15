@@ -93,7 +93,8 @@
     width: 80%;
     padding: 2rem;
     height: 95vh;
-    overflow-y: scroll;
+    overflow-y: scroll; 
+    color: #fff;
 }
 
 .academiaInfoDetalle{
