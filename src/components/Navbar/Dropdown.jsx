@@ -29,7 +29,7 @@ const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto
         <div className="dropDownBtn" onClick={() => setOpen(!open)} onMouseEnter={()=> setOpen(true)}>
           <Link to='academia'>{titulo}</Link>
         </div>
-        <div ref={menuRef} className={`dropDownContent ${open? 'active' : 'inactive'}`} >
+        {/* <div ref={menuRef} className={`dropDownContent ${open? 'active' : 'inactive'}`} >
             <div className='dropDownItem'  onClick={()=> setOpen(false)}>{texto1}</div>
             <hr />
             <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto2}</div>
@@ -43,7 +43,7 @@ const Dropdown = ({titulo, texto1, texto2, texto3, texto4, texto5, texto6, texto
             <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto6}</div>
             <hr />
             <div className='dropDownItem' onClick={()=> setOpen(false)}>{texto7}</div>
-        </div>
+        </div> */}
     </div>
   )
 }
