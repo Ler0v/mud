@@ -7,11 +7,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-top: 2px solid rgb(255, 255, 255);
 }
 
 .footerContainer img{
   height: 30px;
+  border-top: 2px solid rgb(255, 255, 255);
 }
 
 .footerInfo{
@@ -71,7 +71,7 @@
     font-family: 'Reservation';
     color: #ffff;
     height: 600px;
-    border-top: 2px solid rgb(44, 29, 172);
+    border-top: 2px solid rgb(255, 255, 255);
   }
   .footerInfo{
     display: flex;

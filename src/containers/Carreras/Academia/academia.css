@@ -118,6 +118,12 @@
     opacity: .5;
 }
 
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* FIN ACADEMIA DESKTOP*/
 
 /* ACADEMIA CHICO */
@@ -126,7 +132,6 @@
     
     .academia{
         margin: 0px auto;
-        background-color: rgb(255, 255, 255);
         display: flex;
         position: relative;
         top: 50px;
@@ -157,6 +162,36 @@
   /* ACADEMIA MOBILE */
 
   @media all and (max-width: 469px){
+
+    .headerAcademia{
+        background-position-x: -200px;
+    }
+    
+    .headerItem1{
+        font-size: 2rem;
+    }
+    
+    .headerItem2{
+        font-size: 1rem;
+    }
+    
+    .headerItem3{
+        font-size: 1.5rem;
+        margin-top: 2.2rem;
+    }
+    
+    .headerItemPosition1{
+        position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+    
+    .headerItemPosition2{
+        position: absolute;
+        top: 70%;
+        left: 25%;
+    }
+    
   
 
     .academia{
@@ -165,7 +200,6 @@
         height: 95vh;
         display: flex;
         flex-wrap: wrap;
-        background-color: rgb(255, 255, 255);
         position: relative;
         top: 50px;
     }
@@ -182,7 +216,7 @@
 
     .academiaInfo{
         margin-top: 0rem;
-        height: 500px;
+        height: 600px;
         width: 100%;
         overflow-y: auto;
     }
