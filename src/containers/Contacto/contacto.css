@@ -83,7 +83,7 @@ label{
 @media all and (max-width: 469px){
   
     .contactoContainer{
-        width: 90%;
+        width: 80%;
         margin: 150px auto;
         align-self: center;
     }
@@ -96,7 +96,7 @@ label{
     }
     
     .contactoContainer h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .infoContacto{
@@ -126,14 +126,20 @@ label{
     }
 
     .formContainer button{
-        width: 40%;
-        height: 30px;
-        margin-top: 1rem;
+        width: 50%;
+        height: 40px;
+        margin-top: 2rem;
         align-self: center;
         border-radius: 5px;
     }
 
-    
+    input{
+        height: 35px;
+    }
+    select{
+        height: 35px;
+    }
+
 }
 
 /*FIN CONTACTO MOBILE */
