@@ -20,16 +20,7 @@ const Navbar = () => {
       <div className='navItemsContainer'>
         <ul className={`nav ${clicked ? 'active' : ''}`}>
             <li>
-              <Link to='/' className='navItem' onClick={handleClick}>Inicio</Link>
-            </li>
-            <li>
               <Link to='/servicios' className='navItem' onClick={handleClick}>Servicios</Link>
-            </li>
-            <li>
-              <Link to='/trabajos' className='navItem' onClick={handleClick}>Trabajos</Link>
-            </li>
-            <li>
-              <Link to='/sobrenosotros' className='navItem' onClick={handleClick}>Nosotros</Link>
             </li>
             <li>
               <Link to='/productos' className='navItem' onClick={handleClick}>Productos</Link>
@@ -37,6 +28,12 @@ const Navbar = () => {
             <li className='dropDownContainer'>
               <Link to='/academia' className='navItem'
               onClick={handleClick}><Dropdown titulo={'MUD Academy'} texto1={'Carrera de maquillaje profesional'} texto2={'Curso de maquillaje social'} texto3={'Taller de laminado de cejas'} texto4={'Taller de divfting + nutricion + tinte'} texto5={'Taller de disenio de cejas + henna'} texto6={'Curso de peinados'} texto7={'Taller de trenzas'}/></Link>
+            </li>
+            <li>
+              <Link to='/trabajos' className='navItem' onClick={handleClick}>Trabajos</Link>
+            </li>
+            <li>
+              <Link to='/sobrenosotros' className='navItem' onClick={handleClick}>Nosotros</Link>
             </li>
             <li>
               <Link to='/contacto' className='navItem' onClick={handleClick}>Contacto</Link>
