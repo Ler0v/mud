@@ -32,13 +32,17 @@
 .headerItemPosition1{
     position: absolute;
     top: 35%;
-    left: 25%;
+    left: 20%;
 }
 
 .headerItemPosition2{
     position: absolute;
-    top: 70%;
-    left: 85%;
+    top: 83%;
+    left: 92%;
+}
+
+.headerItemPosition2 img{
+    height: 120px;
 }
 
 .MUDMaquillajeProfesional{
@@ -137,6 +141,49 @@
         top: 50px;
     }
 
+    .headerItemPosition2 img{
+        height: 100px;
+    }
+
+    .headerItem1{
+        font-size: 2.5rem;
+    }
+    
+    .headerItem2{
+        font-size: 1.0rem;
+    }
+    
+    .headerItem3{
+        font-size: 1.4rem;
+        margin-top: 2.2rem;
+    }
+    
+    .headerItemPosition1{
+        position: absolute;
+        top: 35%;
+        left: 5%;
+    }
+    
+    .headerItemPosition2{
+        position: absolute;
+        top: 83%;
+        left: 92%;
+    }
+
+    .headerItemPosition2{
+        position: absolute;
+        top: 80%;
+        left: 85%;
+    }
+    
+    .headerItemPosition2 img{
+        height: 100px;
+    }
+
+    .academiaInfo{
+        width: 100%;
+    }
+
 }
   
   /* FIN ACADEMIA CHICO */
@@ -154,6 +201,41 @@
     .academiaCarousel img{
         height: 300px;
         width: 100%;
+    }
+
+    .headerItem1{
+        font-size: 2.5rem;
+    }
+    
+    .headerItem2{
+        font-size: 1.0rem;
+    }
+    
+    .headerItem3{
+        font-size: 1.4rem;
+        margin-top: 2.2rem;
+    }
+    
+    .headerItemPosition1{
+        position: absolute;
+        top: 35%;
+        left: 0%;
+    }
+    
+    .headerItemPosition2{
+        position: absolute;
+        top: 83%;
+        left: 92%;
+    }
+
+    .headerItemPosition2{
+        position: absolute;
+        top: 80%;
+        left: 85%;
+    }
+    
+    .headerItemPosition2 img{
+        height: 100px;
     }
 }
     /* FIN TABLET */
@@ -173,10 +255,11 @@
     
     .headerItem2{
         font-size: 1rem;
+        margin-top: 8rem;
     }
     
     .headerItem3{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 2.2rem;
     }
     
@@ -188,8 +271,8 @@
     
     .headerItemPosition2{
         position: absolute;
-        top: 70%;
-        left: 25%;
+        top: 85%;
+        left: 70%;
     }
     
   
@@ -234,6 +317,12 @@
         font-size: 1rem;    
         height: 400px;
         overflow-y: auto;
+    }
+
+    .academiaInfoDetalle{
+        font-family: 'Reservation';
+        margin-top: 1rem;
+        padding: 0rem;
     }
 }
   
