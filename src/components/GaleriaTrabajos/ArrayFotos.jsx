@@ -51,7 +51,7 @@ const ArrayFotos = () => {
             </div>
         }
         
-        <h1 className='titulo'>Nuestros Trabajos</h1>
+        <h1 className='Titulo'>Nuestros Trabajos</h1>
         <div className="slider" >
 
             <div className="slider-track">

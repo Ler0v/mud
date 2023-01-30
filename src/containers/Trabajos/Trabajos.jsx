@@ -4,8 +4,7 @@ import './trabajos.css'
 
 const Trabajos = (Imagen) => {
   return (
-    <div>
-        <h1>Trabajos</h1>
+    <div className='trabajosContainer'>
         <div>
             <ArrayFotos Imagen={Imagen} />
         </div>
