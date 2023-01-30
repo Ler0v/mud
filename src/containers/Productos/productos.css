@@ -1,0 +1,36 @@
+.seccionProductos{
+    height: 90vh;
+    color: #fff;
+    font-family: 'Reservation';
+}
+
+.seccionProductos h1{
+    position: absolute;
+    top: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+}
+
+.seccionProductos p{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+}
+
+.seccionProductos a{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    height: 30px;
+    width: 100px;
+}
+
+
