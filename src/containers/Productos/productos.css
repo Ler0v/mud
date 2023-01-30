@@ -33,4 +33,81 @@
     width: 100px;
 }
 
+/* PRODUCTOS CHICO */
+
+@media all and (max-width: 1600px){
+    
+
+}
+  
+  /* FIN PRODUCTOS CHICO */
+
+   /* PRODUCTOS TABLET */
+
+@media all and (max-width: 769px){
+    
+    .seccionProductos h1{
+        font-size: 3rem;
+        position: absolute;
+        top: 20%;
+        bottom: 0;
+        left: 0;
+        right: 0;   
+    }
+    
+    .seccionProductos p{
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        left: 0;
+        right: 0;   
+    }
+    
+    .seccionProductos a{
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        margin-top: 2rem;
+        text-decoration: none;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 50px;
+        height: 30px;
+        width: 100px;
+    }
+
+}
+    /* FIN TABLET */
+
+
+  /* PRODUCTOS MOBILE */
+
+  @media all and (max-width: 469px){
+
+    .seccionProductos {
+        padding: 1rem;
+    }
+
+    .seccionProductos h1{
+        font-size: 2rem;
+        position: absolute;
+        top: 20%; 
+    }
+    
+    .seccionProductos p{
+        top: 50%;
+    }
+    
+    .seccionProductos a{
+        position: absolute;
+        top: 55%;
+        left: 38%;
+    }
+
+
+}
+  
+  /* FIN MOBILE */
+
+
 
