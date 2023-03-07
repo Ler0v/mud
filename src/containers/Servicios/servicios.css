@@ -92,10 +92,10 @@
 }
 
 .servicio{
+    color: #fff;
     margin: 100px auto;
     width: 90%;
     height: 95vh;
-    background-color: rgb(255, 255, 255);
     display: flex;
     position: relative;
     top: 50px;
@@ -117,9 +117,8 @@
 }
 
 .servicioBotones button{
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #fff;
+    background-color: #fff;
+    border: 1px solid #000;
     border-radius: 5px;
     margin: 10px;
 }
