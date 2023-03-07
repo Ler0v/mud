@@ -30,7 +30,7 @@ const Inicio = () => {
           viewport={{once: true,amount:0.7}}
           transition={{duration:2}}
           variants={animacionOnScreen}
-        className='tituloCardsBody'>¿Por que MUD?</motion.h1>
+        className='tituloCardsBody'></motion.h1>
         <motion.div className="cardsBody"
           initial={"offScreen"}
           whileInView={"onScreen"}
@@ -39,7 +39,7 @@ const Inicio = () => {
           variants={animacionOnScreen}
         >
           <div className='cardBodyContainer'>
-            <h1 className='letraIndex'>Nuestros servicios</h1>
+            <h1 className='letraIndex'>Servicios MUD</h1>
             <Link to='/servicios'><motion.img
               initial={{scale:1}}
               whileHover={{scale:1.1}}
@@ -47,7 +47,7 @@ const Inicio = () => {
             src="https://i.postimg.cc/Kv0vyGFs/IMG-1265.jpg" className='card1' alt="imgB1" /></Link>
           </div>
           <div className='cardBodyContainer'>
-            <h1 className='letraIndex'>Nuestras carreras</h1>
+            <h1 className='letraIndex'>Carreras MUD</h1>
             <Link to='/academia'><motion.img 
               initial={{scale:1}}
               whileHover={{scale:1.1}}
@@ -55,7 +55,7 @@ const Inicio = () => {
             src="https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg" className='card2' alt="imgB2" /></Link>
           </div>
           <div className='cardBodyContainer'>
-            <h1 className='letraIndex'>Nuestros productos</h1>
+            <h1 className='letraIndex'>Productos MUD</h1>
              <Link to='/productos'><motion.img
               initial={{scale:1}}
               whileHover={{scale:1.1}}

@@ -136,6 +136,19 @@
     overflow-y: auto;
 }
 
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.6;
+    height: 900px;
+    text-align: left;
+}
+
+.parrafoServicios{
+    margin-top: 30px;
+}
+
 
 /* FIN SERVICIO DESKTOP*/
 
