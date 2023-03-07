@@ -119,34 +119,36 @@ const Servicios = () => {
         <div className='servicioInfo'>
           <h1>Cejas</h1>
           <div className='servicioBotones'>
-            <button className='botonServicio' onClick={()=> setInfo("fullBrow")}>Full Brows Design</button>
+            <button className='botonServicio' onClick={()=> setInfo("Diseño")}>Diseño y Perfilado</button>
             <button className='botonServicio' onClick={()=> setInfo("Laminado")}>Laminado</button>
             <button className='botonServicio' onClick={()=> setInfo("Microblading")}>Microblading</button>
           </div>
           <div className="infoServicios">
-            {info === 'Microblading' && 
+          {info === 'Diseño' && 
             <div className='Info'>
                 <div>
-                  <h2>Queres cejas espectaculares? El secreto esta en la proporción!</h2>
-                  <p className='parrafoServicios'>Si sos como la mayoría, tal vez descubras que la forma de depilarte no es la correcta para tener una mirada profunda. Hay una proporción aurea que se aplica y va en función de tu estuctura ósea para que las facciones estén en armonía.</p>
+                  <h3>Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</h3>
+                  <br />
+                  <h2>¿Qué es?</h2>
+                  <p className='parrafoServicios'>El Diseño y Perfilado de cejas consiste en darle la forma correcta a tus cejas siempre respetando la forma natural de la misma mediante depilación con pincita, tijeras y perfilador</p>
                 </div>
                 <br />
                 <div>
-                  <h2>¿Qué es?</h2>
-                    <p className='parrafoServicios'>Es una técnica manual de micropigmentación semipermanente, donde se recrea cada pelo de la ceja individualmente para lograr un efecto natural y realista. Claro que tenemos en cuenta el color de pelo natural de tus cejas, tus gustos y personalidad.</p>
+                  <h2>¿Cuánto dura?</h2>
+                    <p className='parrafoServicios'>La duración va a variar según el ciclo de crecimiento de vello de cada persona, el cual generalmente va de las 3 a 4 semanas.</p>
                 </div>
                 <br />
                 <div>
                   <h2>¿Cómo se hace?</h2>
-                  <p className='parrafoServicios'>En lugar de seguir la forma de tus cejas tal como están, necesitas entender donde deben comenzar, arquear y terminar tus cejas para que tengan un aspecto natural que esté en proporción con el resto de tu cara.</p>
-                  <p>Para ello tenes una consulta con nuestra especialista y si estan dadas las condiciones se concreta una cita. Primero definimos con vos el diseno, luego se hace el procedimiento, que tiene alguna similitud con un tatuaje pero que dura 12 meses. Luego de la primer aplicación se hace un control para terminar los detalles.</p>
+                  <p className='parrafoServicios'>En una sesion de 15 minutos, Primero definimos el diseño y le damos forma con pinza. Luego aplicamos henna, un tratamiento semipermanente y natural para colorear y acentuar la forma deseada rellenando espacios raleados.</p>
                 </div> 
                 <div>
-                  <p><b>- Indoloro: </b> Aunque es una técnica un poco mas invasiva se aplica una anestesia tópica durante la aplicación. Sin embargo, puede haber leve dolor o molestia luego de concluido el procedimiento.</p>
-                  <p><b>- Corrige imperfecciones:</b> Si hay cicatrices, asimetrías, cambios de tono y alopecia, el microblading puede ser una solución adecuada para corregir irregularidades de la ceja y la piel.</p>
-                  <p><b>- Durabilidad:</b> el efecto se mantiene por 12 meses aproximadamente.</p>
+                  <h2>Ventajas</h2>
+                  <p><b>- Indoloro: </b>es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor alguno durante o después de realizarlo.</p>
+                  <p><b>- Versátil:</b>aunque está indicado para cejas más claritas y con poco vello o vello fino, todos pueden usar esta técnica para diseñar sus cejas.</p>
+                  <p><b>- Durable: </b> el efecto se mantiene por 5 a 15 días, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Pero si querés mantenerlo podes volver a realizarlo cada 15 días aproximadamente.</p>
                 </div>
-            </div>}
+            </div>} 
             {info === 'Laminado' && 
             <div className='Info'>
                 <div>
@@ -173,6 +175,29 @@ const Servicios = () => {
                   <p><b>- Durable: </b> el efecto se mantiene por 4 a 6 semanas y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Si queres mantenerlo podes volver a realizarlo.</p>
                 </div>
             </div>}    
+            {info === 'Microblading' && 
+            <div className='Info'>
+                <div>
+                  <h2>Queres cejas espectaculares? El secreto esta en la proporción!</h2>
+                  <p className='parrafoServicios'>Si sos como la mayoría, tal vez descubras que la forma de depilarte no es la correcta para tener una mirada profunda. Hay una proporción aurea que se aplica y va en función de tu estuctura ósea para que las facciones estén en armonía.</p>
+                </div>
+                <br />
+                <div>
+                  <h2>¿Qué es?</h2>
+                    <p className='parrafoServicios'>Es una técnica manual de micropigmentación semipermanente, donde se recrea cada pelo de la ceja individualmente para lograr un efecto natural y realista. Claro que tenemos en cuenta el color de pelo natural de tus cejas, tus gustos y personalidad.</p>
+                </div>
+                <br />
+                <div>
+                  <h2>¿Cómo se hace?</h2>
+                  <p className='parrafoServicios'>En lugar de seguir la forma de tus cejas tal como están, necesitas entender donde deben comenzar, arquear y terminar tus cejas para que tengan un aspecto natural que esté en proporción con el resto de tu cara.</p>
+                  <p>Para ello tenes una consulta con nuestra especialista y si estan dadas las condiciones se concreta una cita. Primero definimos con vos el diseno, luego se hace el procedimiento, que tiene alguna similitud con un tatuaje pero que dura 12 meses. Luego de la primer aplicación se hace un control para terminar los detalles.</p>
+                </div> 
+                <div>
+                  <p><b>- Indoloro: </b> Aunque es una técnica un poco mas invasiva se aplica una anestesia tópica durante la aplicación. Sin embargo, puede haber leve dolor o molestia luego de concluido el procedimiento.</p>
+                  <p><b>- Corrige imperfecciones:</b> Si hay cicatrices, asimetrías, cambios de tono y alopecia, el microblading puede ser una solución adecuada para corregir irregularidades de la ceja y la piel.</p>
+                  <p><b>- Durabilidad:</b> el efecto se mantiene por 12 meses aproximadamente.</p>
+                </div>
+            </div>}
           </div>
         </div>
       </div>
