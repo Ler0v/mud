@@ -156,6 +156,7 @@ const Academia = () => {
                       <p>Laminado de cejas nivel PRO. En este taller te enseñamos la técnica mas novedosa de la industria para que seas una especialista</p>
                       <hr />
                       <p><b>Duración: Curso corto, de 1 clase de 3 horas para aprender sobre laminados y miradas radiantes</b></p>
+                      <hr />
                       <h1>Modalidad:</h1>
                       <p>- Presencial</p>
                       <p>- Te damos en taller las <b>herramientas y materiales de trabajo incluido</b> para la cursada</p>
@@ -187,6 +188,7 @@ const Academia = () => {
                       <p>Desde efectos naturales a impactantes, aprende la técnica de lifting para resaltar la mirada y los ojos.</p>
                       <hr />
                       <p><b>Duración: Curso corto, de 1 clase de 3 horas para aprender sobre lifting de cejas</b></p>
+                      <hr />
                       <h1>Modalidad:</h1>
                       <p>- Presencial.</p>
                       <p>- Te damos en taller las herramientas y materiales de trabajo para la cursada.</p>
@@ -217,6 +219,7 @@ const Academia = () => {
                       <p>Conoce este curso básico para una rápida salida laboral en el mundo de la belleza.</p>
                       <hr />
                       <p><b>Duración: Este es un curso corto, de 3 clases de 2 horas para recorrer las técnicas de peinado.</b></p>
+                      <hr />
                       <h1>Modalidad:</h1>
                       <p>Presencial.</p>
                       <p>Te damos en taller las herramientas de trabajo para la cursada.</p>
@@ -239,34 +242,37 @@ const Academia = () => {
                   {info === "Taller trenzas"
                    && 
                    <>
-                    <h1>Taller de trenzas</h1>
-                    <p>Las trenzas tienen su magia, y te enseñamos los trucos</p>
-                    <hr />
-                    <p><b>Duración: Curso corto, de 1 clases de 3 horas para recorrer todas las formas de hacer trenzas.</b></p>
-                    <h1>Modalidad:</h1>
-                    <p>Presencial</p>
-                    <p>Te damos en taller las herramientas de trabajo para la cursada.</p>
-                    <hr />
-                    <h3>Que vas a aprender?</h3>
-                    <ul>
-                      <li>Preparación del cabello.</li>
-                      <li>Productos a utilizar.</li>
-                      <li>Accesorios.</li>
-                      <li>Trenzas cosidas, relieve, zigzag, trenza espiga, trenzas caladas.</li>
-                      <li>Trenzas de 3 cabos, 2 cabos.</li>
-                      <li>Mezcla de trenzas con otros peinados.</li>
-                      <li>Trenzas de mayor complejidad.</li>
-                      <li>Introducción al esterillado.</li>
-                      <li>Practica.</li>
-                    </ul>
-                    <hr />
-                    <h1>BENEFICIOS ALUMNAS MUD</h1>
-                    <ul>
-                      <li>Incluye las cabezas de práctica.</li>
-                      <li>Certificado</li>
-                    </ul>
-                    <hr />
-                    <button className='botonInscripcion'>Inscribite ahora!</button>
+                    <div className='informacion'>
+                      <h1>Taller de trenzas</h1>
+                      <p>Las trenzas tienen su magia, y te enseñamos los trucos</p>
+                      <hr />
+                      <p><b>Duración: Curso corto, de 1 clases de 3 horas para recorrer todas las formas de hacer trenzas.</b></p>
+                      <hr />
+                      <h1>Modalidad:</h1>
+                      <p>Presencial</p>
+                      <p>Te damos en taller las herramientas de trabajo para la cursada.</p>
+                      <hr />
+                      <h3>Que vas a aprender?</h3>
+                      <ul>
+                        <li>Preparación del cabello.</li>
+                        <li>Productos a utilizar.</li>
+                        <li>Accesorios.</li>
+                        <li>Trenzas cosidas, relieve, zigzag, trenza espiga, trenzas caladas.</li>
+                        <li>Trenzas de 3 cabos, 2 cabos.</li>
+                        <li>Mezcla de trenzas con otros peinados.</li>
+                        <li>Trenzas de mayor complejidad.</li>
+                        <li>Introducción al esterillado.</li>
+                        <li>Practica.</li>
+                      </ul>
+                      <hr />
+                      <h1>BENEFICIOS ALUMNAS MUD</h1>
+                      <ul>
+                        <li>Incluye las cabezas de práctica.</li>
+                        <li>Certificado</li>
+                      </ul>
+                      <hr />
+                      <button className='botonInscripcion'>Inscribite ahora!</button>
+                    </div>
                    </>
                   }
 
