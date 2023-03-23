@@ -30,7 +30,7 @@ const SobreNosotros = () => {
           initial={{opacity:0}}
           animate={{opacity:1}}
           transition={{duration:2}}
-          >"Como maquilladora pude alcanzar los sucesos más importantes, tapas de revistas, los desfiles de moda más importantes, celebrities."</motion.h1>
+          >Creo que VOS podes hacer que las cosas sucedan.</motion.h1>
         </div>
       </div>
       <div className='textosMotivacionalesSNContainer'>
@@ -40,14 +40,16 @@ const SobreNosotros = () => {
           viewport={{once:true,amount:0.5}}
           transition={{duration:2}}
           variants={textAnimation}
-        >Hace más de 20 años que tengo como profesión mi pasión. La historia empezó mucho antes, desde muy pequeña jugando con los maquillajes de mi mamá y soñando con ser una artsita del make up.</motion.h1>
+        >Desde muy pequeña jugaba con maquillajes de mi mama y soñaba con ser
+        una artista del make-up.</motion.h1>
         <motion.h1
           initial={"offScreen"}
           whileInView={"onScreen"}
           viewport={{once:true,amount:0.5}}
           transition={{duration:2}}
           variants={textAnimation}
-        >Me formé con grandes artistas nacionales e internacionales, y hace 7 años que me capacito en el exterior en las academias más prestigiosas del mundo.</motion.h1>
+        >Aunque me encantaba sonar, y lo sigo haciendo, pasar a la acción fue la
+        clave para materializar mis sueños.</motion.h1>
       </div>
       <div className="historiaSN1"> 
         <motion.h1 className='historiaSN1Item1'
@@ -69,10 +71,9 @@ const SobreNosotros = () => {
         transition={{staggerChildren:1}}
         variants={textAnimation}
         >
-          <motion.p>MUD nació hace 15 años como un proyecto creativo de Celeste González, directora de la compañía.</motion.p>
-          <motion.p>Su carrera comenzó hace 20 años, tuvo sus inicios en las grandes compañías de cosmética internacional tales como Natura y Lancome. Luego de unos años en compañías internacioles y fortalecer su carrera profesional maquillallando en producciones, desfiles y a grandes figures del espectáculo a nivel internacional nació MUD.</motion.p>
-          <motion.p>Cuenta con un sinfín de cursos y seminarios a nivel internacional que avalan su expertise en el área, trabajo con grandes fotógrafos, diseñadores y estilistas de talla internacional.</motion.p>
-          <motion.p>Entre su portafolio se encuentras figuras como: Sofía Zámolo, Julieta Prandi, Paula Chaves, Zaira Nara, Barbie Vélez.</motion.p>
+          <motion.p>Con esfuerzo busque cursos, decidí formarme y meterme en un mundo donde lo que para muchos era un juego, para mi era mi pasión.</motion.p>
+          <motion.p>Logre estar al lado de estrellas internacionales, trabajar para las mejores marcas y medios y aprender de titanes de la industria.</motion.p>
+          <motion.p>Ahora mi sueño es acercar esta posibilidad a través de mi experiencia, mi conocimiento y mis aprendizajes a quienes También amen hacer el mundo un lugar mas bello con el maquillaje</motion.p>
         </motion.div>
         <motion.img src="https://i.postimg.cc/66C6Tt0q/6.jpg" className='historiaSN1Item4 imgCeles2' alt="imgSobreNosotros4" 
         initial={{x:400}}
@@ -94,16 +95,24 @@ const SobreNosotros = () => {
         whileInView={"onScreen"}
         viewport={{once:true, amount:0.5}}
         variants={textAnimation}
-        >MUD comenzó con la educación como eje principal para formar profesionales calificados para trabajar en una industria competitiva. Sumado a sus academias, MUD cuenta con tiendas en donde se realizan servicios de belleza.</motion.p>
+        >Te quiero compartir todo lo que aprendí haciendo , tapas de revistas, desfiles
+        de moda internacionales y maquillando celebridades. Bienvenid@ a este hermoso mundo de belleza, arte, creación... bienvenidas
+        futuras colegas y artistas, somos un equipo!.Me acompañan en este desafío hombres y mujeres que se formaron en MUD y crecieron dentro de la compañía. Te invito a sumarte.</motion.p>
+      </div>  
+      <div className="cardsStaffContainer">
+        <h1>Nuestro Staff</h1>
+        <motion.h3
+        initial={"offScreen"}
+        whileInView={"onScreen"}
+        viewport={{once:true, amount:0.5}}
+        variants={textAnimation}
+        >Conoce al equipo</motion.h3>
         <motion.p
         initial={"offScreen"}
         whileInView={"onScreen"}
         viewport={{once:true, amount:0.5}}
         variants={textAnimation}
-        >El último proyecto de MUD es el lanzamiento de su propia línea de labiales y esmaltes diseñados especialmente por la directora de MUD respetando altos estándares internacionales, los cuales se comercializan en sus tiendas físicas y se distribuyen a todo el país a través de tu e-comerce.</motion.p>
-      </div>
-      <div className="cardsStaffContainer">
-        <h1>Nuestro Staff</h1>
+        >Y hacer una presentación con foto , cargo y una frase que defina a cada una pero tenga que ver con algo personal.</motion.p>
         <motion.div className='cardsStaff'
         initial={"offScreen"}
         whileInView={"onScreen"}
