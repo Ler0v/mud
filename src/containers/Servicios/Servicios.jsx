@@ -157,7 +157,7 @@ const Servicios = () => {
                   <h2>¿Qué es?</h2>
                   <p className='parrafoServicios'>El Laminado de cejas o “Brow Lamination” es un tratamiento semipermanente que consigue un efecto de ceja “peinada”, alisando el pelo más rebelde y fijando la forma deseada. Da un leve efecto de mayor volumen</p>
                 </div>
-                <br />
+              <br />
                 <div>
                   <h2>¿Cuánto dura?</h2>
                     <p className='parrafoServicios'>La duración va a variar según el ciclo de crecimiento de vello de cada persona, el cual generalmente va de las 3 a 4 semanas.</p>
