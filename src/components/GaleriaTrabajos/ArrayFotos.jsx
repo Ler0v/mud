@@ -52,6 +52,7 @@ const ArrayFotos = () => {
         }
         
         <h1 className='Titulo'>Nuestros Trabajos</h1>
+        <h3 className='titTrabajos'>Conoce nuestros trabajos, si hay maquillaje, esta MUD!</h3>
         <div className="slider" >
 
             <div className="slider-track">
