@@ -25,7 +25,7 @@ const Academia = () => {
               <img src="https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png" alt="fotoAcademia" />
             </div>
             <div className='academiaInfo'>
-              <h1>Academia</h1>
+              <h1>ACADEMIA</h1>
               <div className='academiaBotones'>
                   <button onClick={()=> setInfo("Carrera Maquillaje")}>Carrera de maquillaje profesional</button>
                   <button onClick={()=> setInfo("Curso maquillaje")}>Curso de maquillaje social</button>
@@ -42,7 +42,7 @@ const Academia = () => {
                    && 
                    <div className='informacion'>
                     <h1>Carrera de maquillaje profesional</h1>
-                    <p>Si te apasiona el maquillaje y el trabajo creativo, tenés una Carrera con rápida y rentable salida laboral. Además te conectamos con Pasantías profesionales en producciones y desfiles para empezar a hacer pràcticas y prepararte para la vida profesional.</p>
+                    <p className='parrafoAcademia'>Si te apasiona el maquillaje y el trabajo creativo, tenés una Carrera con rápida y rentable salida laboral. Además te conectamos con Pasantías profesionales en producciones y desfiles para empezar a hacer pràcticas y prepararte para la vida profesional.</p>
                     <hr />
                     <p><b>Duracion: 6 meses.</b></p>
                     <p><b>Cursada: 1 vez por semana, en sesion de 3 horas</b></p>
@@ -52,7 +52,7 @@ const Academia = () => {
                     <p>- Contas con materiales en la academia para tu cursada</p>
                     <hr />
                     <h3>Que vas a aprender?</h3>
-                    <p><span>Aprendé a crear looks para distintas ocasiones estilos, y paletas .</span></p>
+                    <p className='parrafoAcademia'><span>Aprendé a crear looks para distintas ocasiones estilos, y paletas .</span></p>
                     <ul>
                       <li>Usar los principios de la teoría del color al elegir los colores en el maquillaje.</li>
                       <li>Manejá las imperfecciones de la piel y logra resultados impecables utilizando diferentes tipos de bases</li>
@@ -63,7 +63,7 @@ const Academia = () => {
                     </ul>
                     <hr />
                     <h1>Beneficio alumnas MUD</h1>
-                    <ul>
+                    <ul className='parrafoAcademia'>
                       <li>Materiales para el uso en clases incluídos (tanto la pincelería como los maquillajes - nacionales, importados y MUD Cosmetics). Entrega del material teórico para el examen final.</li>
                       <li>Certificado y Credencial de Maquilladora (MUD Pro Star Card).</li>
                       <li>Descuentos exclusivos en productos profesionales.</li>
@@ -82,18 +82,18 @@ const Academia = () => {
                    <>
                     <div className='informacion'>
                       <h1>Curso de maquillaje social</h1>
-                      <p>Y si te maquillaras como una profesional, todos los dias?</p>
+                      <p className='parrafoAcademia'>Y si te maquillaras como una profesional, todos los dias?</p>
                       <p>Vení a aprender herramientas profesionales para que tu maquillaje dure mas y resaltes tus facciones naturales</p>
                       <hr />
                       <p><b>Duración. 1 mes: 4 clases de 3 horas cada una</b></p>
                       <hr />
                       <h1>Modalidad:</h1>
-                      <p>- Presencial u opción online.</p>
+                      <p className='parrafoAcademia'>- Presencial u opción online.</p>
                       <p>- Duración: 2 meses.</p>
                       <p>- Se cursa 1 vez por semana en clases de 2 horas y media aproximadamente.</p>
                       <hr />
                       <h1>Programa:</h1>
-                      <ul>
+                      <ul className='parrafoAcademia'>
                         <p>- CLASE 1: Preparación de piel y primeros pasos</p>
                         <p>- CLASE 2: Colorimetría</p>
                         <p>- CLASE 3: Sombreados y depneados</p>
@@ -105,7 +105,7 @@ const Academia = () => {
                       </ul>
                       <hr />
                       <h1>Beneficios de alumnas MUD</h1>
-                      <ul>
+                      <ul className='parrafoAcademia'>
                         <li>Materiales para el uso en clases incluídos (tanto la pincelería como los maquillajes - nacionales, importados y MUD Cosmetics).</li>
                         <li>Certificado</li>
                         <li>Descuentos exclusivos en productos profesionales.</li>
@@ -121,17 +121,17 @@ const Academia = () => {
                    <>
                    <div className='informacion'>
                     <h1>Diseño + henna</h1>
-                      <p>Aprende la técnica para resaltar la mirada!</p>
+                      <p className='parrafoAcademia'>Aprende la técnica para resaltar la mirada!</p>
                       <p>En este taller te enseñamos la técnica mas novedosa de la industria para que seas una especialista</p>
                       <hr />
                       <p><b>Duración: Curso corto, de 1 clase de 2 horas para recorrer todas las formas de hacer trenzas.</b></p>
                       <hr />
                       <h1>Modalidad:</h1>
-                      <p>- Presencial</p>
+                      <p className='parrafoAcademia'>- Presencial</p>
                       <p>- Te damos en taller las herramientas y materiales de trabajo para la cursada.</p>
                       <hr />
                       <h3>Que vas a aprender?</h3>
-                      <ul>
+                      <ul className='parrafoAcademia'>
                         <li>Funcionalidad morfológica de las pestañas, anatomía, forma, geometría.</li>
                         <li>Anatomía del pelo, ciclo de crecimiento, y cuidados.</li> 
                         <li>Preparación para cuidar la pestaña.</li>
@@ -152,7 +152,7 @@ const Academia = () => {
                    <>
                    <div className='informacion'>
                     <h1>Laminado de cejas</h1>
-                      <p>Aprende la técnica del momento!</p>
+                      <p className='parrafoAcademia'>Aprende la técnica del momento!</p>
                       <p>Laminado de cejas nivel PRO. En este taller te enseñamos la técnica mas novedosa de la industria para que seas una especialista</p>
                       <hr />
                       <p><b>Duración: Curso corto, de 1 clase de 3 horas para aprender sobre laminados y miradas radiantes</b></p>

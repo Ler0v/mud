@@ -60,7 +60,7 @@ const SobreNosotros = () => {
           variants={textAnimation}>Celeste Gonzalez</motion.h1>
         <motion.img src="https://i.postimg.cc/RCfvWXXR/61-de40b12e563144010116591215845626-480-0.jpg" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
         initial={{x: -200}}
-        whileInView={{x:100, amount:0.3}}
+        whileInView={{x:50, amount:0.3}}
         viewport={{once:true}}
         transition={{duration: 3}}
         />
@@ -99,7 +99,7 @@ const SobreNosotros = () => {
         de moda internacionales y maquillando celebridades. Bienvenid@ a este hermoso mundo de belleza, arte, creación... bienvenidas
         futuras colegas y artistas, somos un equipo!.Me acompañan en este desafío hombres y mujeres que se formaron en MUD y crecieron dentro de la compañía. Te invito a sumarte.</motion.p>
       </div>  
-      <div className="cardsStaffContainer">
+      {/* <div className="cardsStaffContainer">
         <h1>Nuestro Staff</h1>
         <motion.h3
         initial={"offScreen"}
@@ -165,7 +165,7 @@ const SobreNosotros = () => {
             descripcion={"Microbaling especialist and Make up artist"}
           />
         </motion.div>
-      </div>
+      </div> */}
     </div>
 
   )
