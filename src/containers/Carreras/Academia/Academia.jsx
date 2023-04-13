@@ -25,7 +25,7 @@ const Academia = () => {
               <img src="https://i.postimg.cc/3NRjrTwZ/Whats-App-Image-2022-09-29-at-10-37-1.png" alt="fotoAcademia" />
             </div>
             <div className='academiaInfo'>
-              <h1>ACADEMIA</h1>
+              <h1>ACADEMY</h1>
               <div className='academiaBotones'>
                   <button onClick={()=> setInfo("Carrera Maquillaje")}>Carrera de maquillaje profesional</button>
                   <button onClick={()=> setInfo("Curso maquillaje")}>Curso de maquillaje social</button>

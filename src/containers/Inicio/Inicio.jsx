@@ -15,13 +15,14 @@ const Inicio = () => {
   return (
     <>
       <div className='videoBody'>
-        <motion.video className='videoBodyItem' src={videoInicio} autoPlay loop muted
+        {/* <motion.video className='videoBodyItem' src={videoInicio} autoPlay loop muted
           initial={"offScreen"}
           whileInView={"onScreen"}
           viewport={{once: true}}
           transition={{duration:2}}
           variants={animacionOnScreen}
-        />
+        /> */}
+        <img src="https://i.postimg.cc/B6nVgBym/1.jpg" alt="" />
       </div>
       <div className='cardsBodyContainer'>
         <motion.h1
@@ -60,12 +61,12 @@ const Inicio = () => {
               initial={{scale:1}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}  
-             src="https://i.postimg.cc/fTsnq69q/1edit.jpg" className='card3' alt="imgB3" /></Link>
+             src="https://i.postimg.cc/vmryrgsg/5.jpg" className='card3' alt="imgB3" /></Link>
           </div>     
         </motion.div>
       </div>
       <div className="aboutIndex">
-        <motion.img src="https://i.postimg.cc/zGPWMDtQ/IMG-6398.jpg" alt="aboutIndexfoto"
+        <motion.img src="https://i.postimg.cc/3N24vjBy/IMG-20220916-103618-874.jpg" alt="aboutIndexfoto"
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         viewport={{once:true,amount:0.5}}

@@ -42,8 +42,8 @@ const Contacto = () => {
                   <option value="Pro Make Up">Pro Makeup</option>
                   <option value="Bodas">Bodas</option>
                   <option value="15 años">15 Años</option>
-                  <option value="Pro Hairstyle">Pro Hairstyle</option>
-                  <option value="Hair Botox Revitalize">Hair Botox Revitalize</option>
+                  <option value="Pro Hairstyle">Carrera de maquillaje</option>
+                  <option value="Hair Botox Revitalize">Servicios de cejas y pestanias</option>
                 </select>
                 <label> Mensaje</label>
                 <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
