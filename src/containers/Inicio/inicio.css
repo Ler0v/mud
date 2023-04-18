@@ -1,10 +1,7 @@
 /* BODY DESKTOP */
 
-.videoBody{
-  margin: -100px;
-  height: 115vh;
-  object-fit: contain;
-  object-position: center;
+.imgIndex{
+  width: 100%;
 }
 
 .cardsBodyContainer{
@@ -110,7 +107,7 @@
   color: #ffff;
   position: absolute;
   bottom: 70%;
-  left: 42%;
+  left: 39%;
 }
 
 .botonesContacto{
@@ -118,7 +115,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   position: absolute;
-  left: 42%;
+  left: 40%;
   top: 70%;
   width: 300px;
 }
@@ -154,9 +151,9 @@
 
 @media all and (max-width: 1600px){
   
-  .videoBody video{
-    margin-top: 100px;
-    height: 1000px;
+  .imgIndex{
+    margin-top: 70px;
+    width: 100%;
   }
 
   .videoBody.videoBodyItem{
@@ -189,11 +186,12 @@
 
   .contactoInicioInfo p{
     left: 35%;
+    top: 30%;
   }
 
   .botonesContacto{
     left: 35%;
-    top: 70%;
+    top: 60%;
   }
 
 

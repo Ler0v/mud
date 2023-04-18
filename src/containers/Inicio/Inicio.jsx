@@ -14,7 +14,14 @@ const animacionOnScreen = {
 const Inicio = () => {
   return (
     <>
-      <div className='videoBody'>
+      <div className='imgIndex'>
+        <motion.img 
+         initial={"offScreen"}
+         whileInView={"onScreen"}
+         viewport={{once: true,amount:0.7}}
+         transition={{duration:2}}
+         variants={animacionOnScreen}
+          className='imgIndex' src="https://i.postimg.cc/B6nVgBym/1.jpg" alt="imgIndex" />
         {/* <motion.video className='videoBodyItem' src={videoInicio} autoPlay loop muted
           initial={"offScreen"}
           whileInView={"onScreen"}
@@ -22,7 +29,6 @@ const Inicio = () => {
           transition={{duration:2}}
           variants={animacionOnScreen}
         /> */}
-        <img src="https://i.postimg.cc/B6nVgBym/1.jpg" alt="" />
       </div>
       <div className='cardsBodyContainer'>
         <motion.h1
@@ -45,7 +51,7 @@ const Inicio = () => {
               initial={{scale:1}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}            
-            src="https://i.postimg.cc/Kv0vyGFs/IMG-1265.jpg" className='card1' alt="imgB1" /></Link>
+              src="https://i.postimg.cc/Kv0vyGFs/IMG-1265.jpg" className='card1' alt="imgB1" /></Link>
           </div>
           <div className='cardBodyContainer'>
             <h1 className='letraIndex'>Carreras MUD</h1>
@@ -53,7 +59,7 @@ const Inicio = () => {
               initial={{scale:1}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}  
-            src="https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg" className='card2' alt="imgB2" /></Link>
+              src="https://i.postimg.cc/C1pw4dHd/IMG-3807.jpg" className='card2' alt="imgB2" /></Link>
           </div>
           <div className='cardBodyContainer'>
             <h1 className='letraIndex'>Productos MUD</h1>
@@ -61,7 +67,7 @@ const Inicio = () => {
               initial={{scale:1}}
               whileHover={{scale:1.1}}
               transition={{duration:1}}  
-             src="https://i.postimg.cc/vmryrgsg/5.jpg" className='card3' alt="imgB3" /></Link>
+              src="https://i.postimg.cc/50KdfHQj/productos-index.png" className='card3' alt="imgB3"/></Link>
           </div>     
         </motion.div>
       </div>
