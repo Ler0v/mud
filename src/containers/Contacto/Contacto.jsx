@@ -51,6 +51,26 @@ const Contacto = () => {
               </form>
             </div>
          </div>
+         <div className='mapaContacto'>
+            <div className='mapaContactoItem'>
+              <a href="https://www.google.com.ar/maps/place/Almte.+Brown+503,+Quilmes,+Provincia+de+Buenos+Aires/@-34.7202279,-58.2597355,17z/data=!3m1!4b1!4m5!3m4!1s0x95a32e3ffbe65c63:0x68322dcd93eb6714!8m2!3d-34.7202323!4d-58.2575468?shorturl=1" target='_blank'>
+                <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="" />
+                <p>MUD Store Quilmes <br /> Brown 503.</p>
+              </a>
+            </div>
+            <div className='mapaContactoItem'>
+              <a href="https://www.google.com.ar/maps/place/Almte.+Brown+506,+Quilmes,+Provincia+de+Buenos+Aires/@-34.7201712,-58.2618392,17z/data=!3m1!4b1!4m5!3m4!1s0x95a32e3fe36831ed:0x49afe507d3699c3a!8m2!3d-34.7201757!4d-58.2573545?shorturl=1" target='_blank'>
+                <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="" />
+                <p>MUD Academy Quilmes <br /> Brown 506, 1°B.</p>
+              </a>
+            </div>
+            <div className='mapaContactoItem'>
+              <a href="https://goo.gl/maps/BfR7u558K3Hx8ZTL6" target='_blank'>
+                <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="" />
+                <p>MUD Academy + Studio Palermo <br /> Convención 1994 Depto 313.</p>
+              </a>
+            </div>
+         </div>
       </div>
       
     </>

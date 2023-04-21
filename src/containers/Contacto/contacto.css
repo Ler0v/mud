@@ -65,6 +65,25 @@ label{
     text-align: left;
 }
 
+.mapaContacto{
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapaContactoItem a{
+    text-decoration: none;
+}
+
+.mapaContacto p{
+    font-family: "Reservation";
+    color: #ffff;
+    margin-top: 20px;
+}
+
 /*CONTACTO TABLET */
 
 
@@ -139,6 +158,16 @@ label{
     select{
         height: 35px;
     }
+
+    .mapaContacto{
+        margin-top: 150px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
 
 }
 
