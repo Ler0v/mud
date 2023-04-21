@@ -290,6 +290,10 @@
         background-position: center;
     }
 
+    .sectionContainer{
+        margin-top: 350px;
+    }
+
     .servicio{
         margin: 100px auto;
         width: 100%     ;
