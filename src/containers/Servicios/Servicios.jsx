@@ -258,9 +258,69 @@ const Servicios = () => {
           <div className='servicioInfo'>
             <h1>MUD Pro Nails</h1>
             <div className='servicioBotones'>
-              <button>Manicuría combinada</button>
-              <button>Capping gel</button>
-              <button>Press on nails</button>
+              <button onClick={()=> setInfo("kapping")}>Kapping Gel</button>
+              <button onClick={()=> setInfo("manicuria")}>Manicuría combinada</button>
+              <button onClick={()=> setInfo("press")}>Press on nails</button>
+            </div>
+            <div className="infoServicios">
+              {info === 'kapping' && 
+              <div className='Info'>
+                  <div>
+                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
+                    <br />
+                    <p className='parrafoServicios'>La técnica del capping gel consiste en cubrir la uña natural, en este caso con gel de construcción, para reforzar la uña y darle protección</p>
+                    <p>Logras tener uñas fuertes, duraderas con la forma que desees. La terminación se hace con esmalte semipermanente en una gran variedad de colores.</p>
+                  </div>
+                  <hr />
+                  <div>
+                    <h1>¿Qué es?</h1>
+                      <p className='parrafoServicios'></p>
+                  </div>
+                  <hr />
+                  <div>
+                    <h1>¿Cómo se hace?</h1>
+                    <p className='parrafoServicios'></p>
+                  </div> 
+                  <hr />
+                  <div>
+                    <p><b>- Indoloro: </b> es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor durante o después de realizado</p>
+                    <p><b>- Corrige imperfecciones:</b> : aunque está indicado para las pestañas más caídas, puede realizarlo cualquier persona que busque este efecto con un resultado muy natural y de brillo en la cara.</p>
+                    <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
+                  </div>
+              </div>} 
+              {info === 'manicuria' && 
+              <div className='Info'>
+                  <div>
+                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
+                    <br />
+                    <p className='parrafoServicios'>Con esta técnica tratamos de manera especial las manos y las cutículas, para asegurar un recimiento sano. Usamos torno eléctrico y se logra una terminacion super prolija. Manos siempre impecables. Podes terminarlas con esmalte común o semipermanente</p>
+                  </div>
+                  <hr />
+                  <div>
+                    <h1>¿Qué es?</h1>
+                      <p className='parrafoServicios'></p>
+                  </div>
+                  <hr />
+                  <div>
+                    <h1>¿Cómo se hace?</h1>
+                    <p className='parrafoServicios'></p>
+                  </div> 
+                  <hr />
+                  <div>
+                    <p><b>- Indoloro: </b> es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor durante o después de realizado</p>
+                    <p><b>- Corrige imperfecciones:</b> : aunque está indicado para las pestañas más caídas, puede realizarlo cualquier persona que busque este efecto con un resultado muy natural y de brillo en la cara.</p>
+                    <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
+                  </div>
+              </div>}
+              {info === 'press' && 
+              <div className='Info'>
+                  <div>
+                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
+                    <br />
+                    <p className='parrafoServicios'>Tus unas mas largas, resistentes y con la forma que quieras con press-on nails. Son uñas de acrilico que se aplican sobre las tuyas, salvando unas cortas, comidas, o sin forma.</p>
+                  </div>
+                  <hr />
+              </div>}  
             </div>
           </div>
         </div>
