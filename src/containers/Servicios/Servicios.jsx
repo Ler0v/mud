@@ -266,60 +266,71 @@ const Servicios = () => {
               {info === 'kapping' && 
               <div className='Info'>
                   <div>
-                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
-                    <br />
-                    <p className='parrafoServicios'>La técnica del capping gel consiste en cubrir la uña natural, en este caso con gel de construcción, para reforzar la uña y darle protección</p>
-                    <p>Logras tener uñas fuertes, duraderas con la forma que desees. La terminación se hace con esmalte semipermanente en una gran variedad de colores.</p>
+                    <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>
                   </div>
                   <hr />
                   <div>
                     <h1>¿Qué es?</h1>
-                      <p className='parrafoServicios'></p>
+                      <p className='parrafoServicios'>La técnica del capping gel consiste en cubrir la uña natural, en este caso con gel de construcción, para reforzar la uña y darle protección. Logras tener uñas fuertes, duraderas con la forma que desees. La terminación se hace con esmalte semipermanente en una gran variedad de colores. </p>
                   </div>
                   <hr />
                   <div>
                     <h1>¿Cómo se hace?</h1>
-                    <p className='parrafoServicios'></p>
+                    <p className='parrafoServicios'>Primero empezamos con. SaniCzacion y limpieza de manos. Luego seguimos con la preparación de la uña natural. Deshidratamos la uña con nail prep para luego Colocar imprimante: un primer o bonder.</p>
+                    <p>Una vez terminado este paso se Coloca una capa fina de gel de construcción Se da forma y finamente se procede a Esmaltar. Como ulCmo paso va un top coat o capa finalizador. Poner aceite para cuIculas en los dedos</p>
                   </div> 
                   <hr />
                   <div>
-                    <p><b>- Indoloro: </b> es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor durante o después de realizado</p>
-                    <p><b>- Corrige imperfecciones:</b> : aunque está indicado para las pestañas más caídas, puede realizarlo cualquier persona que busque este efecto con un resultado muy natural y de brillo en la cara.</p>
-                    <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
+                    <p><b>Durabilidad:</b >  el efecto se mantiene por unos 20 dias, dependiendo siempre de como usas tus manos y el desgaste al que esten expuestas.</p>
                   </div>
               </div>} 
               {info === 'manicuria' && 
               <div className='Info'>
                   <div>
-                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
-                    <br />
+                    <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>
+                    <hr />
                     <p className='parrafoServicios'>Con esta técnica tratamos de manera especial las manos y las cutículas, para asegurar un recimiento sano. Usamos torno eléctrico y se logra una terminacion super prolija. Manos siempre impecables. Podes terminarlas con esmalte común o semipermanente</p>
                   </div>
                   <hr />
                   <div>
                     <h1>¿Qué es?</h1>
-                      <p className='parrafoServicios'></p>
+                      <p className='parrafoServicios'>Con esta técnica tratamos de manera especial las manos y las cuIculas, para asegurar un crecimiento sano. Usamos torno eléctrico y se logra una terminacion super prolija. Manos siempre impecables. Podes terminarlas con esmalte común o semipermanente </p>
                   </div>
                   <hr />
                   <div>
                     <h1>¿Cómo se hace?</h1>
-                    <p className='parrafoServicios'></p>
+                    <p className='parrafoServicios'>Primero empezamos con. SaniCzacion y limpieza de manos. Luego seguimos con la preparación de la uña natural. Hidratamos las manos y las preparamos para el trabajo en cuIculas. </p>
+                    <p>Se da forma limando y finamente se procede a un primer o directo a Esmaltar. Como ulCmo paso va un top coat o capa finalizador. Poner aceite para cuIculas en los dedos.</p>
                   </div> 
                   <hr />
                   <div>
-                    <p><b>- Indoloro: </b> es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor durante o después de realizado</p>
-                    <p><b>- Corrige imperfecciones:</b> : aunque está indicado para las pestañas más caídas, puede realizarlo cualquier persona que busque este efecto con un resultado muy natural y de brillo en la cara.</p>
-                    <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
+                    <p><b>Durabilidad:</b>  el efecto se manCene por unos 20 dias, dependiendo siempre de como usas tus manos y el desgaste al que esten expuestas</p>
                   </div>
               </div>}
               {info === 'press' && 
               <div className='Info'>
                   <div>
-                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
-                    <br />
-                    <p className='parrafoServicios'>Tus unas mas largas, resistentes y con la forma que quieras con press-on nails. Son uñas de acrilico que se aplican sobre las tuyas, salvando unas cortas, comidas, o sin forma.</p>
+                    <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>
                   </div>
                   <hr />
+                  <div>
+                    <h1>¿Qué es?</h1>
+                      <p className='parrafoServicios'>
+                      Tus unas mas largas, resistentes y con la forma que quieras con press-on nails. Son uñas de acrilico que se aplican sobre las tuyas, salvando unas cortas, comidas, o sin forma.
+                      </p>
+                  </div>
+                  <hr />
+                  <div>
+                    <h1>¿Cómo se hace?</h1>
+                    <p className='parrafoServicios'>
+                    Primero empezamos con. SaniCzacion y limpieza de manos. Premaramos las manos y uñas para recibir el diseño de elección. Se liman y limpia el polvillo.
+                    </p>
+                    <p>Luego se aplican las unas posCzas. Se da forma también a las unas aplicadas. Es importante poner atención en la adherencia de los apliques para su durabilidad.</p>
+                  </div> 
+                  <hr />
+                  <div>
+                    <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
+                  </div>
               </div>}  
             </div>
           </div>
