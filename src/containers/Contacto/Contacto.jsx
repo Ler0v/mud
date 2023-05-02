@@ -70,6 +70,12 @@ const Contacto = () => {
                 <p>MUD Academy + Studio Palermo <br /> Convención 1994 Depto 313.</p>
               </a>
             </div>
+            <div className='mapaContactoItem'>
+              <a href="https://goo.gl/maps/BfR7u558K3Hx8ZTL6" target='_blank'>
+                <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="" />
+                <p>MUD Ituzaingó<br /> Juncal 186</p>
+              </a>
+            </div>
          </div>
       </div>
       

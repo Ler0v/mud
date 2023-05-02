@@ -161,7 +161,7 @@ label{
 
     .mapaContacto{
         margin-top: 150px;
-        height: 100px;
+        height: 150px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
