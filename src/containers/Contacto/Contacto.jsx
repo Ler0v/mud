@@ -71,7 +71,7 @@ const Contacto = () => {
               </a>
             </div>
             <div className='mapaContactoItem'>
-              <a href="https://goo.gl/maps/BfR7u558K3Hx8ZTL6" target='_blank'>
+              <a href="https://www.google.com/maps/place/MEF,+Juncal+186,+B1714+Ituzaing%C3%B3,+Provincia+de+Buenos+Aires/@-34.657404,-58.6678334,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcbf5f72baff65:0x17219713585764a4!8m2!3d-34.6574084!4d-58.6652585!16s%2Fg%2F11csggff4l" target='_blank'>
                 <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="" />
                 <p>MUD Ituzaingó<br /> Juncal 186</p>
               </a>
