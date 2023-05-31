@@ -1,0 +1,45 @@
+.preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .preloader img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .preloader-animation {
+    border-radius: 50%;
+    background-color: #000; 
+    animation: breathe 3s infinite ease-in-out;
+  }
+  
+  @keyframes breathe {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    25% {
+        transform: scale(1.1);
+      }
+    50% {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    75% {
+        transform: scale(1.1);
+      }
+    100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+  }
+
+h3{
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Reservation';
+}
