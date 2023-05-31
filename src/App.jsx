@@ -12,7 +12,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simula una espera de 2 segundos antes de cargar la página
     setTimeout(() => {
       setLoading(false);
     }, 2000);

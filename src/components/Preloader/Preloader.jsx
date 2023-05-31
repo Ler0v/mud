@@ -1,13 +1,18 @@
 import React from 'react';
-import './preloader.css'; // Archivo CSS para estilizar el preloader
+import './preloader.css';
+import {motion} from 'framer-motion'
 
 const Preloader = () => {
   return (
-    <div className="preloader preloader-animation">
-      <img src="https://i.postimg.cc/B6MJCSb0/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-1.png" alt="Cargando..." />
+    <motion.div className="preloader preloader-animation"
+      initial={{ opacity:0}}
+      animate={{opacity:1}}
+      transition={{duration:3}}
+    >
+      <img src="https://i.postimg.cc/jdxTcZ4g/MUD-MAKE-UP-DESIGN-LOGO-BLANCO-Mesa-de-trabajo-2.png" alt="Cargando..." />
       <div className="preloader-animation"></div>
       <h3>Cargando...</h3>
-    </div>
+    </motion.div>
   );
 };
 
