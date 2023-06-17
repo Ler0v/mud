@@ -19,7 +19,7 @@ const SobreNosotros = () => {
           animate={{x: 0, opacity:1}}
           transition={{duration:2}}
           />
-          <motion.img src="https://i.postimg.cc/8Pjwc3xx/IMG-6398-1.png" className='imgFondo2' alt="imgNosotros2" 
+          <motion.img src="https://i.postimg.cc/q7pM9V1H/Academy-stories-1.png" className='imgFondo2' alt="imgNosotros2" 
           initial={{x: 400,opacity:0}}
           animate={{x:0,opacity:1}}
           transition={{duration: 2}}
@@ -58,7 +58,7 @@ const SobreNosotros = () => {
           viewport={{once:true,amount:0.5}}
           transition={{duration:2}}
           variants={textAnimation}>Celeste Gonzalez</motion.h1>
-        <motion.img src="https://i.postimg.cc/J05ZTVGT/Academy-stories.png" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
+        <motion.img src="https://i.postimg.cc/XJCKX4NZ/Screenshot-20230418-200615.png" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
         initial={{x: -200}}
         whileInView={{x:150, amount:0.3}}
         viewport={{once:true}}
@@ -83,7 +83,7 @@ const SobreNosotros = () => {
         />
       </div>
       <div className='historiaSN2'>
-        <motion.img src="https://i.postimg.cc/RCfvWXXR/61-de40b12e563144010116591215845626-480-0.jpg" alt="imgSobreNosotros3"
+        <motion.img src="https://i.postimg.cc/SR66Npb7/IMG_0531.jpg" alt="imgSobreNosotros3"
          initial={{x: -200}}
          whileInView={{x:0,amount:0.4}}
          transition={{duration: 3}} />
