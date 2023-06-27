@@ -111,6 +111,7 @@ const Servicios = () => {
                   <p>- Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</p>
                 </div>
                 </div>}
+                <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><button className='botonInscripcion'>Pedir turno</button></a>
             </div>
           </div>
         </div>
@@ -205,6 +206,7 @@ const Servicios = () => {
                     <p><b>- Durabilidad:</b> el efecto se mantiene por 12 meses aproximadamente.</p>
                   </div>
               </div>}
+              <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><button className='botonInscripcion'>Pedir turno</button></a>
             </div>
           </div>
         </div>
@@ -249,6 +251,7 @@ const Servicios = () => {
                     <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
                   </div>
               </div>}  
+              <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><button className='botonInscripcion'>Pedir turno</button></a>
             </div>
           </div>
         </div>
@@ -261,7 +264,7 @@ const Servicios = () => {
           <div className='servicioInfo'>
             <h1>MUD Pro Nails</h1>
             <div className='servicioBotones'>
-              <button onClick={()=> setInfo4("kapping")}>Kapping Gel</button>
+              <button onClick={()=> setInfo4("kapping")}>Capping Gel</button>
               <button onClick={()=> setInfo4("manicuria")}>Manicuría combinada</button>
               <button onClick={()=> setInfo4("press")}>Press on nails</button>
             </div>
@@ -335,6 +338,7 @@ const Servicios = () => {
                     <p><b>Durabilidad:</b> el efecto se mantiene por 4 a 6 semanas, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Podes optar por mantenerlo con retoques cada 5 semanas.</p>
                   </div>
               </div>}  
+              <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><button className='botonInscripcion'>Pedir turno</button></a>
             </div>
           </div>
         </div>

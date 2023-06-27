@@ -6,6 +6,7 @@ import { useState } from 'react'
 const Academia = () => {
 
   const [info, setInfo] = useState("")
+  
 
   return (
     <>

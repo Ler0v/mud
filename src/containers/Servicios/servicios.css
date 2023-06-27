@@ -148,6 +148,21 @@
     margin-top: 2rem;
 }
 
+.botonInscripcion{
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 15px 10px 0px 0px;
+}
+ button{
+    height: 50px;
+    width: 180px;
+ }
+
 
 /* FIN SERVICIO DESKTOP*/
 
