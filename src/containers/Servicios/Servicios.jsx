@@ -7,7 +7,10 @@ import { useState } from 'react'
 
 const Servicios = () => {
 
-  const [info ,setInfo] = useState("")
+  const [info1 ,setInfo1] = useState("Pro Makeup")
+  const [info2 ,setInfo2] = useState("Diseño")
+  const [info3 ,setInfo3] = useState("Lifting")
+  const [info4 ,setInfo4] = useState("kapping")
 
   return (
     <>
@@ -60,11 +63,11 @@ const Servicios = () => {
           <div className='servicioInfo' >
             <h1>Maquillaje profesional</h1>
             <div className='servicioBotones'>
-              <button className='botonServicio' onClick={()=> setInfo("Pro Makeup")}>Maquillaje profesional</button>
-              <button onClick={()=> setInfo("Peinados")}>Peinados</button>
+              <button className='botonServicio' onClick={()=> setInfo1("Pro Makeup")}>Maquillaje profesional</button>
+              <button onClick={()=> setInfo1("Peinados")}>Peinados</button>
             </div>
             <div className='infoServicios'>
-              {info === 'Pro Makeup' && 
+              {info1 === 'Pro Makeup' && 
               <div className='Info'>
                 <div>
                   <h1>Se la persona mas memorable/impactante del lugar.</h1>
@@ -88,7 +91,7 @@ const Servicios = () => {
                     <p>Escribinos con fecha, hora y tipo de evento y te enviamos opciones de servicio para que estes radiante!</p>
                 </div>
               </div>}  
-              {info === "Peinados" && 
+              {info1 === "Peinados" && 
               <div className='Info'>
               <div>
                   <h1>El pelo es el marco de la cara</h1>
@@ -120,12 +123,12 @@ const Servicios = () => {
           <div className='servicioInfo'>
             <h1>Cejas</h1>
             <div className='servicioBotones'>
-              <button className='botonServicio' onClick={()=> setInfo("Diseño")}>Diseño y Perfilado</button>
-              <button className='botonServicio' onClick={()=> setInfo("Laminado")}>Laminado</button>
-              <button className='botonServicio' onClick={()=> setInfo("Microblading")}>Microblading</button>
+              <button className='botonServicio' onClick={()=> setInfo2("Diseño")}>Diseño y Perfilado</button>
+              <button className='botonServicio' onClick={()=> setInfo2("Laminado")}>Laminado</button>
+              <button className='botonServicio' onClick={()=> setInfo2("Microblading")}>Microblading</button>
             </div>
             <div className="infoServicios">
-            {info === 'Diseño' && 
+            {info2 === 'Diseño' && 
               <div className='Info'>
                   <div>
                     <p><b> Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</b></p>
@@ -151,7 +154,7 @@ const Servicios = () => {
                     <p><b>- Durable: </b> el efecto se mantiene por 5 a 15 días, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Pero si querés mantenerlo podes volver a realizarlo cada 15 días aproximadamente.</p>
                   </div>
               </div>} 
-              {info === 'Laminado' && 
+              {info2 === 'Laminado' && 
               <div className='Info'>
                   <div>
                     <p><b> Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</b></p>
@@ -178,7 +181,7 @@ const Servicios = () => {
                     <p><b>- Durable: </b> el efecto se mantiene por 4 a 6 semanas y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Si queres mantenerlo podes volver a realizarlo.</p>
                   </div>
               </div>}    
-              {info === 'Microblading' && 
+              {info2 === 'Microblading' && 
               <div className='Info'>
                   <div>
                     <h1>Queres cejas espectaculares? El secreto esta en la proporción!</h1>
@@ -214,10 +217,10 @@ const Servicios = () => {
           <div className='servicioInfo'>
             <h1>Pestañas</h1>
             <div className='servicioBotones'>
-              <button className='botonServicio' onClick={()=> setInfo("Lifting")}>Lifting</button>
+              <button className='botonServicio' onClick={()=> setInfo3("Lifting")}>Lifting</button>
             </div>
             <div className="infoServicios">
-              {info === 'Lifting' && 
+              {info3 === 'Lifting' && 
               <div className='Info'>
                   <div>
                     <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
@@ -258,12 +261,12 @@ const Servicios = () => {
           <div className='servicioInfo'>
             <h1>MUD Pro Nails</h1>
             <div className='servicioBotones'>
-              <button onClick={()=> setInfo("kapping")}>Kapping Gel</button>
-              <button onClick={()=> setInfo("manicuria")}>Manicuría combinada</button>
-              <button onClick={()=> setInfo("press")}>Press on nails</button>
+              <button onClick={()=> setInfo4("kapping")}>Kapping Gel</button>
+              <button onClick={()=> setInfo4("manicuria")}>Manicuría combinada</button>
+              <button onClick={()=> setInfo4("press")}>Press on nails</button>
             </div>
             <div className="infoServicios">
-              {info === 'kapping' && 
+              {info4 === 'kapping' && 
               <div className='Info'>
                   <div>
                     <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>
@@ -284,7 +287,7 @@ const Servicios = () => {
                     <p><b>Durabilidad:</b >  el efecto se mantiene por unos 20 dias, dependiendo siempre de como usas tus manos y el desgaste al que esten expuestas.</p>
                   </div>
               </div>} 
-              {info === 'manicuria' && 
+              {info4 === 'manicuria' && 
               <div className='Info'>
                   <div>
                     <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>
@@ -307,7 +310,7 @@ const Servicios = () => {
                     <p><b>Durabilidad:</b>  el efecto se manCene por unos 20 dias, dependiendo siempre de como usas tus manos y el desgaste al que esten expuestas</p>
                   </div>
               </div>}
-              {info === 'press' && 
+              {info4 === 'press' && 
               <div className='Info'>
                   <div>
                     <p><b>Tus manos hablamos mucho de vos, Que mensaje estas dando? Luci uñas siempre impecables!</b></p>

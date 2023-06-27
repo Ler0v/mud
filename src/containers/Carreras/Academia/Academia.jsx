@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const Academia = () => {
 
-  const [info, setInfo] = useState('')
+  const [info, setInfo] = useState("")
 
   return (
     <>
@@ -37,7 +37,7 @@ const Academia = () => {
                   <button onClick={()=> setInfo("Manicuria")}>Curso de manicuria</button>
                   <button onClick={()=> setInfo("Manicuria Rusa")}>Curso de manicuria Rusa con Torno</button>
                 </div>
-                <div className="academiaInfoDetalle">
+                <div className="academiaInfoDetalle"> 
                   {info === "Carrera Maquillaje"
                    && 
                    <div className='informacion'>
