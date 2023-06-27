@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const Academia = () => {
 
-  const [info, setInfo] = useState("")
+  const [info, setInfo] = useState('')
 
   return (
     <>
@@ -73,7 +73,6 @@ const Academia = () => {
                       <li>Ambiente amigable: WiFi Zone y ambiente climatizado.</li>
                     </ul>
                     <hr />
-                    <button className='botonInscripcion'>Inscribite ahora!</button>
                    </div>
                   }
 
@@ -111,7 +110,6 @@ const Academia = () => {
                         <li>Descuentos exclusivos en productos profesionales.</li>
                       </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </div>
                    </>
                   }
@@ -142,7 +140,6 @@ const Academia = () => {
                         <li>Practica sobre casos reales.</li>
                       </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                    </div>
                    </>
                   }
@@ -174,7 +171,6 @@ const Academia = () => {
                         <li>Practica.</li>
                       </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                    </div>
                    </>
                   }
@@ -205,7 +201,6 @@ const Academia = () => {
                           <li>Practica.</li>
                         </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </div>
                    </>
                   }
@@ -234,7 +229,6 @@ const Academia = () => {
                         <li>Practica.</li>
                       </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </div>
                    </>
                   }
@@ -271,7 +265,6 @@ const Academia = () => {
                         <li>Certificado</li>
                       </ul>
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </div>
                    </>
                   }
@@ -302,7 +295,6 @@ const Academia = () => {
                       <p>- Retirado</p>
                       <hr />
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </>
                   }
 
@@ -344,10 +336,10 @@ const Academia = () => {
                       </ul>
                       <hr />
                       <hr />
-                      <button className='botonInscripcion'>Inscribite ahora!</button>
                     </>
                   }
                 </div>
+                <a href="https://api.whatsapp.com/send/?phone=5491135918596&text&type=phone_number&app_absent=0"><button className='botonInscripcion'>Inscribite ahora!</button></a>
             </div>
           </div>
         </div>
