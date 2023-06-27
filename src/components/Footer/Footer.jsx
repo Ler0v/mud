@@ -36,6 +36,10 @@ const Footer = () => {
             </div>
           <div className='footerItem'>
             <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="mapacontacto2" />
+            <p>MUD Ituzaingó Juncal 186</p>
+          </div>
+          <div className='footerItem'>
+            <img src="https://i.postimg.cc/D0WnS4G0/icons8-map-pin-30.png" alt="mapacontacto2" />
             <p>Nuestros horarios de atencion Lunes a Sábados de 10 a 19hs</p>
           </div>
           </div>
