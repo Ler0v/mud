@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 const Academia = () => {
 
-  const [info, setInfo] = useState("")
+  const [info, setInfo] = useState("Carrera Maquillaje")
   
 
   return (
