@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: calc(450px * 18);
-    animation: scroll 25s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 
@@ -107,3 +107,28 @@
     pointer-events: none;
     user-select: none;    
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .titulo {
+      margin-top: 60px;
+      font-size: 2.5rem;
+    }
+  
+    .slider {
+      height: 60vh;
+    }
+  
+    .slider-track {
+      width: calc(300px * 14);
+    }
+  
+    .fotosMovimiento {
+      height: 150px;
+      width: 300px;
+      padding: 10px;
+    }
+  }
+
+/*Fin Mobile */

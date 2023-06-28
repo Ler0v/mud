@@ -127,11 +127,11 @@
   .nav.active{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     height: 100vh;
     z-index: -1px;
-    margin-left: -45px;
+    margin-left: -70px;
   }
 
 }

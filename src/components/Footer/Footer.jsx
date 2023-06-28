@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='footerContainer'>
         <div className="footerItem1">
           <div className='footerInfo'>
-            <h2>Contactate con nosotros!</h2>
+            <h2 className='tituloF1'>Contactate con nosotros!</h2>
             <div className='footerItem'>
               <img src="https://i.postimg.cc/Vv4K8x3q/icons8-whatsapp-30.png" alt="wacontacto" />
               <p className='itemCentrado'>+54 911 3591 8596</p>

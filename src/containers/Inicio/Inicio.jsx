@@ -22,13 +22,6 @@ const Inicio = () => {
          transition={{duration:2}}
          variants={animacionOnScreen}
           className='imgIndex' src="https://i.postimg.cc/B6nVgBym/1.jpg" alt="imgIndex" />
-        {/* <motion.video className='videoBodyItem' src={videoInicio} autoPlay loop muted
-          initial={"offScreen"}
-          whileInView={"onScreen"}
-          viewport={{once: true}}
-          transition={{duration:2}}
-          variants={animacionOnScreen}
-        /> */}
       </div>
       <div className='cardsBodyContainer'>
         <motion.h1
