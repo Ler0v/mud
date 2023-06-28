@@ -70,21 +70,21 @@ const Servicios = () => {
               {info1 === 'Pro Makeup' && 
               <div className='Info'>
                 <div>
-                  <h1>Se la persona mas memorable/impactante del lugar.</h1>
+                  <h3>Se la persona mas memorable/impactante del lugar.</h3>
                   <p className='parrafoServicios'>Si la primera impresión cuenta, y una imagen vale mas que mil palabras, tu look dejara recuerdos imborrables.</p>
                   <p>Como te preparas para ese momento especial? No vendemos actitud, por ahora! pero sabemos que un buen maquillaje te pone en la sintonia correcta.</p>
                 </div>
                 <hr />
                 <div>
-                  <h1>
+                  <h3>
                   Veni a maquillarte con profesionales certificadas.
-                  </h1>
+                  </h3>
                     <p className='parrafoServicios'>-Usamos productos de la mejor calidad para tu piel para cuidarla durante y después del maquillaje.</p>
                     <p>-Nuestra técnica te da 10 horas de durabilidad a prueba de emociones. Que mejor que mostrarte autentica sin que se te corra el rimmel?</p>
                 </div>
                 <hr />
                 <div>
-                  <h1>Como lo hacemos:</h1>
+                  <h3>Como lo hacemos:</h3>
                     <p className='parrafoServicios'>- Tenemos una primera comunicación para que nos cuentes detalles del evento y coordinamos el mejor horario.</p>
                     <p>-Máxima durabilidad: dejarte en manos de las profesionales MUD te garantizará un maquillaje intacto por hasta 10 horas. Conocemos los mejores trucos: sabemos implementar las técnicas más novedosas y que están en tendencia.</p>
                     <p>- Acordamos los detalles y pedidos especiales. Con esa información reunimos los mejores productos y elegimos el profesional experto para maquillarte. <i>La sesión de maquillaje dura aproximadamente 60 minutos e incluye la limpieza incial y unos masajes faciales.</i></p>
@@ -94,12 +94,12 @@ const Servicios = () => {
               {info1 === "Peinados" && 
               <div className='Info'>
               <div>
-                  <h1>El pelo es el marco de la cara</h1>
+                  <h3>El pelo es el marco de la cara</h3>
                   <p className='parrafoServicios'>Y el peinado es infalible arte para resaltar la belleza natural que ya tenes. Poné el acento en tu imagen. Romántica, Ejecutiva o elegante, el peinado acentúa tu look y define tu estilo.</p>
                 </div>
                 <hr />
                 <div>
-                  <h1>Ya sabes como querés sentirte hoy?</h1>
+                  <h3>Ya sabes como querés sentirte hoy?</h3>
                     <p className='parrafoServicios'>En MUD usamos técnicas y secretos que son tendencia para que estes siempre un paso adelante en estilo.</p>
                     <p>Usamos productos de la mejor calidad para tu pelo, para cuidarlo durante y después del peinado, sin exigirlo y para que esté en su mejor versión. Con nuestros productos tenes 10 horas de durabilidad para que te muevas con soltura sin perder estilo.</p>
                     <p>La belleza esta en tu autenticidad. Y queremos que tu peinado acompañe tu espíritu.</p>
@@ -122,7 +122,7 @@ const Servicios = () => {
             <Carousel />
           </div>
           <div className='servicioInfo'>
-            <h1>Cejas</h1>
+            <h3>Cejas</h3>
             <div className='servicioBotones'>
               <button className='botonServicio' onClick={()=> setInfo2("Diseño")}>Diseño y Perfilado</button>
               <button className='botonServicio' onClick={()=> setInfo2("Laminado")}>Laminado</button>
@@ -134,22 +134,22 @@ const Servicios = () => {
                   <div>
                     <p><b> Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</b></p>
                     <hr />
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                     <p className='parrafoServicios'>El Diseño y Perfilado de cejas consiste en darle la forma correcta a tus cejas siempre respetando la forma natural de la misma mediante depilación con pincita, tijeras y perfilador</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cuánto dura?</h1>
+                    <h3>¿Cuánto dura?</h3>
                       <p className='parrafoServicios'>La duración va a variar según el ciclo de crecimiento de vello de cada persona, el cual generalmente va de las 3 a 4 semanas.</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>En una sesion de 15 minutos, Primero definimos el diseño y le damos forma con pinza. Luego aplicamos henna, un tratamiento semipermanente y natural para colorear y acentuar la forma deseada rellenando espacios raleados.</p>
                   </div> 
                   <hr />
                   <div>
-                    <h1>Ventajas</h1>
+                    <h3>Ventajas</h3>
                     <p><b>- Indoloro: </b>es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor alguno durante o después de realizarlo.</p>
                     <p><b>- Versátil:</b>aunque está indicado para cejas más claritas y con poco vello o vello fino, todos pueden usar esta técnica para diseñar sus cejas.</p>
                     <p><b>- Durable: </b> el efecto se mantiene por 5 a 15 días, y luego va desapareciendo paulatinamente, por lo cual no requiere un mantenimiento si optás por desistir del efecto. Pero si querés mantenerlo podes volver a realizarlo cada 15 días aproximadamente.</p>
@@ -160,22 +160,22 @@ const Servicios = () => {
                   <div>
                     <p><b> Los ojos son la Ventana del alma, y las cejas son la de tus emociones! Una cejas alineadas, y prolijas dan y claridad y marcan el tono a tus expresiones.</b></p>
                     <hr />
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                     <p className='parrafoServicios'>El Laminado de cejas o “Brow Lamination” es un tratamiento semipermanente que consigue un efecto de ceja “peinada”, alisando el pelo más rebelde y fijando la forma deseada. Da un leve efecto de mayor volumen</p>
                   </div>
                 <hr />
                   <div>
-                    <h1>¿Cuánto dura?</h1>
+                    <h3>¿Cuánto dura?</h3>
                       <p className='parrafoServicios'>La duración va a variar según el ciclo de crecimiento de vello de cada persona, el cual generalmente va de las 3 a 4 semanas.</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>En una sesion de 40 minutos, primero hacemos un tratamiento con aminoácidos, para hidratar la ceja, luego se aplica un tratamiento para suavizar y alisar. Terminamos con botox y keratina para darle brillo y textura lisa.</p>
                   </div>
                   <hr /> 
                   <div>
-                    <h1>Ventajas</h1>
+                    <h3>Ventajas</h3>
                     <p><b>- Indoloro: </b>es una técnica indolora no invasiva que actúa superficialmente, por lo cual no genera molestia ni dolor alguno durante o después de realizarlo.</p>
                     <p><b>- Versátil:</b> aunque está indicado para cejas más claritas y con poco vello o vello fino, todos pueden usar esta técnica para diseñar sus cejas.</p>
                     <p><b>- Durabilidad:</b> el efecto se mantiene por 12 meses aproximadamente.</p>
@@ -185,17 +185,17 @@ const Servicios = () => {
               {info2 === 'Microblading' && 
               <div className='Info'>
                   <div>
-                    <h1>Queres cejas espectaculares? El secreto esta en la proporción!</h1>
+                    <h3>Queres cejas espectaculares? El secreto esta en la proporción!</h3>
                     <p className='parrafoServicios'>Si sos como la mayoría, tal vez descubras que la forma de depilarte no es la correcta para tener una mirada profunda. Hay una proporción aurea que se aplica y va en función de tu estuctura ósea para que las facciones estén en armonía.</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                       <p className='parrafoServicios'>Es una técnica manual de micropigmentación semipermanente, donde se recrea cada pelo de la ceja individualmente para lograr un efecto natural y realista. Claro que tenemos en cuenta el color de pelo natural de tus cejas, tus gustos y personalidad.</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>En lugar de seguir la forma de tus cejas tal como están, necesitas entender donde deben comenzar, arquear y terminar tus cejas para que tengan un aspecto natural que esté en proporción con el resto de tu cara.</p>
                     <p>Para ello tenes una consulta con nuestra especialista y si estan dadas las condiciones se concreta una cita. Primero definimos con vos el diseno, luego se hace el procedimiento, que tiene alguna similitud con un tatuaje pero que dura 12 meses. Luego de la primer aplicación se hace un control para terminar los detalles.</p>
                   </div> 
@@ -217,7 +217,7 @@ const Servicios = () => {
             <Carousel />
           </div>
           <div className='servicioInfo'>
-            <h1>Pestañas</h1>
+            <h3>Pestañas</h3>
             <div className='servicioBotones'>
               <button className='botonServicio' onClick={()=> setInfo3("Lifting")}>Lifting</button>
             </div>
@@ -225,7 +225,7 @@ const Servicios = () => {
               {info3 === 'Lifting' && 
               <div className='Info'>
                   <div>
-                    <h1>Enamorate de vos misma y de tu mirada atractiva.</h1>
+                    <h3>Enamorate de vos misma y de tu mirada atractiva.</h3>
                     <br />
                     <i>Eso lo logras con un lifting de pestañas! Sentite poderosa y encantadora con un toque mágico en tus pestañas</i>
                     <p className='parrafoServicios'>El lifting es una permanente que da forma y color a tus pestañas. A diferencia de las extensiones, el lifting modifica la forma y el color de tus pestañas naturales sin agegarpegamentos o productos irritantes</p>
@@ -233,13 +233,13 @@ const Servicios = () => {
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                       <p className='parrafoServicios'>El lifting es una permanente que da forma y color a tus pestañas. A diferencia de las extensiones, el lifting modifica la forma y el color de tus pestañas naturales sin agegar pegamentos o productos irritantes </p>
                       <p>Así logras el efecto de pestañas más gruesas, oscuras y de aspecto más largo.</p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>En una sesión de 90 minutos primero se higieniza la zona, luego colocamos dos pasos de tratamiento que hidratan la pestaña., fijan la forma y la suaviza.</p>
                     <p>Luego colocamos henna para teñirlas. Finalmente, para una mayor hidratación y para mantener saludable el vello, aplicamos botox y keratina</p>
                     <p>Siempre recomendamos realizarlo junto con el servicio de Diseño y Perfilado de cejas para un resultado óptimo.</p>
@@ -262,7 +262,7 @@ const Servicios = () => {
             <Carousel />
           </div>
           <div className='servicioInfo'>
-            <h1>MUD Pro Nails</h1>
+            <h3>MUD Pro Nails</h3>
             <div className='servicioBotones'>
               <button onClick={()=> setInfo4("kapping")}>Capping Gel</button>
               <button onClick={()=> setInfo4("manicuria")}>Manicuría combinada</button>
@@ -276,12 +276,12 @@ const Servicios = () => {
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                       <p className='parrafoServicios'>La técnica del capping gel consiste en cubrir la uña natural, en este caso con gel de construcción, para reforzar la uña y darle protección. Logras tener uñas fuertes, duraderas con la forma que desees. La terminación se hace con esmalte semipermanente en una gran variedad de colores. </p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>Primero empezamos con. SaniCzacion y limpieza de manos. Luego seguimos con la preparación de la uña natural. Deshidratamos la uña con nail prep para luego Colocar imprimante: un primer o bonder.</p>
                     <p>Una vez terminado este paso se Coloca una capa fina de gel de construcción Se da forma y finamente se procede a Esmaltar. Como ulCmo paso va un top coat o capa finalizador. Poner aceite para cuIculas en los dedos</p>
                   </div> 
@@ -299,12 +299,12 @@ const Servicios = () => {
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                       <p className='parrafoServicios'>Con esta técnica tratamos de manera especial las manos y las cuIculas, para asegurar un crecimiento sano. Usamos torno eléctrico y se logra una terminacion super prolija. Manos siempre impecables. Podes terminarlas con esmalte común o semipermanente </p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>Primero empezamos con. SaniCzacion y limpieza de manos. Luego seguimos con la preparación de la uña natural. Hidratamos las manos y las preparamos para el trabajo en cuIculas. </p>
                     <p>Se da forma limando y finamente se procede a un primer o directo a Esmaltar. Como ulCmo paso va un top coat o capa finalizador. Poner aceite para cuIculas en los dedos.</p>
                   </div> 
@@ -320,14 +320,14 @@ const Servicios = () => {
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Qué es?</h1>
+                    <h3>¿Qué es?</h3>
                       <p className='parrafoServicios'>
                       Tus unas mas largas, resistentes y con la forma que quieras con press-on nails. Son uñas de acrilico que se aplican sobre las tuyas, salvando unas cortas, comidas, o sin forma.
                       </p>
                   </div>
                   <hr />
                   <div>
-                    <h1>¿Cómo se hace?</h1>
+                    <h3>¿Cómo se hace?</h3>
                     <p className='parrafoServicios'>
                     Primero empezamos con. SaniCzacion y limpieza de manos. Premaramos las manos y uñas para recibir el diseño de elección. Se liman y limpia el polvillo.
                     </p>
