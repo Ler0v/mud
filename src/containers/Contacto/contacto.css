@@ -134,7 +134,7 @@ label{
         justify-content: space-evenly;
         text-align: center;
         height: 600px;
-        width: 350px;
+        width: 320px;
     }
 
     .formJunto{
@@ -145,7 +145,7 @@ label{
     }
 
     .formContainer button{
-        width: 50%;
+        width: 60%;
         height: 40px;
         margin-top: 2rem;
         align-self: center;
@@ -168,7 +168,6 @@ label{
         align-items: center;
     }
     
-
 }
 
 /*FIN CONTACTO MOBILE */
