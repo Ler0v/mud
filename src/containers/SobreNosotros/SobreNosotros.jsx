@@ -58,7 +58,7 @@ const SobreNosotros = () => {
           viewport={{once:true,amount:0.5}}
           transition={{duration:2}}
           variants={textAnimation}>Celeste Gonzalez</motion.h1>
-        <motion.img src="https://i.postimg.cc/XJCKX4NZ/Screenshot-20230418-200615.png" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
+        <motion.img src="https://i.postimg.cc/Xvjj45Jz/Screenshot-20230418-200615-min.png" className='historiaSN1Item2 imgCeles1' alt="imgSobreNosotros3"
         initial={{x: -200}}
         whileInView={{x:150, amount:0.3}}
         viewport={{once:true}}
