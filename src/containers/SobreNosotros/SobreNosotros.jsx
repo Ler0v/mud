@@ -1,6 +1,6 @@
 import React from 'react'
 import './sobrenosotros.css'
-import CardStaff  from './CardStaff'
+// import CardStaff  from './CardStaff'
 import {motion} from 'framer-motion'
 
 const textAnimation = {

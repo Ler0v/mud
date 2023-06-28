@@ -435,17 +435,17 @@
 @media all and (max-width: 469px){
 
     .imgFondo1 {
-        height: 230px;
+        height: 130px;
         position: absolute;
-        right: 12%;
-        bottom: 70%;
+        right: 25%;
+        bottom: 75%;
     }
 
 
     .imgFondo2 {
-        height: 450px;
+        height: 400px;
         position: absolute;
-        left: 20%;
+        left: 25%;
         bottom: 0%;
     }
     
@@ -475,7 +475,7 @@
     }
 
     .historiaSN1{
-        height: 1400px;
+        height: 1200px;
         width: 90%;
         position: relative;
     }
@@ -492,15 +492,16 @@
     }
     
     .historiaSN1Item2{
+        height: 300px;
         position: absolute;
-        left: -10%;
-        bottom: 55%;
+        left: -25%;
+        bottom: 45%;
     }
     
     .historiaSN1Item3{
         position: absolute; 
-        left: 10%;
-        bottom: 10%; 
+        left: 6%;
+        bottom: -10%; 
         width: 700px; 
         height: 600px;
         z-index: 10;
@@ -539,12 +540,14 @@
     
     .historiaSN2 img{
         height: 600px;
-        clip-path: inset(100px 0 100px 0);
+        width: 400px;
+        margin-left: -20px;
     }
     
     .historiaSN2 P{
         font-size: 1rem;
         position: absolute;
+        margin-top: 70px;
     }
 
     .historiaSN2 p:nth-child(2){
